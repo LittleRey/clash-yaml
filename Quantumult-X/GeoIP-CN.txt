@@ -1,0 +1,2 @@
+# GeoIP China(若启用，则禁用 ChinaIP.list)
+geoip, cn, direct
