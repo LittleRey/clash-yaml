@@ -1,0 +1,82 @@
+payload:
+
+#
+ - DOMAIN,music.163.com
+#
+ - DOMAIN-SUFFIX,appcenter.ms
+#第三方音源
+
+#kuwo
+ - DOMAIN-SUFFIX,kuwo.cn
+#baidu qianqian
+ - DOMAIN-SUFFIX,dmhmusic.com
+#xiami
+ - DOMAIN-SUFFIX,xiami.net
+#kugou
+ - DOMAIN-SUFFIX,kugou.com
+#qq
+ - DOMAIN-SUFFIX,qqmusic.qq.com
+#migu
+ - DOMAIN-SUFFIX,migu.cn
+#网易云放行
+ - DOMAIN,p1.music.126.net
+ - DOMAIN,p2.music.126.net
+ - DOMAIN,p3.music.126.net
+ - DOMAIN,p4.music.126.net
+ - DOMAIN,p5.music.126.net
+ - DOMAIN,p6.music.126.net
+ - DOMAIN,p7.music.126.net
+ - DOMAIN,p8.music.126.net
+ - DOMAIN,p9.music.126.net
+ - DOMAIN,p10.music.126.net
+ - DOMAIN,p11.music.126.net
+ - DOMAIN,p12.music.126.net
+
+# - DOMAIN,p1c.music.126.net
+# - DOMAIN,p2c.music.126.net
+# - DOMAIN,p3c.music.126.net
+# - DOMAIN,p4c.music.126.net
+# - DOMAIN,p5c.music.126.net
+# - DOMAIN,p6c.music.126.net
+# - DOMAIN,p7c.music.126.net
+# - DOMAIN,p8c.music.126.net
+# - DOMAIN,p9c.music.126.net
+# - DOMAIN,p10c.music.126.net
+# - DOMAIN,p11c.music.126.net
+# - DOMAIN,p12c.music.126.net
+ 
+ - DOMAIN-SUFFIX,vod.126.net
+ 
+ - DOMAIN,m6.music.126.net 
+ - DOMAIN,m7.music.126.net
+ - DOMAIN,m8.music.126.net
+ - DOMAIN,m9.music.126.net
+ - DOMAIN,m601.music.126.net
+ - DOMAIN,m701.music.126.net
+ - DOMAIN,m801.music.126.net
+ - DOMAIN,m901.music.126.net
+ - DOMAIN,m602.music.126.net
+ - DOMAIN,m702.music.126.net
+ - DOMAIN,m802.music.126.net
+ - DOMAIN,m902.music.126.net
+
+
+
+ - DOMAIN,m6c.music.126.net 
+ - DOMAIN,m7c.music.126.net
+ - DOMAIN,m8c.music.126.net
+ - DOMAIN,m9c.music.126.net
+ - DOMAIN,m601c.music.126.net
+ - DOMAIN,m701c.music.126.net
+ - DOMAIN,m801c.music.126.net
+ - DOMAIN,m901c.music.126.net
+ - DOMAIN,m602c.music.126.net
+ - DOMAIN,m702c.music.126.net
+ - DOMAIN,m802c.music.126.net
+ - DOMAIN,m902c.music.126.net
+
+
+ - DOMAIN,admusicpic.music.126.net
+ - DOMAIN,iadmat.nosdn.127.net
+ - DOMAIN,iadmusicmat.music.126.net
+ - DOMAIN,iadmusicmatvideo.music.126.net

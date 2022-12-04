@@ -1,0 +1,24 @@
+payload:
+
+ - PROCESS-NAME,NTMinerDaemon.exe
+ - PROCESS-NAME,NTMinerNoDevFee.exe
+ - PROCESS-NAME,NTMinerUpdater.exe
+ - PROCESS-NAME,开源矿工.exe
+#挖矿
+ - PROCESS-NAME,miner.exe
+ - PROCESS-NAME,t-rex.exe
+ - PROCESS-NAME,cpuminer.exe
+ - PROCESS-NAME,nbminer.exe
+ - PROCESS-NAME,bminer.exe
+ - PROCESS-NAME,nanominer.exe
+ - PROCESS-NAME,lolMiner.exe
+#Phoenix
+ - PROCESS-NAME,PhoenixMiner.exe
+ - PROCESS-NAME,EIO.exe
+#XMR
+ - PROCESS-NAME,xmrig.exe
+#ETH
+# - PROCESS-NAME,ethminer.exe
+#Sero
+ - PROCESS-NAME,serominer-cuda.exe
+ - PROCESS-NAME,serominer-opencl.exe

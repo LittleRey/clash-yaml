@@ -1,0 +1,6 @@
+payload:
+
+ - DOMAIN-SUFFIX,woolypooly.com
+#any coin pool
+# - DOMAIN-SUFFIX,unmineable.com
+ - DOMAIN-SUFFIX,unminable.com

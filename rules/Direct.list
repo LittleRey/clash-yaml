@@ -1,0 +1,55 @@
+payload:
+
+
+ - PROCESS-NAME,AndroidEmulator.exe
+#YesPlayMusic
+ - PROCESS-NAME,WifiMouseServer.exe
+ - PROCESS-NAME,remote-touchpad_windows_amd64.exe
+ - PROCESS-NAME,YesPlayMusic.exe
+ - PROCESS-NAME,com.coolapk.market
+#miui+
+ - PROCESS-NAME,MiScreenShareGuide.exe
+ - PROCESS-NAME,MiScreenShare.exe
+ - PROCESS-NAME,FixServiceTool.exe
+ - PROCESS-NAME,MAFSvr.exe
+ - PROCESS-NAME,AIoTDeskbandHelper.exe
+ - PROCESS-NAME,MiService2_Setup.exe
+ - PROCESS-NAME,MiSmartShare.exe
+ - PROCESS-NAME,MiScreenShareGuide.exe
+ - PROCESS-NAME,MiScreenShare
+#
+# - DOMAIN,doh.360.cn
+# - DOMAIN,dot.360.cn
+# - DOMAIN,dns.360.cn
+# - DOMAIN,doh.pub
+# - DOMAIN,dot.pub
+# - DOMAIN,dns.pub
+# - DOMAIN-SUFFIX,233py.com
+# - DOMAIN-SUFFIX,alidns.com
+# - DOMAIN-SUFFIX,rubyfish.cn
+
+# - IP-CIDR,223.5.5.5/32,no-resolve
+# - IP-CIDR,101.6.6.6/32,no-resolve
+
+
+# - DOMAIN,dns.cmrg.net
+
+# - DOMAIN-SUFFIX,workers.dev
+# - DOMAIN-SUFFIX,cloudflare-gateway.com
+# - DOMAIN-SUFFIX,buildtest.site
+# - DOMAIN-SUFFIX,ns.buildtest.site
+# - DOMAIN-SUFFIX,nameserver.workers.dev
+# - DOMAIN-SUFFIX,cloudflare3.workers.dev
+# - DOMAIN-SUFFIX,cloudflare4.workers.dev
+ 
+# - IP-CIDR,162.159.36.1/32,no-resolve
+# - IP-CIDR,162.159.46.1/32,no-resolve
+
+#IBM DOH
+# - DOMAIN,dns10.quad9.net
+# - IP-CIDR,9.9.9.10/32,no-resolve
+# - IP-CIDR,149.112.112.10/32,no-resolve
+ 
+#Clash Web GUI
+# - DOMAIN,yacd.haishan.me
+# - DOMAIN,clash.razord.top

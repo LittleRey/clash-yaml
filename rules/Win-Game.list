@@ -1,0 +1,180 @@
+payload:
+
+#原神国际版
+ - PROCESS-NAME,GenshinImpact.exe
+
+#TitanFall 2
+ - PROCESS-NAME,overlayinjector.exe
+ - PROCESS-NAME,Touchup.exe
+ - PROCESS-NAME,Cleanup.exe
+ - PROCESS-NAME,ActivationUI.exe
+ - PROCESS-NAME,Titanfall2_trial.exe
+ - PROCESS-NAME,Titanfall2.exe
+#无限法则
+ - PROCESS-NAME,Europa_Client.exe
+ - PROCESS-NAME,TclsQmFix.exe
+ - PROCESS-NAME,iigw_server.exe
+ - PROCESS-NAME,TP3Helper.exe
+ - PROCESS-NAME,TQMCenter_64.exe
+#饥荒
+ - PROCESS-NAME,dontstarve_dedicated_server_nullrenderer.exe
+ - PROCESS-NAME,dontstarve_dedicated_server_nullrenderer_x64.exe
+ - PROCESS-NAME,dontstarve_steam.exe
+ - PROCESS-NAME,dontstarve_steam_x64.exe
+#永劫无间
+ - PROCESS-NAME,webview_support_browser.exe
+ - PROCESS-NAME,render.exe
+ - PROCESS-NAME,ZFGameBrowser.exe
+ - PROCESS-NAME,MLiveCCPlayerApp.exe
+ - PROCESS-NAME,CCVideoPlayer.exe
+ - PROCESS-NAME,NarakaBladepoint.exe
+ - PROCESS-NAME,CCMini.exe
+ - PROCESS-NAME,UnityCrashHandler64.exe
+ - PROCESS-NAME,StartGame.exe
+ - PROCESS-NAME,NeacClient.exe
+#阿尔比恩Online
+ - PROCESS-NAME,QtWebEngineProcess.exe
+ - PROCESS-NAME,xdelta3.exe
+ - PROCESS-NAME,AlbionLauncher.exe
+ - PROCESS-NAME,EasyAntiCheat_Setup.exe
+ - PROCESS-NAME,UnityCrashHandler64.exe
+ - PROCESS-NAME,launch_albion_online.exe
+ - PROCESS-NAME,Albion-Online.exe
+#动物大逃杀
+ - PROCESS-NAME,Super Animal Royale.exe
+#Hero_Siege
+ - PROCESS-NAME,Hero_Siege.exe
+ - PROCESS-NAME,start_protected_game.exe
+ - PROCESS-NAME,EasyAntiCheat_EOS_Setup.exe
+#赛博朋克
+ - PROCESS-NAME,Cyberpunk2077.exe
+ - PROCESS-NAME,REDEngineErrorReporter.exe
+ - PROCESS-NAME,7za.exe
+ - PROCESS-NAME,CrashReporter.exe
+
+#守望先锋
+ - PROCESS-NAME,Overwatch.exe
+ - PROCESS-NAME,CrashMailer_64.exe
+ - PROCESS-NAME,Overwatch Launcher.exe
+ - PROCESS-NAME,BlizzardBrowser.exe
+
+#星际大战
+ - PROCESS-NAME,SC2Switcher.exe
+ - PROCESS-NAME,SC2Switcher_64.exe
+ - PROCESS-NAME,StarCraft II Editor.exe
+ - PROCESS-NAME,StarCraft II Editor_64.exe
+ - PROCESS-NAME,StarWeb.exe
+ - PROCESS-NAME,SC2_x64.exe
+ - PROCESS-NAME,SC2.exe
+ - PROCESS-NAME,SC2Editor_x64.exe
+ - PROCESS-NAME,SC2Editor.exe
+ - PROCESS-NAME,StarCraft II.exe
+
+
+#武侠乂
+ - PROCESS-NAME,UnrealCEFSubProcess.exe
+ - PROCESS-NAME,WuXiaXClient-Win64-Shipping.exe
+ - PROCESS-NAME,WuXiaXClient.exe
+
+#PUBG Lite
+ - PROCESS-NAME,PUBGLite-Win64-Shipping.exe
+ - PROCESS-NAME,PUBGLite.exe
+ - PROCESS-NAME,ucsvc.exe
+ - PROCESS-NAME,ucldr_bgl_se.exe
+ - PROCESS-NAME,BroCrashReporter.exe
+ - PROCESS-NAME,UE4PrereqSetup_x64.exe
+ - PROCESS-NAME,unins000.exe
+ - PROCESS-NAME,Launcher.exe
+ - PROCESS-NAME,LauncherAgent.exe
+ - PROCESS-NAME,CefSharp.BrowserSubprocess.exe
+
+#PUBG 语音
+# - DOMAIN-SUFFIX,vivox.com
+
+###
+# - DOMAIN-SUFFIX,wmsjsteam.com
+
+
+#PUBG CN
+# - DOMAIN-SUFFIX,playbattlegrounds.com.cn
+
+#PUBG client
+ - PROCESS-NAME,TslGame.exe
+ - PROCESS-NAME,ExecPubg.exe
+ - PROCESS-NAME,TslGame_BE.exe
+ - PROCESS-NAME,TslGame_EAC.exe
+ - PROCESS-NAME,TslGame_UC.exe
+ - PROCESS-NAME,TslGame_ZK.exe
+ - PROCESS-NAME,zksvc.exe
+ - PROCESS-NAME,ucldr_battlegrounds_gl.exe
+ - PROCESS-NAME,uncheater_bgl.exe
+ - PROCESS-NAME,BEService.exe
+ - PROCESS-NAME,BEService_pubg.exe
+ - PROCESS-NAME,BEService_x64.exe
+
+
+ - PROCESS-NAME,EasyAntiCheat_Setup.exe
+ - PROCESS-NAME,WinMTR.exe
+ - PROCESS-NAME,iigw_server.exe
+ - PROCESS-NAME,UnrealCEFSubProcess_3071.exe
+ - PROCESS-NAME,UnrealCEFSubProcess.exe
+ - PROCESS-NAME,BroCrashReporter.exe
+
+
+#PUBG
+# - DOMAIN-KEYWORD,pubg
+# - DOMAIN-KEYWORD,playbattleground
+# - DOMAIN-SUFFIX,pubg.com
+# - DOMAIN-SUFFIX,playbattlegrounds.com
+# - DOMAIN-SUFFIX,pubgbluehole.com
+# - DOMAIN-SUFFIX,battleye.com
+
+
+
+# Origin Domain
+# - DOMAIN-SUFFIX,origin.com
+
+
+
+#StarWar BattleFront 1
+
+ - PROCESS-NAME,ActivationUI.exe
+ - PROCESS-NAME,starwarsbattlefronttrial.exe
+ - PROCESS-NAME,starwarsbattlefront.exe
+ - PROCESS-NAME,Cleanup.exe
+ - PROCESS-NAME,Touchup.exe
+ - PROCESS-NAME,OriginThinSetup.exe
+ - PROCESS-NAME,overlayinjector.exe
+
+
+#World Of Warships
+ - PROCESS-NAME,WGCheck.exe
+ - PROCESS-NAME,WorldOfWarships.exe
+ - PROCESS-NAME,WargamingErrorMonitor.exe
+ - PROCESS-NAME,WorldOfWarships64.exe
+ - PROCESS-NAME,cef_subprocess.exe
+ - PROCESS-NAME,cef_browser_process.exe
+ - PROCESS-NAME,WorldOfWarships32.exe
+
+
+#巫师3
+ - PROCESS-NAME,witcher3.exe
+
+#lol
+ - PROCESS-NAME,RiotClientServices.exe
+ - PROCESS-NAME,League of Legends.exe
+ - PROCESS-NAME,LeagueClient.exe
+ - PROCESS-NAME,LeagueClientUx.exe
+ - PROCESS-NAME,LeagueClientUxRender.exe
+ - PROCESS-NAME,Client.exe
+#Dota 2
+ - PROCESS-NAME,dota2.exe
+ - PROCESS-NAME,vconsole2.exe
+#方舟
+ - PROCESS-NAME,ShooterGameServer.exe
+ - PROCESS-NAME,ShooterGame.exe
+ - PROCESS-NAME,ShooterGame_BE.exe
+ - PROCESS-NAME,BEService_x64.exe
+ - PROCESS-NAME,procdump.exe
+ - PROCESS-NAME,ArkEGSLauncher.exe
+ - PROCESS-NAME,steamcmd.exe

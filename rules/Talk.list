@@ -1,0 +1,89 @@
+payload:
+
+# Tencent
+  - DOMAIN-SUFFIX,foxmail.com
+  - DOMAIN-SUFFIX,foxmail.com.cn
+  - DOMAIN-SUFFIX,gtimg.cn
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,gtimg.com.cn
+  - DOMAIN-SUFFIX,imqq.com
+  - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,qcloud.com
+  - DOMAIN-SUFFIX,qcloudimg.com
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,qzone.com
+  - DOMAIN-SUFFIX,smtcdns.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencent.com.cn
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wegame.com
+  - DOMAIN-SUFFIX,weiyun.com
+  - DOMAIN-SUFFIX,tenpay.com
+
+# QQ
+  - PROCESS-NAME,auclt.exe
+  - PROCESS-NAME,bugreport.exe
+  - PROCESS-NAME,cabarc.exe
+  - PROCESS-NAME,maLauncher.exe
+  - PROCESS-NAME,maUpdat.exe
+  - PROCESS-NAME,minibrowser.exe
+  - PROCESS-NAME,QPerfHelper.exe
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,QQApp.exe
+  - PROCESS-NAME,QQCallbr.exe
+  - PROCESS-NAME,QQExternal.exe
+  - PROCESS-NAME,QQLiveBrowser.exe
+  - PROCESS-NAME,QQLiveInstaller.exe
+  - PROCESS-NAME,QQLivePlayer.exe
+  - PROCESS-NAME,QQLivePlayerBrowser.exe
+  - PROCESS-NAME,QQOcrHelper.exe
+  - PROCESS-NAME,QQPcmgrDownload.exe
+  - PROCESS-NAME,QQSafeUD.exe
+  - PROCESS-NAME,QQScLauncher.exe
+  - PROCESS-NAME,QQSetupEx.exe
+  - PROCESS-NAME,QQUninst.exe
+  - PROCESS-NAME,QQUrlMgr.exe
+  - PROCESS-NAME,StorageTool.exe
+  - PROCESS-NAME,Tencentdl.exe
+  - PROCESS-NAME,Timsh.exe
+  - PROCESS-NAME,Timwp.exe
+  - PROCESS-NAME,TxBugReport.exe
+  - PROCESS-NAME,TXPlatform.exe
+  - PROCESS-NAME,txupd.exe
+  - PROCESS-NAME,uninst.exe
+# WeChat
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,WeChatApp.exe
+  - PROCESS-NAME,WeChatWeb.exe
+  - PROCESS-NAME,WeChatDecoder.exe
+  - PROCESS-NAME,WeChatUpdate.exe
+  - PROCESS-NAME,WechatAppLauncher.exe
+  - PROCESS-NAME,WeChatExt.exe
+  - PROCESS-NAME,WeChatSpt.exe
+  - PROCESS-NAME,CrashReporter.exe
+  - PROCESS-NAME,xwalk_service.exe
+# WeChat
+  - DOMAIN-SUFFIX,dingtalk.cn
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,dingtalk.com.cn
+  
+  - DOMAIN-KEYWORD,dingtalk
+  - DOMAIN-KEYWORD,dingding
+  
+  - PROCESS-NAME,dingtalk.exe
+  - PROCESS-NAME,Dingtalk.exe
+  - PROCESS-NAME,DingTalk.exe
+  - PROCESS-NAME,DingTalk
+  - PROCESS-NAME,dingtalk
+  - PROCESS-NAME,DingtalkLauncher.exe
+  - PROCESS-NAME,DingTalkUpdater.exe
+  - PROCESS-NAME,get-graphics-offsets32.exe
+  - PROCESS-NAME,inject-helper32.exe
+  - PROCESS-NAME,ffmpeg-mux32.exe
+  - PROCESS-NAME,tblive.exe
+  - PROCESS-NAME,CrashDumper.exe
+  - PROCESS-NAME,DingtalkElevate.exe
+  - PROCESS-NAME,DingtalkScheme.exe

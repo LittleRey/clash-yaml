@@ -1,0 +1,132 @@
+payload:
+#GOG平台
+ - PROCESS-NAME,GalaxyClient.exe
+ - PROCESS-NAME,GOG Galaxy Notifications Renderer.exe
+ - PROCESS-NAME,GalaxyClientService.exe
+ - PROCESS-NAME,scriptinterpreter.exe
+ - PROCESS-NAME,GalaxyClient Helper.exe
+ - PROCESS-NAME,vcredist_x64.exe
+ - PROCESS-NAME,GalaxyCommunication.exe
+ - PROCESS-NAME,GalaxyOverlay.exe
+ - PROCESS-NAME,GalaxyUpdater.exe
+ - PROCESS-NAME,overlay_injector_Win32_Release.exe
+ - PROCESS-NAME,overlay_injector_Win32_ReleaseWithLogging.exe
+ - PROCESS-NAME,overlay_injector_x64_Release.exe
+ - PROCESS-NAME,overlay_injector_x64_ReleaseWithLogging.exe
+
+
+#暴雪战网
+ - PROCESS-NAME,Battle.net.exe
+ - PROCESS-NAME,Battle.net Launcher.exe
+ - PROCESS-NAME,Agent.exe
+
+#WeGame
+ - PROCESS-NAME,tcls_core.exe
+ - PROCESS-NAME,client_launcher.exe
+ - PROCESS-NAME,browser.exe
+ - PROCESS-NAME,tgp_daemon.exe
+ - PROCESS-NAME,wegame.exe
+ - PROCESS-NAME,wegameservice.exe
+ - PROCESS-NAME,rail.exe
+ - PROCESS-NAME,replay.exe
+ - PROCESS-NAME,pallas.exe
+ - PROCESS-NAME,minibrowser.exe
+ - PROCESS-NAME,repair.exe
+ - PROCESS-NAME,CrossProxy.exe
+ - PROCESS-NAME,Assistant.exe
+ - PROCESS-NAME,wegame_streaming_service.exe
+ - PROCESS-NAME,CrossInstallerExternal.exe
+ - PROCESS-NAME,CrossInstallerExternal64.exe
+ - PROCESS-NAME,TASLogin.exe
+ - PROCESS-NAME,net_probe.exe
+ - PROCESS-NAME,net_probe64.exe
+ - PROCESS-NAME,capture_installer64.exe
+ - PROCESS-NAME,TP3Helper.exe
+ - PROCESS-NAME,web_pay.exe
+ - PROCESS-NAME,tgp_minibrowser.exe
+ - PROCESS-NAME,qbclient.exe
+ - PROCESS-NAME,tgp_browser.exe
+ - PROCESS-NAME,net_daemon.exe
+ 
+ - PROCESS-NAME,net_daemon64.exe
+ - PROCESS-NAME,encode_process.exe
+ - PROCESS-NAME,QQMGameBoxUpdater.exe
+#Steam
+ - PROCESS-NAME,steamerrorreporter64.exe
+ - PROCESS-NAME,fossilize-replay64.exe
+ - PROCESS-NAME,steamwebhelper.exe
+ - PROCESS-NAME,steamxboxutil64.exe
+ - PROCESS-NAME,vulkandriverquery64.exe
+ - PROCESS-NAME,x64launcher.exe
+ - PROCESS-NAME,x86launcher.exe
+ - PROCESS-NAME,steamerrorreporter.exe
+ - PROCESS-NAME,streaming_client.exe
+ - PROCESS-NAME,fossilize-replay.exe
+ - PROCESS-NAME,secure_desktop_capture.exe
+ - PROCESS-NAME,steam_monitor.exe
+ - PROCESS-NAME,steamxboxutil.exe
+ - PROCESS-NAME,vulkandriverquery.exe
+ - PROCESS-NAME,GameOverlayUI.exe
+ - PROCESS-NAME,steam.exe
+ - PROCESS-NAME,steamservice.exe
+ - PROCESS-NAME,SteamService.exe
+ - PROCESS-NAME,drivers.exe
+ - PROCESS-NAME,html5app_steam.exe
+ - PROCESS-NAME,gldriverquery64.exe
+ - PROCESS-NAME,gldriverquery.exe
+ - PROCESS-NAME,WriteMiniDump.exe
+ - PROCESS-NAME,START.exe
+ - PROCESS-NAME,START.exe
+#腾讯云游戏START
+ - PROCESS-NAME,START.exe
+ - PROCESS-NAME,stgame.exe
+ - PROCESS-NAME,dxva2_check.exe
+ - PROCESS-NAME,AutoInstaller.exe
+ - PROCESS-NAME,QCefWing.exe
+ - PROCESS-NAME,cgbugrpt.exe
+ - PROCESS-NAME,STBugRpt.exe
+# Origin
+ - PROCESS-NAME,EAProxyInstaller.exe
+ - PROCESS-NAME,GetGameToken32.exe
+ - PROCESS-NAME,GetGameToken64.exe
+ - PROCESS-NAME,igoproxy.exe
+ - PROCESS-NAME,igoproxy64.exe
+ - PROCESS-NAME,EACoreServer.exe
+ - PROCESS-NAME,EALink.exe
+ - PROCESS-NAME,EASteamProxy.exe
+ - PROCESS-NAME,Login.exe
+ - PROCESS-NAME,MessageDlg.exe
+ - PROCESS-NAME,OriginLegacyCLI.exe
+ - PROCESS-NAME,OriginUninstall.exe
+ - PROCESS-NAME,PatchProgress.exe
+ - PROCESS-NAME,Origin.exe
+ - PROCESS-NAME,OriginClientService.exe
+ - PROCESS-NAME,OriginCrashReporter.exe
+ - PROCESS-NAME,OriginER.exe
+ - PROCESS-NAME,OriginThinSetupInternal.exe
+ - PROCESS-NAME,OriginWebHelperService.exe
+ - PROCESS-NAME,QtWebEngineProcess.exe
+ - PROCESS-NAME,UpdateTool.exe
+ - PROCESS-NAME,OriginUninstall.exe
+#Epic
+ - PROCESS-NAME,EpicGamesLauncher.exe
+ - PROCESS-NAME,EOSOverlayRenderer-Win32-Shipping.exe
+ - PROCESS-NAME,EOSOverlayRenderer-Win64-Shipping.exe
+ - PROCESS-NAME,UnrealVersionSelector.exe
+ - PROCESS-NAME,UnrealEngineLauncher.exe
+ - PROCESS-NAME,EpicWebHelper.exe
+ - PROCESS-NAME,CrashReportClient.exe
+ - PROCESS-NAME,LauncherPrereqSetup_x64.exe
+ - PROCESS-NAME,OriginThinSetup.exe
+
+#方块
+ - PROCESS-NAME,Cube.exe
+ - PROCESS-NAME,DCRegister.exe
+ - PROCESS-NAME,Ars.exe
+ - PROCESS-NAME,bp.exe
+ - PROCESS-NAME,cubelauncher.exe
+ - PROCESS-NAME,Keep.exe
+ - PROCESS-NAME,differ.exe
+ - PROCESS-NAME,Updater.exe
+ - PROCESS-NAME,uz.exe
+ - PROCESS-NAME,elevate.exe

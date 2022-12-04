@@ -1,0 +1,15 @@
+payload:
+ - PROCESS-NAME,OnethingLiteApp.exe
+ - PROCESS-NAME,OtvmManager.exe
+ - PROCESS-NAME,OnethingHelperService.exe
+ - PROCESS-NAME,Helper.exe
+ - PROCESS-NAME,qemu-system-x86_64.exe
+ - PROCESS-NAME,qemu-io.exe
+ - PROCESS-NAME,qemu-img.exe
+ - PROCESS-NAME,havtool.exe
+ - PROCESS-NAME,OnethingLiteAppUpdater.exe
+ - PROCESS-NAME,elf2dmp.exe
+ - PROCESS-NAME,qemu-edid.exe
+ - PROCESS-NAME,qemu-ga.exe
+
+ 

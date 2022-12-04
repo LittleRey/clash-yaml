@@ -1,0 +1,23 @@
+payload:
+ - PROCESS-NAME,com.innersloth.spacemafia
+ - PROCESS-NAME,com.pubg.newstate
+ - PROCESS-NAME,com.roblox.client
+ - PROCESS-NAME,com.wemade.mir4global
+ - PROCESS-NAME,com.netease.eve.en
+ - PROCESS-NAME,com.netease.ko
+ - PROCESS-NAME,com.tencent.ig
+ - PROCESS-NAME,com.ngame.allstar.eu
+ - PROCESS-NAME,com.activision.callofduty.shooter
+ - PROCESS-NAME,com.studiowildcard.wardrumstudios.ark
+ - PROCESS-NAME,com.gameloft.android.ANMP.GloftA9HM
+ - PROCESS-NAME,com.riotgames.league.teamfighttactics
+ - PROCESS-NAME,com.mobile.legends
+ - PROCESS-NAME,com.riotgames.league.wildrift
+ - PROCESS-NAME,com.superevilmegacorp.game
+ - PROCESS-NAME,com.com.valvesoftware.underlords
+ - PROCESS-NAME,com.com.direwolfdigital.Phoenix
+ - PROCESS-NAME,com.com.axieinfinity.origin
+#国内游戏
+ - PROCESS-NAME,com.tencent.tmgp.sgame
+ - PROCESS-NAME,com.tencent.tmgp.wuxia
+ - PROCESS-NAME,com.ngame.allstar.eu

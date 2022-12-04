@@ -1,0 +1,36 @@
+payload:
+#挖矿
+ - PROCESS-NAME,grey.exe
+#ETH
+ - PROCESS-NAME,ethminer.exe
+
+#AE
+ - DOMAIN,ae.2miners.com
+
+#Pool
+ - DOMAIN-SUFFIX,miningdao.io
+ - DOMAIN-SUFFIX,nanopool.org
+ - DOMAIN-SUFFIX,beepool.org
+ - DOMAIN-SUFFIX,beepool.com
+ - DOMAIN-SUFFIX,skypool.co
+ - DOMAIN-SUFFIX,pool.xwp.one
+ - DOMAIN-SUFFIX,anomp.com
+ - DOMAIN-SUFFIX,sugarchain.org
+ - DOMAIN-SUFFIX,sparkpool.com
+ - DOMAIN-SUFFIX,c3pool.com
+ - DOMAIN-SUFFIX,poolbinance.com
+ - DOMAIN-SUFFIX,f2pool.com
+ - DOMAIN,pool.minexmr.com
+ - DOMAIN,asia1.ethermine.org
+ - DOMAIN,cn1.ethermine.org
+ - DOMAIN-SUFFIX,supportxmr.com
+ - DOMAIN,cn.ezil.me
+ - DOMAIN,ch1-zil.shardpool.io
+#Solo Pool
+ - DOMAIN,solo-ethw.2miners.com
+ - DOMAIN,asia-solo-eth.2miners.com
+ - DOMAIN,asia1.ethpool.org
+ - DOMAIN,asia1.ethermine.org
+#Sero Pool
+ - IP-CIDR,212.64.55.28/32,no-resolve
+ - IP-CIDR,39.104.68.126/32,no-resolve

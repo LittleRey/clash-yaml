@@ -1,0 +1,4 @@
+payload:
+#网易云Unblock
+ - PROCESS-NAME,UnblockNeteaseMusic.exe
+ - PROCESS-NAME,unblockneteasemusic-win-x64.exe

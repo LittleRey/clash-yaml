@@ -1,0 +1,7 @@
+payload:
+#WeiChat AD
+# - DOMAIN-SUFFIX,dns.weixin.com
+# - DOMAIN-SUFFIX,dns.weixin.qq.com
+
+ - DOMAIN,1.1.1.dns.weixin.com
+#spotify

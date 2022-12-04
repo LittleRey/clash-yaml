@@ -1,0 +1,59 @@
+payload:
+#youtube音源
+ - PROCESS-NAME,yt-dlp.exe
+# - PROCESS-NAME,Spotify.exe
+
+
+# - DOMAIN-SUFFIX,googlevideo.com
+ - DOMAIN-SUFFIX,joox.com
+ - DOMAIN-SUFFIX,api-jooxtt.sanook.com
+
+# - DOMAIN-SUFFIX,gvt0.com
+# - DOMAIN-SUFFIX,gvt1.com
+# - DOMAIN-SUFFIX,gvt2.com
+# - DOMAIN-SUFFIX,gvt3.com
+# - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# - DOMAIN-SUFFIX,xn--flw351e.com
+# - DOMAIN-SUFFIX,xn--9kr7l.com
+# - DOMAIN-SUFFIX,xn--ggle-55da.com
+# - DOMAIN-SUFFIX,xn--gogl-0nd52e.com
+# - DOMAIN-SUFFIX,xn--gogl-1nd42e.com
+#Google 定位
+
+# - DOMAIN-SUFFIX,services.googleapis.cn
+# - DOMAIN-SUFFIX,services.googleapis.com
+# - DOMAIN-SUFFIX,connectivitycheck.gstatic.cn
+# - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+
+
+# Google DNS
+
+
+# - DOMAIN,dns.google.com
+# - IP-CIDR,8.8.8.8/32,no-resolve
+# - IP-CIDR,8.8.4.4/32,no-resolve
+
+#Cloudflare
+# - IP-CIDR,1.1.1.1/32,no-resolve
+# - IP-CIDR,1.0.0.1/32,no-resolve
+ 
+#Binance
+ - PROCESS-NAME,Binance.exe
+ - PROCESS-NAME,elevate.exe
+ - PROCESS-NAME,nircmd.exe
+
+ - PROCESS-NAME,com.tradingview.tradingviewapp
+ - PROCESS-NAME,io.hotbit.shouyi
+ - PROCESS-NAME,com.gateio.gateio
+ - PROCESS-NAME,com.binance.dev
+ - PROCESS-NAME,com.okinc.okex.gp
+ - PROCESS-NAME,com.wallet.crypto.trustapp
+ - PROCESS-NAME,vip.mytokenpocket
+ - PROCESS-NAME,com.blockfolio.blockfolio
+ - PROCESS-NAME,im.token.app
+ - PROCESS-NAME,com.ftxmobile.ftx
+ - PROCESS-NAME,com.mexcpro.client
+ - PROCESS-NAME,app.revanced.android.youtube
+ - PROCESS-NAME,com.mgoogle.android.gms
+ - PROCESS-NAME,com.yayd.exchangglobal
+ - PROCESS-NAME,com.bybit.app
