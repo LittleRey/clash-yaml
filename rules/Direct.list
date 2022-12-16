@@ -1,6 +1,7 @@
 payload:
 
 
+
  - PROCESS-NAME,AndroidEmulator.exe
 #YesPlayMusic
  - PROCESS-NAME,WifiMouseServer.exe
@@ -17,6 +18,10 @@ payload:
  - PROCESS-NAME,MiSmartShare.exe
  - PROCESS-NAME,MiScreenShareGuide.exe
  - PROCESS-NAME,MiScreenShare
+ 
+#PUBG 大厅
+ - DOMAIN-SUFFIX,playbattlegrounds.com.cn
+
 #
 # - DOMAIN,doh.360.cn
 # - DOMAIN,dot.360.cn
