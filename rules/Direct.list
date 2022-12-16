@@ -21,6 +21,7 @@ payload:
  
 #PUBG 大厅
  - DOMAIN-SUFFIX,playbattlegrounds.com.cn
+ - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
 
 #
 # - DOMAIN,doh.360.cn
