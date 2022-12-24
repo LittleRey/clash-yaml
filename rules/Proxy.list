@@ -53,7 +53,6 @@ payload:
  - PROCESS-NAME,im.token.app
  - PROCESS-NAME,com.ftxmobile.ftx
  - PROCESS-NAME,com.mexcpro.client
- - PROCESS-NAME,app.revanced.android.youtube
  - PROCESS-NAME,com.mgoogle.android.gms
  - PROCESS-NAME,com.yayd.exchangglobal
  - PROCESS-NAME,com.bybit.app
