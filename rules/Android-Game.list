@@ -20,4 +20,5 @@ payload:
 #国内游戏
  - PROCESS-NAME,com.tencent.tmgp.sgame
  - PROCESS-NAME,com.tencent.tmgp.wuxia
+ - PROCESS-NAME,com.tencent.tmgp.pubgmhd
  - PROCESS-NAME,com.ngame.allstar.eu
