@@ -1,12 +1,17 @@
 payload:
+
+#PUBG语音
+ - DOMAIN-SUFFIX,pubwxp.www.vivox.com
+ - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
+
 #youtube音源
  - PROCESS-NAME,yt-dlp.exe
 # - PROCESS-NAME,Spotify.exe
 
 
 # - DOMAIN-SUFFIX,googlevideo.com
- - DOMAIN-SUFFIX,joox.com
- - DOMAIN-SUFFIX,api-jooxtt.sanook.com
+# - DOMAIN-SUFFIX,joox.com
+# - DOMAIN-SUFFIX,api-jooxtt.sanook.com
 
 # - DOMAIN-SUFFIX,gvt0.com
 # - DOMAIN-SUFFIX,gvt1.com
