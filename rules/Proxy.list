@@ -1,9 +1,9 @@
 payload:
 
 #PUBG语音
- - DOMAIN-SUFFIX,pubwxp.www.vivox.com
- - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
- - DOMAIN-SUFFIX,zk-pcprod.pubgbluehole.com
+# - DOMAIN-SUFFIX,pubwxp.www.vivox.com
+# - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
+# - DOMAIN-SUFFIX,zk-pcprod.pubgbluehole.com
 #youtube音源
  - PROCESS-NAME,yt-dlp.exe
 # - PROCESS-NAME,Spotify.exe
