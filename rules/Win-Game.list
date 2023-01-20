@@ -1,5 +1,10 @@
 payload:
 
+
+#鹅鸭杀
+ - PROCESS-NAME,Goose Goose Duck.exe
+ - PROCESS-NAME,UnityCrashHandler64.exe
+
 #原神国际版
  - PROCESS-NAME,GenshinImpact.exe
 
