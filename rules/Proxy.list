@@ -42,8 +42,11 @@ payload:
 
 #Cloudflare
 # - IP-CIDR,1.1.1.1/32,no-resolve
-# - IP-CIDR,1.0.0.1/32,no-resolve
- 
+
+
+#Play Store
+ - PROCESS-NAME,com.android.vending
+
 #Binance
  - PROCESS-NAME,Binance.exe
  - PROCESS-NAME,elevate.exe
