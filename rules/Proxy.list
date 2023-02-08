@@ -45,7 +45,7 @@ payload:
 
 
 #Play Store
- - PROCESS-NAME,com.android.vending
+# - PROCESS-NAME,com.android.vending
 
 #Binance
  - PROCESS-NAME,Binance.exe
