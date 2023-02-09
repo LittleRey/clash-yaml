@@ -1,0 +1,6 @@
+payload:
+  # > Update 2022-06-10
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,windows
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,microsoft.com
