@@ -22,3 +22,5 @@ payload:
  - PROCESS-NAME,com.tencent.tmgp.wuxia
  - PROCESS-NAME,com.tencent.tmgp.pubgmhd
  - PROCESS-NAME,com.ngame.allstar.eu
+ - PROCESS-NAME,com.netease.party.mi
+ - PROCESS-NAME,com.netease.party
