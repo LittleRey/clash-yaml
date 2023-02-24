@@ -11,3 +11,6 @@ payload:
  - PROCESS-NAME,com.spotify.music
  - PROCESS-NAME,com.google.android.youtube
  - PROCESS-NAME,app.revanced.android.youtube
+
+#TG
+ - PROCESS-NAME,nekox.messenger
