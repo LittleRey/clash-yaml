@@ -14,3 +14,6 @@ payload:
 
 #TG
  - PROCESS-NAME,nekox.messenger
+
+ - PROCESS-NAME,com.android.providers.downloads
+ - PROCESS-NAME,com.android.providers.downloads.ui
