@@ -1,8 +1,8 @@
 payload:
 
 #PUBG语音
-# - DOMAIN-SUFFIX,pubwxp.www.vivox.com
-# - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
+ - DOMAIN-SUFFIX,pubwxp.www.vivox.com
+ - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
 # - DOMAIN-SUFFIX,zk-pcprod.pubgbluehole.com
 
 # - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
