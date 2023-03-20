@@ -3,8 +3,6 @@ payload:
  - PROCESS-NAME,com.ss.android.ugc.aweme
  - PROCESS-NAME,tv.twitch.android.app
  - PROCESS-NAME,com.mxtech.videoplayer.ad
- - PROCESS-NAME,com.mb.android
- - PROCESS-NAME,com.mb.android.tg
  - PROCESS-NAME,tv.danmaku.bili
  - PROCESS-NAME,com.github.tvbox.osc
  - PROCESS-NAME,com.yj1211.justlive
@@ -12,11 +10,20 @@ payload:
  - PROCESS-NAME,com.google.android.youtube
  - PROCESS-NAME,app.revanced.android.youtube
 
+
+#Emby
+ - PROCESS-NAME,com.mb.android
+ - PROCESS-NAME,com.mb.android.tg
+
 #TG
  - PROCESS-NAME,nekox.messenger
+
 
 
 #Android Download
  - PROCESS-NAME,android.process.media
  - PROCESS-NAME,com.android.providers.downloads
  - PROCESS-NAME,com.android.providers.downloads.ui
+
+#应用商店下载
+ - PROCESS-NAME,com.android.vending
