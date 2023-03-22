@@ -12,4 +12,7 @@ payload:
 #Google Remote Deskop Android
  - PROCESS-NAME,com.google.chromeremotedesktop
  
-
+#Parsec Windows
+ - PROCESS-NAME,parsecd.exe
+#Parsec Android
+ - PROCESS-NAME,tv.parsec.client
