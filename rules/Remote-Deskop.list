@@ -10,7 +10,7 @@ payload:
 # - PROCESS-NAME,remoting_start_host.exe
 
 #Google Remote Deskop Android
-# - PROCESS-NAME,com.google.chromeremotedesktop
+ - PROCESS-NAME,com.google.chromeremotedesktop
  
 #Parsec Windows
  - PROCESS-NAME,parsecd.exe
