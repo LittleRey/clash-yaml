@@ -5,7 +5,7 @@ payload:
  - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
 # - DOMAIN-SUFFIX,zk-pcprod.pubgbluehole.com
 
-# - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
+ - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
 #youtube音源
  - PROCESS-NAME,yt-dlp.exe
 # - PROCESS-NAME,Spotify.exe
