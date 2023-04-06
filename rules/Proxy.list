@@ -1,5 +1,9 @@
 payload:
 
+#NeteaseUnBlock Third API pyncmd
+ - DOMAIN-SUFFIX,pyncmd.vercel.app
+
+
 #PUBG语音
  - DOMAIN-SUFFIX,pubwxp.www.vivox.com
  - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
