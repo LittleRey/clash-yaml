@@ -2,11 +2,11 @@ payload:
 
 #NeteaseUnBlock Third API pyncmd
  - DOMAIN-SUFFIX,pyncmd.vercel.app
-
+ - IP-CIDR,76.76.21.21/32,no-resolve
 
 #PUBG语音
- - DOMAIN-SUFFIX,pubwxp.www.vivox.com
- - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
+# - DOMAIN-SUFFIX,pubwxp.www.vivox.com
+# - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
 # - DOMAIN-SUFFIX,zk-pcprod.pubgbluehole.com
 
  - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
