@@ -1,13 +1,20 @@
 payload:
 
 #Google Remote Deskop
- - PROCESS-NAME,remote_assistance_host.exe
- - PROCESS-NAME,remote_assistance_host_uiaccess.exe
- - PROCESS-NAME,remote_security_key.exe
- - PROCESS-NAME,remoting_desktop.exe
- - PROCESS-NAME,remoting_host.exe
- - PROCESS-NAME,remoting_native_messaging_host.exe
- - PROCESS-NAME,remoting_start_host.exe
+# - PROCESS-NAME,remote_assistance_host.exe
+# - PROCESS-NAME,remote_assistance_host_uiaccess.exe
+# - PROCESS-NAME,remote_security_key.exe
+# - PROCESS-NAME,remoting_desktop.exe
+# - PROCESS-NAME,remoting_host.exe
+# - PROCESS-NAME,remoting_native_messaging_host.exe
+# - PROCESS-NAME,remoting_start_host.exe
+
+
+ - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
+ - DOMAIN-SUFFIX,remotedesktop-pa.googleapis.com
+ - IP-CIDR,74.125.247.128/32
+ - IP-CIDR6,2001:4860:4864:4:8000::/64
+
 
 #Google Remote Deskop Android
  - PROCESS-NAME,com.google.chromeremotedesktop
