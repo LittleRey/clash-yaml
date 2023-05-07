@@ -12,8 +12,8 @@ payload:
 
 # - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
 # - DOMAIN-SUFFIX,remotedesktop-pa.googleapis.com
- - IP-CIDR,74.125.247.128/32
- - IP-CIDR6,2001:4860:4864:4:8000::/64
+# - IP-CIDR,74.125.247.128/32
+# - IP-CIDR6,2001:4860:4864:4:8000::/64
 
 
 #Google Remote Deskop Android
