@@ -1,5 +1,7 @@
 payload:
-
+#p2p内网
+ - PROCESS-NAME,go-p2ptunnel.exe
+##
 
 
  - PROCESS-NAME,AndroidEmulator.exe
