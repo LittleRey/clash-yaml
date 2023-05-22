@@ -1,5 +1,6 @@
 payload:
 #p2p内网
+ - PROCESS-NAME,go-p2ptunnel
  - PROCESS-NAME,go-p2ptunnel.exe
 ##
 
