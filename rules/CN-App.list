@@ -1,5 +1,5 @@
 payload:
-
+ - PROCESS-NAME,com.oray.sunlogin
  - PROCESS-NAME,com.tencent.mm
  - PROCESS-NAME,cn.soulapp.android
  - PROCESS-NAME,com.taobao.taobao
