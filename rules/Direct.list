@@ -1,4 +1,9 @@
 payload:
+
+#WeChat
+ - PROCESS-NAME,WeChat.exe
+ - PROCESS-NAME,WechatAppLauncher.exe
+ 
 #p2p内网
  - PROCESS-NAME,go-p2ptunnel
  - PROCESS-NAME,go-p2ptunnel.exe
