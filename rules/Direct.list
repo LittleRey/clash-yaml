@@ -9,13 +9,13 @@ payload:
  - PROCESS-NAME,go-p2ptunnel.exe
 ##
 
-
- - PROCESS-NAME,AndroidEmulator.exe
-#YesPlayMusic
  - PROCESS-NAME,WifiMouseServer.exe
  - PROCESS-NAME,remote-touchpad_windows_amd64.exe
- - PROCESS-NAME,YesPlayMusic.exe
- - PROCESS-NAME,com.coolapk.market
+ - PROCESS-NAME,AndroidEmulator.exe
+#YesPlayMusic
+
+# - PROCESS-NAME,YesPlayMusic.exe
+# - PROCESS-NAME,com.coolapk.market
 #miui+
  - PROCESS-NAME,MiScreenShareGuide.exe
  - PROCESS-NAME,MiScreenShare.exe
