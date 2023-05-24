@@ -1,8 +1,8 @@
 payload:
 
 #WeChat
- - PROCESS-NAME,WeChat.exe
- - PROCESS-NAME,WechatAppLauncher.exe
+# - PROCESS-NAME,WeChat.exe
+# - PROCESS-NAME,WechatAppLauncher.exe
  
 #p2p内网
  - PROCESS-NAME,go-p2ptunnel
@@ -28,7 +28,7 @@ payload:
  - PROCESS-NAME,MiScreenShare
  
 #PUBG 大厅
- - DOMAIN-SUFFIX,playbattlegrounds.com.cn
+# - DOMAIN-SUFFIX,playbattlegrounds.com.cn
 # - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
 
 #
