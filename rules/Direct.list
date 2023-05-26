@@ -1,4 +1,7 @@
 payload:
+#向日葵
+ - PROCESS-NAME,SunloginClient.exe
+
 
 #WeChat
 # - PROCESS-NAME,WeChat.exe
