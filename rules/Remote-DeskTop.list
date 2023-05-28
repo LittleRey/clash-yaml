@@ -9,11 +9,11 @@ payload:
  - PROCESS-NAME,remoting_native_messaging_host.exe
  - PROCESS-NAME,remoting_start_host.exe
 
-
-# - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
-# - DOMAIN-SUFFIX,remotedesktop-pa.googleapis.com
-# - IP-CIDR,74.125.247.128/32
-# - IP-CIDR6,2001:4860:4864:4:8000::/64
+ - DOMAIN-SUFFIX,instantmessaging-pa.clients6.google.com
+ - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
+ - DOMAIN-SUFFIX,remotedesktop-pa.googleapis.com
+ - IP-CIDR,74.125.247.128/32
+ - IP-CIDR6,2001:4860:4864:4:8000::/64
 
 
 #Google Remote Deskop Android
