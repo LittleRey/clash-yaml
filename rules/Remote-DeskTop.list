@@ -1,13 +1,13 @@
 payload:
 
 #Google Remote Deskop
- - PROCESS-NAME,remote_assistance_host.exe
- - PROCESS-NAME,remote_assistance_host_uiaccess.exe
- - PROCESS-NAME,remote_security_key.exe
- - PROCESS-NAME,remoting_desktop.exe
- - PROCESS-NAME,remoting_host.exe
- - PROCESS-NAME,remoting_native_messaging_host.exe
- - PROCESS-NAME,remoting_start_host.exe
+# - PROCESS-NAME,remote_assistance_host.exe
+# - PROCESS-NAME,remote_assistance_host_uiaccess.exe
+# - PROCESS-NAME,remote_security_key.exe
+# - PROCESS-NAME,remoting_desktop.exe
+# - PROCESS-NAME,remoting_host.exe
+# - PROCESS-NAME,remoting_native_messaging_host.exe
+# - PROCESS-NAME,remoting_start_host.exe
 
 # - DOMAIN-SUFFIX,instantmessaging-pa.clients6.google.com
 # - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
@@ -17,7 +17,7 @@ payload:
 
 
 #Google Remote Deskop Android
- - PROCESS-NAME,com.google.chromeremotedesktop
+# - PROCESS-NAME,com.google.chromeremotedesktop
  
 #Parsec Windows
  - PROCESS-NAME,parsecd.exe
