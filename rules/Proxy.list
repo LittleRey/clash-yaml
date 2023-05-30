@@ -15,7 +15,7 @@ payload:
 # - PROCESS-NAME,Spotify.exe
 
 
-# - DOMAIN-SUFFIX,googlevideo.com
+ - DOMAIN-SUFFIX,googlevideo.com
 # - DOMAIN-SUFFIX,joox.com
 # - DOMAIN-SUFFIX,api-jooxtt.sanook.com
 
