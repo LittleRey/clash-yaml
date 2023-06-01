@@ -81,6 +81,11 @@ payload:
   - PROCESS-NAME,DingtalkLauncher.exe
   - PROCESS-NAME,DingTalkUpdater.exe
   - PROCESS-NAME,get-graphics-offsets32.exe
+  - PROCESS-NAME,dingpan_sync.exe
+  - PROCESS-NAME,obs-ffmpeg-mux.exe
+  - PROCESS-NAME,tblive.exe
+  - PROCESS-NAME,DingTalkCheck.exe
+  - PROCESS-NAME,DingtalkCleaner.exe
   - PROCESS-NAME,inject-helper32.exe
   - PROCESS-NAME,ffmpeg-mux32.exe
   - PROCESS-NAME,tblive.exe
