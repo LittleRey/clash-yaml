@@ -10,6 +10,9 @@ payload:
 #p2p内网
  - PROCESS-NAME,go-p2ptunnel
  - PROCESS-NAME,go-p2ptunnel.exe
+ - PROCESS-NAME,cn.openp2p
+ - PROCESS-NAME,openp2p
+ - PROCESS-NAME,openp2p.exe
 ##
 
  - PROCESS-NAME,WifiMouseServer.exe
