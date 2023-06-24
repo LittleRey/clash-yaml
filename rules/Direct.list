@@ -2,7 +2,7 @@ payload:
 #向日葵
  - PROCESS-NAME,SunloginClient.exe
  - PROCESS-NAME,AnyDesk.exe
-
+ - DOMAIN-SUFFIX,anydesk.com.cn
 
 #WeChat
 # - PROCESS-NAME,WeChat.exe
