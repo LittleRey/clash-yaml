@@ -7,7 +7,7 @@ payload:
 #AnyDesk
  - PROCESS-NAME,AnyDesk.exe
  - DOMAIN-SUFFIX,anydesk.com.cn
-# - DOMAIN-SUFFIX,anydesk.com
+ - DOMAIN-SUFFIX,net.anydesk.com
 
 
 #WeChat
