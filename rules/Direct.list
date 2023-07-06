@@ -39,6 +39,8 @@ payload:
  - PROCESS-NAME,MiSmartShare.exe
  - PROCESS-NAME,MiScreenShareGuide.exe
  - PROCESS-NAME,MiScreenShare
+#国内邮箱
+ - PROCESS-NAME,com.netease.mail
  
 #PUBG 大厅
 # - DOMAIN-SUFFIX,playbattlegrounds.com.cn
