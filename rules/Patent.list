@@ -1,5 +1,7 @@
+payload:
+
 #patenthub.cn
-googleapis.com
-qhimg.com
-patenthub.cn
-idqqimg.com
+ - DOMAIN-SUFFIX,googleapis.com
+ - DOMAIN-SUFFIX,qhimg.com
+ - DOMAIN-SUFFIX,patenthub.cn
+ - DOMAIN-SUFFIX,idqqimg.com
