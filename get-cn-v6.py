@@ -9,7 +9,7 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 
 for line in lines:
     address = line
-    output += "  - IP-CIDR6,{line},no-resolve\n"
+    output += "  - IP-CIDR6,{address},no-resolve\n"
 
 with open('cn_ipv6.txt', 'w') as file:
     file.write(output)
