@@ -1,64 +1,64 @@
-#更新时间 2023/07/30 04:54:04 AM
+#更新时间 2023/07/30 04:57:59 AM
 #来源 https://ispip.clang.cn/all_cn_ipv4.txt
 payload：
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
-  - IP-CIDR,{address},no-resolve
+  - IP-CIDR,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN",no-resolve
+  - IP-CIDR,   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">,no-resolve
+  - IP-CIDR,<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">,no-resolve
+  - IP-CIDR,<head>,no-resolve
+  - IP-CIDR,    <title>ERROR 404 - Not Found!</title>,no-resolve
+  - IP-CIDR,    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />,no-resolve
+  - IP-CIDR,    <meta name="robots" content="noindex" />,no-resolve
+  - IP-CIDR,    <style type="text/css"><!--,no-resolve
+  - IP-CIDR,    body {,no-resolve
+  - IP-CIDR,        color: #444444;,no-resolve
+  - IP-CIDR,        background-color: #EEEEEE;,no-resolve
+  - IP-CIDR,        font-family: 'Trebuchet MS', sans-serif;,no-resolve
+  - IP-CIDR,        font-size: 80%;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    h1 {},no-resolve
+  - IP-CIDR,    h2 { font-size: 1.2em; },no-resolve
+  - IP-CIDR,    #page{,no-resolve
+  - IP-CIDR,        background-color: #FFFFFF;,no-resolve
+  - IP-CIDR,        width: 60%;,no-resolve
+  - IP-CIDR,        margin: 24px auto;,no-resolve
+  - IP-CIDR,        padding: 12px;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    #header {,no-resolve
+  - IP-CIDR,        padding: 6px ;,no-resolve
+  - IP-CIDR,        text-align: center;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    .status3xx { background-color: #475076; color: #FFFFFF; },no-resolve
+  - IP-CIDR,    .status4xx { background-color: #C55042; color: #FFFFFF; },no-resolve
+  - IP-CIDR,    .status5xx { background-color: #F2E81A; color: #000000; },no-resolve
+  - IP-CIDR,    #content {,no-resolve
+  - IP-CIDR,        padding: 4px 0 24px 0;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    #footer {,no-resolve
+  - IP-CIDR,        color: #666666;,no-resolve
+  - IP-CIDR,        background: #f9f9f9;,no-resolve
+  - IP-CIDR,        padding: 10px 20px;,no-resolve
+  - IP-CIDR,        border-top: 5px #efefef solid;,no-resolve
+  - IP-CIDR,        font-size: 0.8em;,no-resolve
+  - IP-CIDR,        text-align: center;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    #footer a {,no-resolve
+  - IP-CIDR,        color: #999999;,no-resolve
+  - IP-CIDR,    },no-resolve
+  - IP-CIDR,    --></style>,no-resolve
+  - IP-CIDR,</head>,no-resolve
+  - IP-CIDR,<body>,no-resolve
+  - IP-CIDR,    <div id="page">,no-resolve
+  - IP-CIDR,        <div id="header" class="status4xx">,no-resolve
+  - IP-CIDR,            <h1>ERROR 404 - Not Found!</h1>,no-resolve
+  - IP-CIDR,        </div>,no-resolve
+  - IP-CIDR,        <div id="content">,no-resolve
+  - IP-CIDR,            <h2>The following error occurred:</h2>,no-resolve
+  - IP-CIDR,            <p>The requested URL was not found on this server.</p>,no-resolve
+  - IP-CIDR,			<P>Please check the URL or contact the <!--WEBMASTER//-->webmaster<!--WEBMASTER//-->.</p>,no-resolve
+  - IP-CIDR,        </div>,no-resolve
+  - IP-CIDR,        <div id="footer">,no-resolve
+  - IP-CIDR,            <p>Powered by <a href="http://clang.cn">Clang.CN</a></p>,no-resolve
+  - IP-CIDR,        </div>,no-resolve
+  - IP-CIDR,    </div>,no-resolve
+  - IP-CIDR,</body>,no-resolve
+  - IP-CIDR,</html>,no-resolve
