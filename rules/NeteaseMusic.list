@@ -1,16 +1,16 @@
 payload:
 
 # Netease Music
- - DOMAIN,musicupload.netease.com
- - DOMAIN,api.iplay.163.com
+# - DOMAIN,musicupload.netease.com
+# - DOMAIN,api.iplay.163.com
  - DOMAIN,apm3.music.163.com
  - DOMAIN,apm.music.163.com
  - DOMAIN,interface3.music.163.com
  - DOMAIN,interface.music.163.com
  - DOMAIN,music.163.com
 
- - DOMAIN,musicupload.netease.com.163jiasu.com
- - DOMAIN,api.iplay.163.com.163jiasu.com
+# - DOMAIN,musicupload.netease.com.163jiasu.com
+# - DOMAIN,api.iplay.163.com.163jiasu.com
  - DOMAIN,apm3.music.163.com.163jiasu.com
  - DOMAIN,apm.music.163.com.163jiasu.com
  - DOMAIN,interface3.music.163.com.163jiasu.com
