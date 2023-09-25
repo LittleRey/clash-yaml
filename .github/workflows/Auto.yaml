@@ -1,5 +1,6 @@
 name: CN_gen
 
+
 on:
   schedule:
     - cron: "0 1 * * *"
