@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-url = "https://ispip.clang.cn/all_cn_ipv4.txt"
+url = "https://ispip.clang.cn/all_cn.txt"
 r = requests.get(url).text
 lines = r.splitlines()
 output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来源 {url}\npayload：\n"
