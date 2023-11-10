@@ -1,4 +1,4 @@
-#更新时间 2023/11/09 01:42:36 AM
+#更新时间 2023/11/10 01:42:06 AM
 #来源 https://ispip.clang.cn/all_cn_ipv6.txt
 payload：
   - IP-CIDR6,2001:250::/35,no-resolve
