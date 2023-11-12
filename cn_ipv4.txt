@@ -1,4 +1,4 @@
-#更新时间 2023/11/11 01:47:31 AM
+#更新时间 2023/11/12 01:47:28 AM
 #来源 https://ispip.clang.cn/all_cn.txt
 payload：
   - IP-CIDR,1.0.1.0/24,no-resolve
