@@ -4,7 +4,7 @@ payload:
  - PROCESS-NAME,cn.soulapp.android
  - PROCESS-NAME,com.taobao.taobao
  - PROCESS-NAME,com.tencent.tim
- - PROCESS-NAME,com.tencent.tim
  - PROCESS-NAME,com.tencent.mobileqq
  - PROCESS-NAME,me.ele
  - PROCESS-NAME,com.eg.android.AlipayGphone
+ - PROCESS-NAME,com.smile.gifmaker
