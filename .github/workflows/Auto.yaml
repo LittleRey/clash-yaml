@@ -25,6 +25,7 @@ jobs:
         run: |
           python get-cn-v6.py
           python get-cn-v4.py
+          python peiqian.py
       
       - name: commit files
         run: |
