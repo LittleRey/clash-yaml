@@ -10,13 +10,13 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 replacement_mapping = {
     "[VMess]": "[CF优选IP]",
     "server: www.gov.ua": "server: cfcn.9sep.org",
-    "server: www.iakeys.com": "server: quanyin.xyz",
+    "server: www.iakeys.com": "server: cdn.imtqy.com",
     "server: jp.supernike.com": "server: cfcn.9sep.org",
     "server: www.visa.com": "server: music.imtqy.com",
     "server: usfree7.supernike.com": "server: cfcn.9sep.org",
     "server: sgfree4.supernike.com": "server: cfcn.9sep.org",
     "server: jpfree1.supernike.com": "server: cfcn.9sep.org",
-    "server: 192.203.230.228": "server: cors.buildtest.site",
+    "server: 192.203.230.228": "server: cdn.mlcat.tk",
     # 添加更多的映射关系
 }
 
