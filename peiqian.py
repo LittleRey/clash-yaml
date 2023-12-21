@@ -12,6 +12,8 @@ replacement_mapping = {
     "香蕉": "电信",
     "直连-2": "直连-联通",
     "server: www.gov.ua": "server: cf-dx-dns.sharecentre.online",
+    "server: www.csgo.com": "server: cfcn.9sep.org",
+    "server: time.cloudflare.com": "server: cdn.imtqy.com",
     "server: www.iakeys.com": "server: cf-lt-dns.sharecentre.online",
     "server: jp.supernike.com": "server: cfcn.9sep.org",
     "server: www.visa.com": "server: music.imtqy.com",
