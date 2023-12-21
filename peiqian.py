@@ -9,14 +9,16 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 # 替换字段映射
 replacement_mapping = {
     "[VMess]": "[CF优选IP]",
-    "server: www.gov.ua": "server: cfcn.9sep.org",
-    "server: www.iakeys.com": "server: cdn.imtqy.com",
+    "[香蕉]": "[电信]",
+    "[直连-2]": "[联通]",
+    "server: www.gov.ua": "server: cf-dx-dns.sharecentre.online",
+    "server: www.iakeys.com": "server: cf-lt-dns.sharecentre.online",
     "server: jp.supernike.com": "server: cfcn.9sep.org",
     "server: www.visa.com": "server: music.imtqy.com",
     "server: usfree7.supernike.com": "server: cfcn.9sep.org",
     "server: sgfree4.supernike.com": "server: cfcn.9sep.org",
     "server: jpfree1.supernike.com": "server: cfcn.9sep.org",
-    "server: 192.203.230.228": "server: cdn.mlcat.tk",
+    "server: 192.203.230.228": "server: cf-yd-dns.sharecentre.online",
     # 添加更多的映射关系
 }
 
