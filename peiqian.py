@@ -9,8 +9,8 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 # 替换字段映射
 replacement_mapping = {
     "[VMess]": "[CF优选IP]",
-    "[香蕉]": "[电信]",
-    "[直连-2]": "[联通]",
+    "香蕉": "电信",
+    "直连-2": "直连-联通",
     "server: www.gov.ua": "server: cf-dx-dns.sharecentre.online",
     "server: www.iakeys.com": "server: cf-lt-dns.sharecentre.online",
     "server: jp.supernike.com": "server: cfcn.9sep.org",
