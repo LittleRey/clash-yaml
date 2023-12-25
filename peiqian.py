@@ -10,7 +10,7 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 replacement_mapping = {
     "[VMess]": "[CF优选IP]",
     "香蕉": "GateWay",
-    "直连-2": "直连-联通",
+    "芒果": "联通",
     "visa国际": "电信",
     "苹果": "One.One",
     "server: www.gov.ua": "server: cf.cloudflare-gateway.com",
