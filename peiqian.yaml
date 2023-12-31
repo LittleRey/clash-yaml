@@ -1,8 +1,8 @@
-#更新时间 2023/12/30 01:40:43 AM
+#更新时间 2023/12/31 01:50:49 AM
 #来源 https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fdy.xn--mesx48ahb331x.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D00c1f636b70a0aae239636289ae2d395&insert=false&emoji=true&list=true&tfo=false&scv=false&emoji=false&fdn=false&sort=false&append_type=true
 proxies:
-  - {name: "[SS] 剩余流量：384.36 GB", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
-  - {name: "[SS] 距离下次重置剩余：16 天", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
+  - {name: "[SS] 剩余流量：363.42 GB", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
+  - {name: "[SS] 距离下次重置剩余：15 天", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
   - {name: "[SS] 套餐到期：2024-01-15", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
   - {name: "[SS] 官方网站:赔本机场.com", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
   - {name: "[SS] 国内访问:peiben.taoke.网络", server: www.baidu.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bd9bfcaa-ca71-4b90-aca5-96cb63b26fa4, udp: true}
