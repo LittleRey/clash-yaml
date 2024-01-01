@@ -8,13 +8,13 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 
 # 替换字段映射
 replacement_mapping = {
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay', server: cf.cloudflare-gateway.com',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 2', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-电信线路', server: cf-dx-dns.sharecentre.online',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 3', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-联通线路', server: cf-lt-dns.sharecentre.online',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 4', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-移动线路', server: cf-yd-dns.sharecentre.online',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 5', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-CSGO-IP', server: www.csgo.com',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 6', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-BuildTest', server: peiben.buildtest.site',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 7', server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay', server: peiben.buildtest.site',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay", server: cf.cloudflare-gateway.com',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 2", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-电信线路", server: cf-dx-dns.sharecentre.online',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 3", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-联通线路", server: cf-lt-dns.sharecentre.online',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 4", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-移动线路", server: cf-yd-dns.sharecentre.online',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 5", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-CSGO-IP", server: www.csgo.com',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 6", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-BuildTest", server: peiben.buildtest.site',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 7", server: laxfree.starsea.vip': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay", server: peiben.buildtest.site',
 
     # 添加更多的映射关系
 }
