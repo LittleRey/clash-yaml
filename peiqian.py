@@ -8,13 +8,13 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 
 # 替换字段映射
 replacement_mapping = {
-    ""[V2ray公益0.1x]Losangeles-CloudFlare", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-GateWay", server: cf.cloudflare-gateway.com",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 2", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-电信线路", server: cf-dx-dns.sharecentre.online",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 3", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-联通线路", server: cf-lt-dns.sharecentre.online",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 4", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-移动线路", server: cf-yd-dns.sharecentre.online",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 5", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-CSGO-IP", server: www.csgo.com",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 6", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-BuildTest", server: peiben.buildtest.site",
-    ""[V2ray公益0.1x]Losangeles-CloudFlare 7", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-GateWay", server: peiben.buildtest.site",
+    "[V2ray公益0.1x]Losangeles-CloudFlare": "[CF优选IP-0.1x]美国洛杉矶-GateWay",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 2": "[CF优选IP-0.1x]美国洛杉矶-电信线路",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 3": "[CF优选IP-0.1x]美国洛杉矶-联通线路",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 4": "[CF优选IP-0.1x]美国洛杉矶-移动线路",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 5": "[CF优选IP-0.1x]美国洛杉矶-CSGO-IP",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 6": "[CF优选IP-0.1x]美国洛杉矶-BuildTest",
+    "[V2ray公益0.1x]Losangeles-CloudFlare 7": "[CF优选IP-0.1x]美国洛杉矶-GateWay",
     
 
     # 添加更多的映射关系
