@@ -1,28 +1,22 @@
 import requests
 from datetime import datetime
 
-url = "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fdy.xn--mesx48ahb331x.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D00c1f636b70a0aae239636289ae2d395&insert=false&emoji=true&list=true&tfo=false&scv=false&emoji=false&fdn=false&sort=false&append_type=true"
+url = "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42&insert=false&emoji=true&list=true&tfo=false&scv=false&emoji=true&fdn=false&sort=false"
 r = requests.get(url).text
 lines = r.splitlines()
 output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来源 {url}\n"
 
 # 替换字段映射
 replacement_mapping = {
-    "[VMess]": "[CF优选IP]",
-    "香蕉": "GateWay",
-    "芒果": "联通",
-    "visa国际": "电信",
-    "苹果": "One.One",
-    "server: www.gov.ua": "server: cf.cloudflare-gateway.com",
-    "server: www.csgo.com": "server: peiben.buildtest.site",
-    "server: time.cloudflare.com": "server: security.cloudflare-dns.com",
-    "server: www.iakeys.com": "server: cf-lt-dns.sharecentre.online",
-    "server: jp.supernike.com": "server: peiben.buildtest.site",
-    "server: www.visa.com": "server: cf-dx-dns.sharecentre.online",
-    "server: usfree7.supernike.com": "server: peiben.buildtest.site",
-    "server: sgfree4.supernike.com": "server: peiben.buildtest.site",
-    "server: jpfree1.supernike.com": "server: peiben.buildtest.site",
-    "server: 192.203.230.228": "server: cf-yd-dns.sharecentre.online",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-GateWay", server: cf.cloudflare-gateway.com",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 2", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-电信线路", server: cf-dx-dns.sharecentre.online",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 3", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-联通线路", server: cf-lt-dns.sharecentre.online",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 4", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-移动线路", server: cf-yd-dns.sharecentre.online",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 5", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-CSGO-IP", server: www.csgo.com",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 6", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-BuildTest", server: peiben.buildtest.site",
+    ""[V2ray公益0.1x]Losangeles-CloudFlare 7", server: laxfree.starsea.vip": ""[CF优选IP-0.1x]美国洛杉矶-GateWay", server: peiben.buildtest.site",
+    
+
     # 添加更多的映射关系
 }
 
