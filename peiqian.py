@@ -8,13 +8,13 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 
 # 替换字段映射
 replacement_mapping = {
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare\"': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 2\"': r'"[CF优选IP-0.1x]美国洛杉矶-电信线路\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 3\"': r'"[CF优选IP-0.1x]美国洛杉矶-联通线路\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 4\"': r'"[CF优选IP-0.1x]美国洛杉矶-移动线路\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 5\"': r'"[CF优选IP-0.1x]美国洛杉矶-CSGO-IP\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 6\"': r'"[CF优选IP-0.1x]美国洛杉矶-BuildTest\"',
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare 7\"': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay\"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare"': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 2"': r'"[CF优选IP-0.1x]美国洛杉矶-电信线路"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 3"': r'"[CF优选IP-0.1x]美国洛杉矶-联通线路"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 4"': r'"[CF优选IP-0.1x]美国洛杉矶-移动线路"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 5"': r'"[CF优选IP-0.1x]美国洛杉矶-CSGO-IP"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 6"': r'"[CF优选IP-0.1x]美国洛杉矶-BuildTest"',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare 7"': r'"[CF优选IP-0.1x]美国洛杉矶-GateWay"',
     
 
     # 添加更多的映射关系
