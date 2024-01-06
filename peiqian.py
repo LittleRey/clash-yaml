@@ -8,7 +8,7 @@ output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来
 
 # 替换字段映射
 replacement_mapping = {
-    r'"[V2ray公益0.1x]Losangeles-CloudFlare", server: dns.cloudflare-gateway.com': r'"[CF优选IP-0.1x]美国洛杉矶-CF宿云CN-线路", server: cfcn.9sep.org',
+    r'"[V2ray公益0.1x]Losangeles-CloudFlare", server: dns.cloudflare-gateway.com': r'"[CF优选IP-0.1x]美国洛杉矶-CF_IP-线路", server: 162.159.46.1',
     r'"[V2ray公益0.1x]Losangeles-CloudFlare 2", server: dns.cloudflare-gateway.com': r'"[CF优选IP-0.1x]美国洛杉矶-电信线路", server: cf-dx-dns.sharecentre.online',
     r'"[V2ray公益0.1x]Losangeles-CloudFlare 3", server: dns.cloudflare-gateway.com': r'"[CF优选IP-0.1x]美国洛杉矶-联通线路", server: cf-lt-dns.sharecentre.online',
     r'"[V2ray公益0.1x]Losangeles-CloudFlare 4", server: dns.cloudflare-gateway.com': r'"[CF优选IP-0.1x]美国洛杉矶-移动线路", server: cf-yd-dns.sharecentre.online',
