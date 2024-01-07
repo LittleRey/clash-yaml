@@ -10,4 +10,5 @@ payload:
  - PROCESS-NAME,com.netease.cloudmusic.lite
 # - PROCESS-NAME,tech.soit.quiet.app
  - PROCESS-NAME,LyricEase.Core.exe
+ - PROCESS-NAME,LyricEase.exe
  - PROCESS-NAME,HyPlayer.exe
