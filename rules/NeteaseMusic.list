@@ -8,6 +8,9 @@ payload:
  - DOMAIN-SUFFIX,interface3.music.163.com
  - DOMAIN-SUFFIX,interface.music.163.com
  - DOMAIN,music.163.com
+ - DOMAIN,ipv4.music.163.com
+ - DOMAIN,ipv6.music.163.com
+
 
 # - DOMAIN,musicupload.netease.com.163jiasu.com
  - DOMAIN,api.iplay.163.com.163jiasu.com
