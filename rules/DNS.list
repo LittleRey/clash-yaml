@@ -1,0 +1,26 @@
+
+
+#Alidns
+ - DOMAIN-SUFFIX,alidns.com
+ - IP-CIDR,223.5.5.5/32
+ - IP-CIDR,223.6.6.6/32
+ - IP-CIDR6,[2400:3200::1]/128
+ - IP-CIDR6,[2400:3200:baba::1]/128
+
+#Tuna DNS
+ - DOMAIN-SUFFIX,tuna.tsinghua.edu.cn
+ - IP-CIDR,101.6.6.6/32
+ - IP-CIDR6,[2402:f000:1:416:101:6:6:6]/128
+
+#DNSPod
+ - DOMAIN-SUFFIX,dns.pub
+ - DOMAIN-SUFFIX,doh.pub
+ - DOMAIN-SUFFIX,dot.pub
+ - IP-CIDR,1.12.12.12/32
+ - IP-CIDR,120.53.53.53/32
+
+
+
+
+
+
