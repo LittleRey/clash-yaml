@@ -1,4 +1,4 @@
-#更新时间 2024/04/18 01:39:55 AM
+#更新时间 2024/04/19 01:41:17 AM
 #来源 https://ispip.clang.cn/all_cn_ipv6.txt
 payload：
   - IP-CIDR6,2001:250::/35,no-resolve
@@ -556,6 +556,7 @@ payload：
   - IP-CIDR6,2401:92a0::/32,no-resolve
   - IP-CIDR6,2401:92e0::/32,no-resolve
   - IP-CIDR6,2401:9340::/32,no-resolve
+  - IP-CIDR6,2401:95e0::/32,no-resolve
   - IP-CIDR6,2401:9600::/32,no-resolve
   - IP-CIDR6,2401:96c0::/32,no-resolve
   - IP-CIDR6,2401:9740::/32,no-resolve
