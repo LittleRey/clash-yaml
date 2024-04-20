@@ -1,6 +1,8 @@
 payload:
 
-
+#俄罗斯钓鱼4
+ - PROCESS-NAME,rf4_x64.exe
+ - PROCESS-NAME,UnityCrashHandler64.exe
 #鹅鸭杀
  - PROCESS-NAME,Goose Goose Duck.exe
  - PROCESS-NAME,UnityCrashHandler64.exe
