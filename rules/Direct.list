@@ -9,7 +9,7 @@ payload:
 # - PROCESS-NAME,AnyDesk.exe
 # - PROCESS-NAME,com.anydesk.anydeskandroid
 # - DOMAIN-SUFFIX,anydesk.com.cn
-# - DOMAIN-SUFFIX,net.anydesk.com
+ - DOMAIN-SUFFIX,boot.net.anydesk.com
 
 
 #WeChat
