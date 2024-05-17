@@ -1,4 +1,4 @@
-#更新时间 2024/05/16 01:46:07 AM
+#更新时间 2024/05/17 01:45:15 AM
 #来源 https://ispip.clang.cn/all_cn.txt
 payload：
   - IP-CIDR,1.0.1.0/24,no-resolve
@@ -6247,6 +6247,8 @@ payload：
   - IP-CIDR,160.19.208.0/22,no-resolve
   - IP-CIDR,160.19.212.0/22,no-resolve
   - IP-CIDR,160.19.216.0/22,no-resolve
+  - IP-CIDR,160.20.16.0/23,no-resolve
+  - IP-CIDR,160.20.18.0/23,no-resolve
   - IP-CIDR,160.20.48.0/22,no-resolve
   - IP-CIDR,160.202.60.0/22,no-resolve
   - IP-CIDR,160.202.148.0/22,no-resolve
