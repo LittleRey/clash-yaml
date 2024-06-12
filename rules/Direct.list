@@ -6,9 +6,9 @@ payload:
 # - DOMAIN-SUFFIX,oray.net
 
 #AnyDesk
-# - PROCESS-NAME,AnyDesk.exe
-# - PROCESS-NAME,com.anydesk.anydeskandroid
-# - DOMAIN-SUFFIX,anydesk.com.cn
+ - PROCESS-NAME,AnyDesk.exe
+ - PROCESS-NAME,com.anydesk.anydeskandroid
+ - DOMAIN-SUFFIX,anydesk.com.cn
  - DOMAIN-SUFFIX,boot.net.anydesk.com
 
 
