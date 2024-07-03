@@ -17,6 +17,7 @@ payload:
  - PROCESS-NAME,com.com.valvesoftware.underlords
  - PROCESS-NAME,com.com.direwolfdigital.Phoenix
  - PROCESS-NAME,com.com.axieinfinity.origin
+ - PROCESS-NAME,com.supercell.brawlstars
 #国内游戏
  - PROCESS-NAME,com.tencent.tmgp.sgame
  - PROCESS-NAME,com.tencent.tmgp.wuxia
