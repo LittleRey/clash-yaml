@@ -1,0 +1,5 @@
+payload:
+# 网易云规则
+ - PROCESS-NAME,unblockneteasemusic-win-x64.exe
+ - PROCESS-NAME,node.exe
+ - PROCESS-NAME,yt-dlp.exe
