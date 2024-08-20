@@ -1,4 +1,4 @@
-#更新时间 2024/08/19 02:00:40 AM
+#更新时间 2024/08/20 01:58:10 AM
 #来源 https://ispip.clang.cn/all_cn_ipv6.txt
 payload：
   - IP-CIDR6,2001:250::/35,no-resolve
@@ -99,7 +99,6 @@ payload：
   - IP-CIDR6,2001:df6:3d00::/48,no-resolve
   - IP-CIDR6,2001:df6:5d00::/48,no-resolve
   - IP-CIDR6,2001:df6:6800::/48,no-resolve
-  - IP-CIDR6,2001:df6:9e80::/48,no-resolve
   - IP-CIDR6,2001:df6:df00::/48,no-resolve
   - IP-CIDR6,2001:df6:f400::/48,no-resolve
   - IP-CIDR6,2001:df7:1480::/48,no-resolve
@@ -493,7 +492,6 @@ payload：
   - IP-CIDR6,2401:4b00::/32,no-resolve
   - IP-CIDR6,2401:4f80::/32,no-resolve
   - IP-CIDR6,2401:5180::/32,no-resolve
-  - IP-CIDR6,2401:5680::/32,no-resolve
   - IP-CIDR6,2401:58a0::/32,no-resolve
   - IP-CIDR6,2401:5960::/32,no-resolve
   - IP-CIDR6,2401:59c0::/32,no-resolve
@@ -621,6 +619,8 @@ payload：
   - IP-CIDR6,2401:bb20::/32,no-resolve
   - IP-CIDR6,2401:bb80::/32,no-resolve
   - IP-CIDR6,2401:bc60::/31,no-resolve
+  - IP-CIDR6,2401:bd60::/32,no-resolve
+  - IP-CIDR6,2401:bda0::/32,no-resolve
   - IP-CIDR6,2401:be00::/32,no-resolve
   - IP-CIDR6,2401:c200::/32,no-resolve
   - IP-CIDR6,2401:c540::/32,no-resolve
@@ -1235,7 +1235,6 @@ payload：
   - IP-CIDR6,2404:37c0::/32,no-resolve
   - IP-CIDR6,2404:3840::/32,no-resolve
   - IP-CIDR6,2404:3940::/32,no-resolve
-  - IP-CIDR6,2404:3b00::/34,no-resolve
   - IP-CIDR6,2404:3bc0::/32,no-resolve
   - IP-CIDR6,2404:3c40::/32,no-resolve
   - IP-CIDR6,2404:3f40::/32,no-resolve
