@@ -1,0 +1,16 @@
+payload:
+# 网易云规则
+ - PROCESS-NAME,cloudmusic.exe
+ - PROCESS-NAME,NeteaseMusic.exe
+ - PROCESS-NAME,cloudmusic_reporter.exe
+ - PROCESS-NAME,CrashReporter.exe
+ - PROCESS-NAME,cloudmusic_util.exe
+ - PROCESS-NAME,minidump_stackwalk.exe
+ - PROCESS-NAME,com.netease.cloudmusic
+
+ - PROCESS-NAME,com.hihonor.cloudmusic
+ - PROCESS-NAME,com.netease.cloudmusic.lite
+# - PROCESS-NAME,tech.soit.quiet.app
+ - PROCESS-NAME,LyricEase.Core.exe
+ - PROCESS-NAME,LyricEase.exe
+ - PROCESS-NAME,HyPlayer.exe
