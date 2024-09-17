@@ -1,4 +1,17 @@
 payload:
+101.36.166.16
+101.36.166.17
+101.36.166.18
+101.36.166.19
+
+   - DOMAIN-SUFFIX,doh.zjurl.cn
+   - DOMAIN-SUFFIX,tnc.bdurl.net
+   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
+   - DOMAIN-SUFFIX,dig-ec.bdurl.net
+   - DOMAIN-SUFFIX,dig-edge.byte008.com
+   - DOMAIN-SUFFIX,dig.bdurl.net
+   - DOMAIN-SUFFIX,dig.zjurl.cn
+
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,is.snssdk.com
    - DOMAIN-SUFFIX,frontier.snssdk.com
