@@ -1,9 +1,9 @@
 payload:
-   - DOMAIN,vcs.zijieapi.com
-   - DOMAIN,is.snssdk.com
-   - DOMAIN,frontier.snssdk.com
-   - DOMAIN,privacy.zijieapi.com
-   - DOMAIN,pc-mon.zijieapi.com
+   - DOMAIN-SUFFIX,vcs.zijieapi.com
+   - DOMAIN-SUFFIX,is.snssdk.com
+   - DOMAIN-SUFFIX,frontier.snssdk.com
+   - DOMAIN-SUFFIX,privacy.zijieapi.com
+   - DOMAIN-SUFFIX,pc-mon.zijieapi.com
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-alisc[0-9]{0,3}\.zijieapi.com$
