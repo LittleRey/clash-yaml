@@ -1,8 +1,9 @@
 payload:
-101.36.166.16
-101.36.166.17
-101.36.166.18
-101.36.166.19
+
+   - IP-CIDR,101.36.166.16/32
+   - IP-CIDR,101.36.166.17/32
+   - IP-CIDR,101.36.166.18/32
+   - IP-CIDR,101.36.166.19/32
 
    - DOMAIN-SUFFIX,doh.zjurl.cn
    - DOMAIN-SUFFIX,tnc.bdurl.net
