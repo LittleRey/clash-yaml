@@ -1,7 +1,12 @@
 payload:
-#WeiChat AD
-# - DOMAIN-SUFFIX,dns.weixin.com
-# - DOMAIN-SUFFIX,dns.weixin.qq.com
+# tnc3-aliec2.zijieapi.com
+   - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi.com$
+   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin.com$
 
- - DOMAIN,1.1.1.dns.weixin.com
-#spotify
+#   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
+# webcast3-ws-web-lq.douyin.com
+# webcast3-ws-web-lf.douyin.com
+# webcast3-ws-web-hl.douyin.com
+# webcast100-ws-web-hl.amemv.com
+# webcast100-ws-web-lq.amemv.com
+# webcast100-ws-web-lf.amemv.com
