@@ -4,6 +4,7 @@ payload:
    - DOMAIN-SUFFIX,frontier.snssdk.com
    - DOMAIN-SUFFIX,privacy.zijieapi.com
    - DOMAIN-SUFFIX,pc-mon.zijieapi.com
+   - DOMAIN-SUFFIX,api.toutiaoapi.com
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
