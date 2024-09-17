@@ -1,5 +1,8 @@
 payload:
-
+   - DOMAIN,vcs.zijieapi.com
+   - DOMAIN,is.snssdk.com
+   - DOMAIN,frontier.snssdk.com
+   - DOMAIN,privacy.zijieapi.com
    - DOMAIN,pc-mon.zijieapi.com
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
