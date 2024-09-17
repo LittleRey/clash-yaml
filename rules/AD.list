@@ -6,6 +6,8 @@ payload:
    - DOMAIN-SUFFIX,pc-mon.zijieapi.com
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
+# tnc0-bjlgy.bytedance.com
+   - DOMAIN-REGEX,^tnc[0-9]{0,3}-bjlgy\.bytedance.com$
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-alisc[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin.com$
