@@ -1,5 +1,6 @@
 payload:
 
+ - DOMAIN-SUFFIX,cors.buildtest.site
 #NeteaseUnBlock Third API pyncmd
 # - DOMAIN-SUFFIX,pyncmd.vercel.app
 # - IP-CIDR,76.76.21.21/32,no-resolve
