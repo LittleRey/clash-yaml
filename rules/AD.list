@@ -5,6 +5,7 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+   - DOMAIN-SUFFIX,api.amemv.com
    - DOMAIN-SUFFIX,doh.zjurl.cn
    - DOMAIN-SUFFIX,tnc.bdurl.net
    - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
@@ -34,3 +35,16 @@ payload:
 # webcast100-ws-web-hl.amemv.com
 # webcast100-ws-web-lq.amemv.com
 # webcast100-ws-web-lf.amemv.com
+
+# 星域云/网心
+#||conf-darwin.xycdn.com^
+#||seeds*-darwin.xycdn.com^
+#||seeds-open.xycdn.com^
+#||ttxyajs.data.kuiniuca.com^
+#||sd-gl.xycdn.com^
+
+   - DOMAIN-REGEX,^seeds*-darwin.xycdn.com$
+   - DOMAIN-SUFFIX,conf-darwin.xycdn.com
+   - DOMAIN-SUFFIX,seeds-open.xycdn.com
+   - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
+   - DOMAIN-SUFFIX,sd-gl.xycdn.com
