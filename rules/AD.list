@@ -43,7 +43,7 @@ payload:
 #||ttxyajs.data.kuiniuca.com^
 #||sd-gl.xycdn.com^
 
-   - DOMAIN-REGEX,^seeds*-darwin.xycdn.com$
+   - DOMAIN-REGEX,^seeds*-darwin\.xycdn\.com$
    - DOMAIN-SUFFIX,conf-darwin.xycdn.com
    - DOMAIN-SUFFIX,seeds-open.xycdn.com
    - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
