@@ -14,7 +14,7 @@ payload:
    - DOMAIN-SUFFIX,dig.bdurl.net
    - DOMAIN-SUFFIX,dig.zjurl.cn
 
-   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
+
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,is.snssdk.com
    - DOMAIN-SUFFIX,frontier.snssdk.com
@@ -51,6 +51,10 @@ payload:
    - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
    - DOMAIN-REGEX,^[a-zA-Z0-9.-]*misc-[a-zA-Z0-9.-]*\.zijieapi\.com$
    - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-misc\.zijieapi\.com$
+
+#   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
+#   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*weboff\.byteimg\.com$
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
 # webcast3-ws-web-lq.douyin.com
