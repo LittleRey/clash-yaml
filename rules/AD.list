@@ -26,6 +26,18 @@ payload:
    - DOMAIN-SUFFIX,pc-mon.snssdk.com
    - DOMAIN-SUFFIX,os-mon.snssdk.com
    - DOMAIN-SUFFIX,api.toutiaoapi.com
+
+
+# 星域云/网心
+#||conf-darwin.xycdn.com^
+#||seeds-open.xycdn.com^
+#||ttxyajs.data.kuiniuca.com^
+#||sd-gl.xycdn.com^
+   - DOMAIN-SUFFIX,conf-darwin.xycdn.com
+   - DOMAIN-SUFFIX,seeds-open.xycdn.com
+   - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
+   - DOMAIN-SUFFIX,sd-gl.xycdn.com
+
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
@@ -33,10 +45,12 @@ payload:
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-alisc[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin.com$
+   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.amemv.com$
 
    - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.snssdk\.com$
    - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
-
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*misc-[a-zA-Z0-9.-]*\.zijieapi\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-misc\.zijieapi\.com$
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
 # webcast3-ws-web-lq.douyin.com
@@ -47,14 +61,8 @@ payload:
 # webcast100-ws-web-lf.amemv.com
 
 # 星域云/网心
-#||conf-darwin.xycdn.com^
 #||seeds*-darwin.xycdn.com^
-#||seeds-open.xycdn.com^
-#||ttxyajs.data.kuiniuca.com^
-#||sd-gl.xycdn.com^
+
 
    - DOMAIN-REGEX,^seeds*-darwin\.xycdn\.com$
-   - DOMAIN-SUFFIX,conf-darwin.xycdn.com
-   - DOMAIN-SUFFIX,seeds-open.xycdn.com
-   - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
-   - DOMAIN-SUFFIX,sd-gl.xycdn.com
+
