@@ -5,6 +5,8 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+   - DOMAIN-SUFFIX,ksyungslb.com
+
    - DOMAIN-SUFFIX,api.amemv.com
    - DOMAIN-SUFFIX,doh.zjurl.cn
    - DOMAIN-SUFFIX,tnc.bdurl.net
@@ -51,6 +53,14 @@ payload:
    - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
    - DOMAIN-REGEX,^[a-zA-Z0-9.-]*misc-[a-zA-Z0-9.-]*\.zijieapi\.com$
    - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-misc\.zijieapi\.com$
+
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.zijieapi\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.zijieapi\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.amemv\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.amemv\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
+   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
+
 
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
