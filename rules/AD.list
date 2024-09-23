@@ -14,6 +14,7 @@ payload:
    - DOMAIN-SUFFIX,dig.bdurl.net
    - DOMAIN-SUFFIX,dig.zjurl.cn
 
+   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,is.snssdk.com
    - DOMAIN-SUFFIX,frontier.snssdk.com
