@@ -17,8 +17,13 @@ payload:
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,is.snssdk.com
    - DOMAIN-SUFFIX,frontier.snssdk.com
+   - DOMAIN-SUFFIX,api.feelgood.cn
    - DOMAIN-SUFFIX,privacy.zijieapi.com
    - DOMAIN-SUFFIX,pc-mon.zijieapi.com
+   - DOMAIN-SUFFIX,os-mon.zijieapi.com
+   - DOMAIN-SUFFIX,mon.snssdk.com
+   - DOMAIN-SUFFIX,pc-mon.snssdk.com
+   - DOMAIN-SUFFIX,os-mon.snssdk.com
    - DOMAIN-SUFFIX,api.toutiaoapi.com
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
@@ -27,6 +32,10 @@ payload:
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-alisc[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi.com$
    - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin.com$
+
+   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.snssdk\.com$
+   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
+
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
 # webcast3-ws-web-lq.douyin.com
