@@ -67,13 +67,13 @@ payload:
 
 
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.ibytedapm\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegoofy\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytescm\.com$
+#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegoofy\.com$
+#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytescm\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.pstatp\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegecko\.com$
 #   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.douyinstatic\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
+#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
 
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
