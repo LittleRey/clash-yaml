@@ -30,6 +30,31 @@ payload:
    - DOMAIN-SUFFIX,api.toutiaoapi.com
 
 
+# ||lf26-cj-cdn-tos.bytegecko.com^
+# ||lf26-common-release.bytetos.com^
+# ||lf26-effectcdn-tos.byteeffecttos.com^
+# ||lf3-cdn-tos.bytegecko.com^
+# ||lf3-reading.fqnovelpic.com^
+# ||lf3-short.ibytedapm.com^
+# ||lf3-webcastcdn-tos-sign.douyinstatic.com^
+# ||lf5-cdn-tos.bytegecko.com^
+# ||lf9-common-ckv-tos.pstatp.com^
+# ||lianmengapi.snssdk.com^
+
+# ||lf3-cdn-tos.bytescm.com/obj/static/log-sdk/
+# ||lf3-short.bytegoofy.com/slardar/
+# ||lf3-short.ibytedapm.com/slardar/
+# ||localhost.bytedance.com
+# ||log-sdk.ksapisrv.com/
+# ||mar.vip.com/
+# ||mcs.zijieapi.com/
+
+
+   - DOMAIN-SUFFIX,lianmengapi.snssdk.com
+   - DOMAIN-SUFFIX,localhost.bytedance.com
+   - DOMAIN-SUFFIX,log-sdk.ksapisrv.com
+
+
 # 星域云/网心
 #||conf-darwin.xycdn.com^
 #||seeds-open.xycdn.com^
@@ -39,6 +64,16 @@ payload:
    - DOMAIN-SUFFIX,seeds-open.xycdn.com
    - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
    - DOMAIN-SUFFIX,sd-gl.xycdn.com
+
+
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.ibytedapm\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegoofy\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytescm\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.pstatp\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegecko\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.douyinstatic\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
+   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
 
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
