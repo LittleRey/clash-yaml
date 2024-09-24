@@ -71,7 +71,7 @@ payload:
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytescm\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.pstatp\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegecko\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.douyinstatic\.com$
+#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.douyinstatic\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
 
