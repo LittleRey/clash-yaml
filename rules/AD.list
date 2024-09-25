@@ -78,6 +78,9 @@ payload:
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
 #   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
 
+
+#free-lbv3.idouyinvod.com
+   - DOMAIN-REGEX,^free[a-zA-Z0-9.-]*\.idouyinvod\.com$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
