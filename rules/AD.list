@@ -87,25 +87,29 @@ payload:
 # tnc100-bjlgy.snssdk.com
 # tnc0-bjlgy.zijieapi.com
 
-   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.amemv\.com$
-   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.snssdk\.com$
-   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.bytedance\.com$
-   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.amemv\.com$
+#   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.snssdk\.com$
+#   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.bytedance\.com$
+#   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.zijieapi\.com$
 #   - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi\.com$
 #   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin\.com$
 #   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.amemv\.com$
 
-   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.snssdk\.com$
-   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*misc-[a-zA-Z0-9.-]*\.zijieapi\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-misc\.zijieapi\.com$
+#   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.snssdk\.com$
+#   - DOMAIN-REGEX,^gecko[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*misc-[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-misc\.zijieapi\.com$
 
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.zijieapi\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.zijieapi\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.amemv\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.amemv\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.amemv\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.amemv\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
+#   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
+
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*analytics([a-zA-Z0-9-]+\.)*\.(bytescm|snssdk|tiktok)\.com?$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(mon|tnc|applog|log|aweme|gecko)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.com$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(misc|core|search|normal)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.com$
 
 
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
