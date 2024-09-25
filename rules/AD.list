@@ -82,10 +82,13 @@ payload:
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
 # tnc100-bjlgy.snssdk.com
-   - DOMAIN-REGEX,^tnc[0-9]{0,3}-bjlgy\.snssdk\.com$
-   - DOMAIN-REGEX,^tnc[0-9]{0,3}-bjlgy\.bytedance\.com$
-   - DOMAIN-REGEX,^tnc[0-9]{0,3}-alisc[0-9]{0,3}\.zijieapi\.com$
-   - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi\.com$
+# tnc0-bjlgy.zijieapi.com
+
+   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.amemv\.com$
+   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.snssdk\.com$
+   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.bytedance\.com$
+   - DOMAIN-REGEX,^tnc[a-zA-Z0-9.-]*\.zijieapi\.com$
+#   - DOMAIN-REGEX,^tnc[0-9]{0,3}-aliec[0-9]{0,3}\.zijieapi\.com$
 #   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.douyin\.com$
 #   - DOMAIN-REGEX,^webcast[a-zA-Z0-9-]{0,63}\.amemv\.com$
 
