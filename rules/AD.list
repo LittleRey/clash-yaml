@@ -7,14 +7,18 @@ payload:
 
    - DOMAIN-SUFFIX,ksyungslb.com
 
+   - DOMAIN-SUFFIX,byteurl.cn
+   - DOMAIN-SUFFIX,zjurl.cn
+   - DOMAIN-SUFFIX,bdurl.net
+   - DOMAIN-SUFFIX,byte008.com
    - DOMAIN-SUFFIX,api.amemv.com
-   - DOMAIN-SUFFIX,doh.zjurl.cn
-   - DOMAIN-SUFFIX,tnc.bdurl.net
-   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
-   - DOMAIN-SUFFIX,dig-ec.bdurl.net
-   - DOMAIN-SUFFIX,dig-edge.byte008.com
-   - DOMAIN-SUFFIX,dig.bdurl.net
-   - DOMAIN-SUFFIX,dig.zjurl.cn
+#   - DOMAIN-SUFFIX,doh.zjurl.cn
+#   - DOMAIN-SUFFIX,tnc.bdurl.net
+#   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
+#   - DOMAIN-SUFFIX,dig-ec.bdurl.net
+#   - DOMAIN-SUFFIX,dig-edge.byte008.com
+#   - DOMAIN-SUFFIX,dig.bdurl.net
+#   - DOMAIN-SUFFIX,dig.zjurl.cn
 
 
    - DOMAIN-SUFFIX,vcs.zijieapi.com
@@ -78,9 +82,14 @@ payload:
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
 #   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
 
+#lf-ad-ies.bytecdn.cn
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*-ad-([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*-ad-([a-zA-Z0-9-]+\.)*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+
+
 
 #xxx.free-lbv3.idouyinvod.com
-   - DOMAIN-REGEX,^*.free[a-zA-Z0-9.-]*\.idouyinvod\.com$
+   - DOMAIN-REGEX,^*.free[a-zA-Z0-9.-]*\.idouyinvod\.(com|cn|net|org|info)$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
@@ -107,9 +116,9 @@ payload:
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
 
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*analytics([a-zA-Z0-9-]+\.)*\.(bytescm|snssdk|tiktok)\.com?$
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(mon|tnc|applog|log|aweme|gecko)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.com$
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(misc|core|search|normal)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.com$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*analytics([a-zA-Z0-9-]+\.)*\.(bytescm|snssdk|tiktok)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(mon|tnc|applog|log|aweme|gecko)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(misc|core|search|normal)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
 
 
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
