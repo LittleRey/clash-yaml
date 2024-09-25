@@ -64,7 +64,8 @@ payload:
    - DOMAIN-SUFFIX,seeds-open.xycdn.com
    - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
    - DOMAIN-SUFFIX,sd-gl.xycdn.com
-
+#0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
+   - DOMAIN-SUFFIX,sjxydc.com
 
    - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.ibytedapm\.com$
 #   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegoofy\.com$
