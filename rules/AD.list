@@ -5,6 +5,8 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+
+   - DOMAIN-SUFFIX,ndcpp.com
    - DOMAIN-SUFFIX,yhgfb-cn-static
    - DOMAIN-SUFFIX,ksyungslb.com
    - DOMAIN-SUFFIX,mobgslb.tbcache.com
@@ -75,7 +77,7 @@ payload:
    - DOMAIN-SUFFIX,sjxydc.com
    - DOMAIN-SUFFIX,xdrtc.com
 
-   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos|yhgfb-cn-static|bytetcc)\.com$
+   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos|yhgfb-cn-static|bytetcc|douyinstatic)\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.douyinstatic\.com$
