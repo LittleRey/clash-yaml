@@ -74,7 +74,7 @@ payload:
    - DOMAIN-SUFFIX,sjxydc.com
    - DOMAIN-SUFFIX,xdrtc.com
 
-   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos)\.com$
+   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos|yhgfb-cn-static|bytetcc.com)\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.douyinstatic\.com$
