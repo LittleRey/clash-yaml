@@ -77,7 +77,7 @@ payload:
    - DOMAIN-SUFFIX,sjxydc.com
    - DOMAIN-SUFFIX,xdrtc.com
 
-   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos|yhgfb-cn-static|bytetcc|douyinstatic)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|bytegoofy|bytetos|yhgfb-cn-static|bytetcc|douyinstatic|douyinpic)\.(com|cn|net|org|info)$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.douyinstatic\.com$
@@ -123,7 +123,7 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|applog|log|aweme|gecko)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|core|search|normal)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|douyinpic|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
