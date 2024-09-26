@@ -6,7 +6,7 @@ payload:
    - IP-CIDR,101.36.166.19/32
 
    - DOMAIN-SUFFIX,ksyungslb.com
-
+   - DOMAIN-SUFFIX,mobgslb.tbcache.com
    - DOMAIN-SUFFIX,smtcdns.net
    - DOMAIN-SUFFIX,byteurl.cn
    - DOMAIN-SUFFIX,zjurl.cn
