@@ -14,7 +14,7 @@ payload:
    - DOMAIN-SUFFIX,byte008.com
    - DOMAIN-SUFFIX,api.amemv.com
    - DOMAIN-SUFFIX,doh.zjurl.cn
-#   - DOMAIN-SUFFIX,tnc.bdurl.net
+   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
 #   - DOMAIN-SUFFIX,dig-ec.bdurl.net
 #   - DOMAIN-SUFFIX,dig-edge.byte008.com
