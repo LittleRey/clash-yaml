@@ -80,14 +80,11 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytetos\.com$
 
 #lf-ad-ies.bytecdn.cn
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ad-[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ad-[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ad-[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ads[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ads[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ads[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 
 #xxx.free-lbv3.idouyinvod.com
@@ -118,9 +115,9 @@ payload:
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(bytescm|snssdk|tiktok)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|applog|log|aweme|gecko)[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|core|search|normal)[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|applog|log|aweme|gecko)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|core|search|normal)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 
 
