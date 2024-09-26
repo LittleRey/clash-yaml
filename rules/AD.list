@@ -7,6 +7,7 @@ payload:
 
 
 #   - DOMAIN-SUFFIX,ndcpp.com
+   - DOMAIN-SUFFIX,render.ecombdpage.com
    - DOMAIN-SUFFIX,yhgfb-cn-static
    - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
