@@ -5,6 +5,9 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+   - DOMAIN-SUFFIX,dailyvpn.io
+   - DOMAIN-SUFFIX,dailygn.com
+   - DOMAIN-SUFFIX,starrydyn.com
    - DOMAIN-SUFFIX,mktm.jd.com
 #   - DOMAIN-SUFFIX,ndcpp.com
    - DOMAIN-SUFFIX,render.ecombdpage.com
