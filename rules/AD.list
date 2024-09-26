@@ -17,7 +17,7 @@ payload:
    - DOMAIN-SUFFIX,bdurl.net
    - DOMAIN-SUFFIX,byte008.com
 #   - DOMAIN-SUFFIX,api.amemv.com
-#   - DOMAIN-SUFFIX,doh.zjurl.cn
+   - DOMAIN-SUFFIX,doh.zjurl.cn
 #   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
 #   - DOMAIN-SUFFIX,dig-ec.bdurl.net
@@ -122,10 +122,13 @@ payload:
 
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 #|applog|log|aweme
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|core|search|normal)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+
+
+# |core
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|search|normal)[a-zA-Z0-9-]*\.(snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
