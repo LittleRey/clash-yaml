@@ -73,23 +73,25 @@ payload:
    - DOMAIN-SUFFIX,sjxydc.com
    - DOMAIN-SUFFIX,xdrtc.com
 
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.ibytedapm\.com$
-#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegoofy\.com$
-#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytescm\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.pstatp\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytegecko\.com$
-#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.douyinstatic\.com$
-   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.byteeffecttos\.com$
-#   - DOMAIN-REGEX,^lf[a-zA-Z0-9.-]*\.bytetos\.com$
+   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos)\.com$
+#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
+#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
+#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.douyinstatic\.com$
+#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytetos\.com$
 
 #lf-ad-ies.bytecdn.cn
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*-ad-([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*-ad-([a-zA-Z0-9-]+\.)*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
 
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ad-[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ad-[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
+
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ads[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*ads[a-zA-Z0-9-]*\.byte[a-zA-Z0-9-]*\.(com|cn|net|org|info)$
 
 
 #xxx.free-lbv3.idouyinvod.com
-   - DOMAIN-REGEX,^*.free[a-zA-Z0-9.-]*\.idouyinvod\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.(com|cn|net|org|info)$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
@@ -116,14 +118,15 @@ payload:
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
 
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*analytics([a-zA-Z0-9-]+\.)*\.(bytescm|snssdk|tiktok)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(mon|tnc|applog|log|aweme|gecko)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
-   - DOMAIN-REGEX,^([a-zA-Z0-9-]+\.)*(misc|core|search|normal)([a-zA-Z0-9-]+\.)*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(bytescm|snssdk|tiktok)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|applog|log|aweme|gecko)[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(misc|core|search|normal)[a-zA-Z0-9-]*\.(snssdk|btedance|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua)\.(com|cn|net|org|info)$
+
 
 
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
-   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*weboff\.byteimg\.com$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.com$
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
 # webcast3-ws-web-lq.douyin.com
@@ -137,5 +140,5 @@ payload:
 #||seeds*-darwin.xycdn.com^
 
 
-   - DOMAIN-REGEX,^seeds*-darwin\.xycdn\.com$
+   - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.com$
 
