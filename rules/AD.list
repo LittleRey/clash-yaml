@@ -80,10 +80,10 @@ payload:
 #||seeds-open.xycdn.com^
 #||ttxyajs.data.kuiniuca.com^
 #||sd-gl.xycdn.com^
-   - DOMAIN-SUFFIX,conf-darwin.xycdn.com
-   - DOMAIN-SUFFIX,seeds-open.xycdn.com
-   - DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com
-   - DOMAIN-SUFFIX,sd-gl.xycdn.com
+
+   - DOMAIN-SUFFIX,xycdn.com
+   - DOMAIN-SUFFIX,kuiniuca.com
+
 #0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
 #iceudpstat.xdrtc.com
    - DOMAIN-SUFFIX,sjxydc.com
