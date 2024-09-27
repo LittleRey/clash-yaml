@@ -6,7 +6,8 @@ payload:
    - IP-CIDR,101.36.166.19/32
 
 
-
+   - DOMAIN-SUFFIX,vegalb.com
+   - DOMAIN-SUFFIX,vegslb.com
    - DOMAIN-SUFFIX,ietheivaicai.com
 
    - DOMAIN-SUFFIX,supercachenet.com
