@@ -5,6 +5,8 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+   - DOMAIN-SUFFIX,id6.me
+
    - DOMAIN-SUFFIX,ulikecam.com
    - DOMAIN-SUFFIX,qnqcdn.net
    - DOMAIN-SUFFIX,zjcdn.com
