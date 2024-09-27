@@ -41,6 +41,9 @@ payload:
  - AND,((IP-CIDR,111.225.147.191/32,no-resolve),(DST-PORT,6443))
  - AND,((IP-CIDR,111.63.61.101/32,no-resolve),(DST-PORT,6443))
  - AND,((IP-CIDR,220.243.141.0/32,no-resolve),(DST-PORT,6443))
+ - IP-CIDR,223.244.186.245/32,no-resolve
+ - IP-CIDR,58.218.65.6/32,no-resolve
+
 
 #微信
  - DOMAIN-SUFFIX,dns.weixin.qq.com
