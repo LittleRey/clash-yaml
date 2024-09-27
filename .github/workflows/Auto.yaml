@@ -26,7 +26,8 @@ jobs:
           python get-cn-v6.py
           python get-cn-v4.py
           python peiqian.py
-      
+          python httpdns.py
+          
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
