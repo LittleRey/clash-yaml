@@ -5,7 +5,14 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+   - DOMAIN-SUFFIX,ulikecam.com
+   - DOMAIN-SUFFIX,qnqcdn.net
+   - DOMAIN-SUFFIX,zjcdn.com
 
+   - DOMAIN-SUFFIX,ecombdapi.com
+   - DOMAIN-SUFFIX,ecombdimg.com
+   - DOMAIN-SUFFIX,ecombdstatic.com
+#   - DOMAIN-SUFFIX,render.ecombdpage.com
    - DOMAIN-SUFFIX,vegalb.com
    - DOMAIN-SUFFIX,vegslb.com
    - DOMAIN-SUFFIX,ietheivaicai.com
@@ -18,7 +25,7 @@ payload:
    - DOMAIN-SUFFIX,starrydyn.com
    - DOMAIN-SUFFIX,mktm.jd.com
 #   - DOMAIN-SUFFIX,ndcpp.com
-   - DOMAIN-SUFFIX,render.ecombdpage.com
+
    - DOMAIN-SUFFIX,yhgfb-cn-static.com
    - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
