@@ -12,7 +12,7 @@ payload:
    - DOMAIN-SUFFIX,ecombdapi.com
    - DOMAIN-SUFFIX,ecombdimg.com
    - DOMAIN-SUFFIX,ecombdstatic.com
-#   - DOMAIN-SUFFIX,render.ecombdpage.com
+   - DOMAIN-SUFFIX,render.ecombdpage.com
    - DOMAIN-SUFFIX,vegalb.com
    - DOMAIN-SUFFIX,vegslb.com
    - DOMAIN-SUFFIX,ietheivaicai.com
