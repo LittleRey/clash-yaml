@@ -37,6 +37,8 @@ payload:
    - DOMAIN-SUFFIX,bdurl.net
    - DOMAIN-SUFFIX,byte008.com
    - DOMAIN-SUFFIX,api.amemv.com
+   - DOMAIN-SUFFIX,api-play-hl.amemv.com
+   - DOMAIN-SUFFIX,api-hl.amemv.com
    - DOMAIN-SUFFIX,doh.zjurl.cn
 #   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
@@ -149,8 +151,7 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 #sf5-hl-cdn-tos.douyinstatic.com
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*cdn-tos[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
-
+#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*cdn-tos[a-zA-Z0-9-]*\.(?!douyinstatic\.)[a-zA-Z0-9-]*(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
