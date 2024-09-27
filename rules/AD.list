@@ -146,6 +146,12 @@ payload:
 
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
+#sf5-hl-cdn-tos.douyinstatic.com
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*cdn-tos[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+
+
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(douyin|snssdk|zijieapi|toutiaoapi|amemv|toutiaocloud|fqnovel|novelfm|ixigua|byte[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.(com|cn|net|org|info)$
