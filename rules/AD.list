@@ -42,13 +42,16 @@ payload:
    - DOMAIN-SUFFIX,zjurl.cn
    - DOMAIN-SUFFIX,bdurl.net
    - DOMAIN-SUFFIX,byte008.com
-   - DOMAIN-SUFFIX,api.amemv.com
-   - DOMAIN-SUFFIX,api-play-hl.amemv.com
-   - DOMAIN-SUFFIX,api-hl.amemv.com
-   - DOMAIN-SUFFIX,webcast.amemv.com
+#   - DOMAIN-SUFFIX,api.amemv.com
+#   - DOMAIN-SUFFIX,api-play-hl.amemv.com
+#   - DOMAIN-SUFFIX,api-hl.amemv.com
+#   - DOMAIN-SUFFIX,webcast.amemv.com
 
+   - DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
+   - DOMAIN-SUFFIX,pitaya.bytedance.com 
+#算法监控
 
-   - DOMAIN-SUFFIX,doh.zjurl.cn
+#   - DOMAIN-SUFFIX,doh.zjurl.cn
 #   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
 #   - DOMAIN-SUFFIX,dig-ec.bdurl.net
@@ -56,7 +59,7 @@ payload:
 #   - DOMAIN-SUFFIX,dig.bdurl.net
 #   - DOMAIN-SUFFIX,dig.zjurl.cn
 
-   - DOMAIN-SUFFIX,aweme.snssdk.com
+#   - DOMAIN-SUFFIX,aweme.snssdk.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,is.snssdk.com
 #   - DOMAIN-SUFFIX,frontier.snssdk.com
