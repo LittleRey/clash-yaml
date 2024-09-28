@@ -5,6 +5,10 @@ payload:
    - IP-CIDR,101.36.166.18/32
    - IP-CIDR,101.36.166.19/32
 
+#api5-hl.qishui.com
+   - DOMAIN-SUFFIX,qishui.com
+   - DOMAIN-SUFFIX,volcsirius.com
+
    - DOMAIN-SUFFIX,id6.me
 
    - DOMAIN-SUFFIX,ulikecam.com
@@ -39,6 +43,7 @@ payload:
    - DOMAIN-SUFFIX,api.amemv.com
    - DOMAIN-SUFFIX,api-play-hl.amemv.com
    - DOMAIN-SUFFIX,api-hl.amemv.com
+
    - DOMAIN-SUFFIX,doh.zjurl.cn
 #   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
