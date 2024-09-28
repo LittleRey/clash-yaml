@@ -144,7 +144,7 @@ payload:
 
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
    - DOMAIN-REGEX,^(.*\.)?(?!api[^.]*-)[a-zA-Z0-9-]*(misc|search|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
