@@ -28,6 +28,11 @@ payload:
  - DOMAIN-SUFFIX,ttnet-dig.feishu.cn
 #bgp.netarch-aliec2-edge-lb.l.bytedns.net
 
+#字节cors服务
+
+ - DOMAIN-SUFFIX,rsproxy.cn
+ - IP-CIDR,220.243.141.215/32,no-resolve
+
 #抖音
 # - AND,((DOMAIN-KEYWORD,api100-core-quic-),(DOMAIN-SUFFIX,amemv.com))
 # - AND,((DOMAIN-KEYWORD,api100-normal-quic-),(DOMAIN-SUFFIX,amemv.com))
