@@ -21,6 +21,12 @@ payload:
 
 #虎牙
  - DOMAIN-SUFFIX,cdn.wup.huya.com
+#火山DNS
+ - DOMAIN-SUFFIX,volcdns.pub
+ - DOMAIN-SUFFIX,volcengineapi.com
+ - DOMAIN-SUFFIX,ttnet-doh.feishu.cn
+ - DOMAIN-SUFFIX,ttnet-dig.feishu.cn
+#bgp.netarch-aliec2-edge-lb.l.bytedns.net
 
 #抖音
 # - AND,((DOMAIN-KEYWORD,api100-core-quic-),(DOMAIN-SUFFIX,amemv.com))
@@ -44,7 +50,8 @@ payload:
 # - IP-CIDR,223.244.186.245/32,no-resolve
 ##api5-core-lf.amemv.com
 # - IP-CIDR,58.218.65.6/32,no-resolve
-
+#dot.volcdns.pub非解析IP
+ - IP-CIDR,8.134.241.67/32,no-resolve
 
 #微信
  - DOMAIN-SUFFIX,dns.weixin.qq.com
