@@ -15,6 +15,16 @@ payload:
    - DOMAIN-SUFFIX,qnqcdn.net
    - DOMAIN-SUFFIX,zjcdn.com
 
+#采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
+   - DOMAIN-SUFFIX,bds.snssdk.com
+   - DOMAIN-SUFFIX,extlog.snssdk.com
+   - DOMAIN-SUFFIX,pangolin.snssdk.com
+   - DOMAIN-SUFFIX,i.snssdk.com
+   - DOMAIN-SUFFIX,is.snssdk.com
+   - DOMAIN-SUFFIX,byteurl.cn
+   - DOMAIN-SUFFIX,zjurl.cn
+   - DOMAIN-SUFFIX,bdurl.net
+   - DOMAIN-SUFFIX,byte008.com
 
    - DOMAIN-SUFFIX,onethingpcs.com
    - DOMAIN-SUFFIX,ecombdapi.com
@@ -38,10 +48,7 @@ payload:
    - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 #   - DOMAIN-SUFFIX,smtcdns.net
-   - DOMAIN-SUFFIX,byteurl.cn
-   - DOMAIN-SUFFIX,zjurl.cn
-   - DOMAIN-SUFFIX,bdurl.net
-   - DOMAIN-SUFFIX,byte008.com
+
 #   - DOMAIN-SUFFIX,api.amemv.com
 #   - DOMAIN-SUFFIX,api-play-hl.amemv.com
 #   - DOMAIN-SUFFIX,api-hl.amemv.com
@@ -61,7 +68,6 @@ payload:
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
-   - DOMAIN-SUFFIX,is.snssdk.com
 #   - DOMAIN-SUFFIX,frontier.snssdk.com
    - DOMAIN-SUFFIX,api.feelgood.cn
    - DOMAIN-SUFFIX,privacy.zijieapi.com
