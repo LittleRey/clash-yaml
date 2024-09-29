@@ -33,6 +33,15 @@ payload:
  - DOMAIN-SUFFIX,rsproxy.cn
 # - IP-CIDR,220.243.141.215/32,no-resolve
 
+#字节httpDNS接口
+#https://dig.bdurl.net/q?host=baidu.com
+ - DOMAIN-SUFFIX,dig.bdurl.net
+ - DOMAIN-SUFFIX,dig.byteoversea.com
+ - DOMAIN-SUFFIX,boe-gateway.byted.org
+ - DOMAIN-SUFFIX,bytetsd-router.byted.org
+ - DOMAIN-SUFFIX,boe-lb.bytedns.net
+
+
 #抖音
 # - AND,((DOMAIN-KEYWORD,api100-core-quic-),(DOMAIN-SUFFIX,amemv.com))
 # - AND,((DOMAIN-KEYWORD,api100-normal-quic-),(DOMAIN-SUFFIX,amemv.com))
