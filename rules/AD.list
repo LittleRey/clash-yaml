@@ -61,13 +61,13 @@ payload:
    - DOMAIN-SUFFIX,pitaya.bytedance.com 
 #算法监控
 
-#   - DOMAIN-SUFFIX,doh.zjurl.cn
-#   - DOMAIN-SUFFIX,tnc.bdurl.net
+   - DOMAIN-SUFFIX,doh.zjurl.cn
+   - DOMAIN-SUFFIX,tnc.bdurl.net
 #   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
-#   - DOMAIN-SUFFIX,dig-ec.bdurl.net
-#   - DOMAIN-SUFFIX,dig-edge.byte008.com
-#   - DOMAIN-SUFFIX,dig.bdurl.net
-#   - DOMAIN-SUFFIX,dig.zjurl.cn
+   - DOMAIN-SUFFIX,dig-ec.bdurl.net
+   - DOMAIN-SUFFIX,dig-edge.byte008.com
+   - DOMAIN-SUFFIX,dig.bdurl.net
+   - DOMAIN-SUFFIX,dig.zjurl.cn
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
 #   - DOMAIN-SUFFIX,ib.snssdk.com
@@ -172,7 +172,7 @@ payload:
 
 #   - DOMAIN-REGEX,^(.*\.)?(?!api[^.]*-)[a-zA-Z0-9-]*(misc|search|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 # 二级域名剔除|search  疑似搜索接口 增加剔除mssdk 疑似sdk接口
-   - DOMAIN-REGEX,^(.*\.)?(?!(api|frontier|webcast|polaris|mssdk[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+   - DOMAIN-REGEX,^(.*\.)?(?!(api|frontier|webcast|polaris|mssdk)[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
