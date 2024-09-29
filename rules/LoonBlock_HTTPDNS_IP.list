@@ -28,6 +28,13 @@ payload:
 # - DOMAIN-SUFFIX,ttnet-dig.feishu.cn
 #bgp.netarch-aliec2-edge-lb.l.bytedns.net
 
+#字节httpDNS接口
+##https://dig.bdurl.net/q?host=example.com
+ - IP-CIDR101.36.166.16/32,no-resolve
+ - IP-CIDR101.36.166.17/32,no-resolve
+ - IP-CIDR101.36.166.18/32,no-resolve
+ - IP-CIDR101.36.166.19/32,no-resolve
+
 #字节cors服务
 
 # - DOMAIN-SUFFIX,rsproxy.cn
@@ -53,10 +60,7 @@ payload:
  - AND,((IP-CIDR,111.63.61.101/32,no-resolve),(DST-PORT,6443))
  - AND,((IP-CIDR,220.243.141.0/32,no-resolve),(DST-PORT,6443))
 
- - IP-CIDR101.36.166.16/32,no-resolve
- - IP-CIDR101.36.166.17/32,no-resolve
- - IP-CIDR101.36.166.18/32,no-resolve
- - IP-CIDR101.36.166.19/32,no-resolve
+
 
 # - IP-CIDR,223.244.186.245/32,no-resolve
 ##api5-core-lf.amemv.com
