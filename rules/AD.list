@@ -18,6 +18,7 @@ payload:
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
    - DOMAIN-SUFFIX,bds.snssdk.com
    - DOMAIN-SUFFIX,extlog.snssdk.com
+   - DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
    - DOMAIN-SUFFIX,pangolin.snssdk.com
    - DOMAIN-SUFFIX,i.snssdk.com
    - DOMAIN-SUFFIX,is.snssdk.com
