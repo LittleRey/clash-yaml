@@ -1,9 +1,9 @@
 payload:
 
-   - IP-CIDR,101.36.166.16/32
-   - IP-CIDR,101.36.166.17/32
-   - IP-CIDR,101.36.166.18/32
-   - IP-CIDR,101.36.166.19/32
+#   - IP-CIDR,101.36.166.16/32
+#   - IP-CIDR,101.36.166.17/32
+#   - IP-CIDR,101.36.166.18/32
+#   - IP-CIDR,101.36.166.19/32
 
 #api5-hl.qishui.com
    - DOMAIN-SUFFIX,qishui.com
