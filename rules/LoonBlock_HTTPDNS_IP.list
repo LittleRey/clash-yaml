@@ -34,6 +34,11 @@ payload:
  - IP-CIDR,101.36.166.17/32,no-resolve
  - IP-CIDR,101.36.166.18/32,no-resolve
  - IP-CIDR,101.36.166.19/32,no-resolve
+#境外 生效
+ - IP-CIDR,34.102.215.99/32,no-resolve
+#疑似 未生效
+ - IP-CIDR,124.236.16.201/32,no-resolve
+ - IP-CIDR,34.206.39.153/32,no-resolve
 
 #字节cors服务
 
