@@ -30,10 +30,10 @@ payload:
 
 #字节httpDNS接口
 ##https://dig.bdurl.net/q?host=example.com
- - IP-CIDR101.36.166.16/32,no-resolve
- - IP-CIDR101.36.166.17/32,no-resolve
- - IP-CIDR101.36.166.18/32,no-resolve
- - IP-CIDR101.36.166.19/32,no-resolve
+ - IP-CIDR,101.36.166.16/32,no-resolve
+ - IP-CIDR,101.36.166.17/32,no-resolve
+ - IP-CIDR,101.36.166.18/32,no-resolve
+ - IP-CIDR,101.36.166.19/32,no-resolve
 
 #字节cors服务
 
