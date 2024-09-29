@@ -35,11 +35,11 @@ payload:
 
 #字节httpDNS接口
 #https://dig.bdurl.net/q?host=baidu.com
- - DOMAIN-SUFFIX,dig.bdurl.net
- - DOMAIN-SUFFIX,dig.byteoversea.com
+# - DOMAIN-SUFFIX,dig.bdurl.net
+# - DOMAIN-SUFFIX,dig.byteoversea.com
  - DOMAIN-SUFFIX,boe-gateway.byted.org
- - DOMAIN-SUFFIX,bytetsd-router.byted.org
- - DOMAIN-SUFFIX,boe-lb.bytedns.net
+# - DOMAIN-SUFFIX,bytetsd-router.byted.org
+# - DOMAIN-SUFFIX,boe-lb.bytedns.net
 
 
 #抖音
