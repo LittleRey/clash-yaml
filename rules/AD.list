@@ -55,7 +55,7 @@ payload:
 #   - DOMAIN-SUFFIX,api.amemv.com
 #   - DOMAIN-SUFFIX,api-play-hl.amemv.com
 #   - DOMAIN-SUFFIX,api-hl.amemv.com
-#   - DOMAIN-SUFFIX,webcast.amemv.com
+   - DOMAIN-SUFFIX,webcast.amemv.com
 
    - DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
    - DOMAIN-SUFFIX,pitaya.bytedance.com 
