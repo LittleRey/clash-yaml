@@ -5,6 +5,8 @@ payload:
 #   - IP-CIDR,101.36.166.18/32
 #   - IP-CIDR,101.36.166.19/32
 
+
+
 #api5-hl.qishui.com
    - DOMAIN-SUFFIX,qishui.com
    - DOMAIN-SUFFIX,volcsirius.com
@@ -195,7 +197,7 @@ payload:
 
 # 星域云/网心
 #||seeds*-darwin.xycdn.com^
-
-
+#apd-pcdniegwzlogin.teg.tencent-cloud.net
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*pcdn[a-zA-Z0-9-]*\.(.*\.)?tencent-cloud.(com|cn|net|org|info)$
    - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.(com|cn|net|org|info)$
 
