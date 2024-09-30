@@ -16,8 +16,8 @@ payload:
    - DOMAIN-SUFFIX,ulikecam.com
    - DOMAIN-SUFFIX,qnqcdn.net
    - DOMAIN-SUFFIX,zjcdn.com
-
-#   - DOMAIN-SUFFIX,ecomuser.snssdk.com
+#直播推荐相关
+   - DOMAIN-SUFFIX,ecomuser.snssdk.com
 
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
    - DOMAIN-SUFFIX,bds.snssdk.com
