@@ -54,9 +54,9 @@ payload:
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 #   - DOMAIN-SUFFIX,smtcdns.net
 
-#   - DOMAIN-SUFFIX,api.amemv.com
-#   - DOMAIN-SUFFIX,api-play-hl.amemv.com
-#   - DOMAIN-SUFFIX,api-hl.amemv.com
+   - DOMAIN-SUFFIX,api.amemv.com
+   - DOMAIN-SUFFIX,api-play-hl.amemv.com
+   - DOMAIN-SUFFIX,api-hl.amemv.com
    - DOMAIN-SUFFIX,webcast.amemv.com
 
    - DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
