@@ -39,7 +39,8 @@ payload:
 #疑似 未生效
 # - IP-CIDR,124.236.16.201/32,no-resolve
 # - IP-CIDR,34.206.39.153/32,no-resolve
-
+#101.126.58.201:6443
+ - IP-CIDR,101.126.58.201/32,no-resolve
 #字节cors服务
 
 # - DOMAIN-SUFFIX,rsproxy.cn
