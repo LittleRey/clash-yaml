@@ -97,6 +97,8 @@ payload:
 
 #PUBG 语音
 # - DOMAIN-SUFFIX,vivox.com
+ - DOMAIN-SUFFIX,pubwxp.www.vivox.com
+ - DOMAIN-SUFFIX,pubwxp-mim.vivox.com
 
 ###
 # - DOMAIN-SUFFIX,wmsjsteam.com
