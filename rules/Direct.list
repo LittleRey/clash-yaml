@@ -1,5 +1,13 @@
 payload:
 
+#webrtc服务
+ - DOMAIN-SUFFIX,webrtc.chatgpt.com
+ - DOMAIN-SUFFIX,turn.livekit.cloud
+ - DOMAIN-SUFFIX,host.livekit.cloud
+ - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+
+
+
  - DOMAIN-SUFFIX,cn-cors.buildtest.site
 #向日葵
  - PROCESS-NAME,SunloginClient.exe
