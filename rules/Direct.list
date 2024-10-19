@@ -2,12 +2,12 @@ payload:
 
 #webrtc服务
 # - DOMAIN-SUFFIX,webrtc.chatgpt.com
- - DOMAIN-SUFFIX,turn.livekit.cloud
- - DOMAIN-SUFFIX,host.livekit.cloud
- - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+# - DOMAIN-SUFFIX,turn.livekit.cloud
+# - DOMAIN-SUFFIX,host.livekit.cloud
+# - DOMAIN-SUFFIX,chatgpt.livekit.cloud
 
- - DOMAIN-REGEX,^(.*\.)?stun(\.[^.]+){2,}$
- - DOMAIN-REGEX,^(.*\.)?turn(\.[^.]+){2,}$
+# - DOMAIN-REGEX,^(.*\.)?stun(\.[^.]+){2,}$
+# - DOMAIN-REGEX,^(.*\.)?turn(\.[^.]+){2,}$
 # - DOMAIN-REGEX,^(.*\.)?webrtc(\.[^.]+){2,}$
 
 
