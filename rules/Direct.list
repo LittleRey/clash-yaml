@@ -6,6 +6,9 @@ payload:
  - DOMAIN-SUFFIX,host.livekit.cloud
  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
 
+ - DOMAIN-REGEX,^(.*\.)?stun(\.[^.]+){2,}$
+ - DOMAIN-REGEX,^(.*\.)?turn(\.[^.]+){2,}$
+ - DOMAIN-REGEX,^(.*\.)?webrtc(\.[^.]+){2,}$
 
 
  - DOMAIN-SUFFIX,cn-cors.buildtest.site
