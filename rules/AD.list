@@ -5,6 +5,8 @@ payload:
 #   - IP-CIDR,101.36.166.18/32
 #   - IP-CIDR,101.36.166.19/32
 
+
+   - DOMAIN-SUFFIX,prod.smoba.qq.com
    - DOMAIN-SUFFIX,thirdqq.qlogo.cn
    - DOMAIN-SUFFIX,thirdwx.qlogo.cn
 #api5-hl.qishui.com
