@@ -1,0 +1,13 @@
+payload:
+
+#   - IP-CIDR,101.36.166.16/32
+#   - IP-CIDR,101.36.166.17/32
+#   - IP-CIDR,101.36.166.18/32
+#   - IP-CIDR,101.36.166.19/32
+
+#王者荣耀识别人机 人机用户匹配时不显示头像
+#measurement.sh.prod.smoba.qq.com
+   - DOMAIN-REGEX,^(.*\.)?measurement\.(.*\.)?smoba\.qq\.com$
+
+   - DOMAIN-SUFFIX,thirdqq.qlogo.cn
+   - DOMAIN-SUFFIX,thirdwx.qlogo.cn
