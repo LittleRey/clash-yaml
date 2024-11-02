@@ -5,9 +5,32 @@ payload:
 #   - IP-CIDR,101.36.166.18/32
 #   - IP-CIDR,101.36.166.19/32
 
+
+
+
+hc2.tdm.qq.com
+receiver.tdm.qq.com
 #王者荣耀识别人机 人机用户匹配时不显示头像
 #measurement.sh.prod.smoba.qq.com
    - DOMAIN-REGEX,^(.*\.)?measurement\.(.*\.)?smoba\.qq\.com$
+
+#   measurement.tj.prod.smoba.qq.com
+#   measurement.tj.ce.smoba.qq.com
+   - IP-CIDR,150.109.249.194/32
+   - IP-CIDR,42.81.179.236/32
+
+#   measurement.sh.prod.smoba.qq.com
+#   measurement.sh.ce.smoba.qq.com
+   - IP-CIDR,117.89.181.34/32
+   - IP-CIDR,180.102.111.63/32
+
+#   measurement.cq.prod.smoba.qq.com
+#   measurement.cq.ce.smoba.qq.com
+   - IP-CIDR,113.250.24.152/32
+
+#   measurement.gz.prod.smoba.qq.com
+#   measurement.gz.ce.smoba.qq.com
+   - IP-CIDR,43.154.240.15/32
 
    - DOMAIN-SUFFIX,thirdqq.qlogo.cn
    - DOMAIN-SUFFIX,thirdwx.qlogo.cn
