@@ -7,9 +7,9 @@ payload:
 
 
 
-
-hc2.tdm.qq.com
-receiver.tdm.qq.com
+#腾讯游戏TDM信息收集系统
+   - DOMAIN-SUFFIX,hc2.tdm.qq.com
+   - DOMAIN-SUFFIX,receiver.tdm.qq.com
 #王者荣耀识别人机 人机用户匹配时不显示头像
 #measurement.sh.prod.smoba.qq.com
    - DOMAIN-REGEX,^(.*\.)?measurement\.(.*\.)?smoba\.qq\.com$
