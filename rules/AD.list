@@ -56,7 +56,7 @@ payload:
    - DOMAIN-SUFFIX,mktm.jd.com
 #   - DOMAIN-SUFFIX,ndcpp.com
 
-   - DOMAIN-SUFFIX,yhgfb-cn-static.com
+#   - DOMAIN-SUFFIX,yhgfb-cn-static.com
    - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 #   - DOMAIN-SUFFIX,smtcdns.net
