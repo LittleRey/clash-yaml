@@ -23,8 +23,7 @@ payload:
    - DOMAIN-SUFFIX,ulikecam.com
    - DOMAIN-SUFFIX,qnqcdn.net
    - DOMAIN-SUFFIX,zjcdn.com
-#直播推荐相关
-#   - DOMAIN-SUFFIX,ecomuser.snssdk.com
+
 
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
    - DOMAIN-SUFFIX,bds.snssdk.com
@@ -131,6 +130,10 @@ payload:
    - DOMAIN-SUFFIX,sjxydc.com
    - DOMAIN-SUFFIX,xdrtc.com
 
+#直播推荐相关
+   - DOMAIN-SUFFIX,ecomuser.snssdk.com
+
+
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|yhgfb-cn-static)\.(com|cn|net|org|info)$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
@@ -190,10 +193,12 @@ payload:
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
-   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
-   - DOMAIN-SUFFIX,p2-pc-weboff.byteimg.com
-   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
-#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.(com|cn|net|org|info)$
+#疑似抖音推送控制
+#   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
+#   - DOMAIN-SUFFIX,p2-pc-weboff.byteimg.com
+#   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.(com|cn|net|org|info)$
+
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.com$
 # webcast3-ws-web-lq.douyin.com
