@@ -11,6 +11,9 @@ payload:
 
 #   - DOMAIN-SUFFIX,thirdqq.qlogo.cn
 #   - DOMAIN-SUFFIX,thirdwx.qlogo.cn
+
+#疑似广告推送
+   - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
 #api5-hl.qishui.com
    - DOMAIN-SUFFIX,qishui.com
    - DOMAIN-SUFFIX,volcsirius.com
