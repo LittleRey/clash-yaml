@@ -40,5 +40,5 @@ payload:
 #   measurement.gz.ce.smoba.qq.com
    - IP-CIDR,43.154.240.15/32
 ##疑似机器人头像库
-#   - DOMAIN-SUFFIX,thirdqq.qlogo.cn
-#   - DOMAIN-SUFFIX,thirdwx.qlogo.cn
+   - DOMAIN-SUFFIX,thirdqq.qlogo.cn
+   - DOMAIN-SUFFIX,thirdwx.qlogo.cn
