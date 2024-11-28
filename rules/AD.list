@@ -12,6 +12,8 @@ payload:
 #   - DOMAIN-SUFFIX,thirdqq.qlogo.cn
 #   - DOMAIN-SUFFIX,thirdwx.qlogo.cn
 
+#ChatGPT  EasyPrivacy blocks this
+   - DOMAIN-SUFFIX,ab.chatgpt.com
 #疑似广告推送
    - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
 #api5-hl.qishui.com
