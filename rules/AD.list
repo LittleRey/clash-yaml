@@ -81,7 +81,7 @@ payload:
    - DOMAIN-SUFFIX,dig-edge.byte008.com
    - DOMAIN-SUFFIX,dig.bdurl.net
    - DOMAIN-SUFFIX,dig.zjurl.cn
-   - DOMAIN-SUFFIX,bcedyflvq.jomodns.com
+   - DOMAIN-SUFFIX,jomodns.com
 
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
