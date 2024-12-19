@@ -41,6 +41,15 @@ payload:
 # - DOMAIN-SUFFIX,bytetsd-router.byted.org
 # - DOMAIN-SUFFIX,boe-lb.bytedns.net
 
+ - DOMAIN-SUFFIX,doh.zjurl.cn
+ - DOMAIN-SUFFIX,tnc.bdurl.net
+#  - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
+ - DOMAIN-SUFFIX,dig-ec.bdurl.net
+ - DOMAIN-SUFFIX,dig-edge.byte008.com
+ - DOMAIN-SUFFIX,dig.bdurl.net
+ - DOMAIN-SUFFIX,dig.zjurl.cn
+ - DOMAIN-SUFFIX,byteurl.cn
+ - DOMAIN-SUFFIX,jomodns.com
 
 #抖音
 # - AND,((DOMAIN-KEYWORD,api100-core-quic-),(DOMAIN-SUFFIX,amemv.com))
