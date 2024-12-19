@@ -37,10 +37,10 @@ payload:
    - DOMAIN-SUFFIX,pangolin.snssdk.com
    - DOMAIN-SUFFIX,i.snssdk.com
    - DOMAIN-SUFFIX,is.snssdk.com
-   - DOMAIN-SUFFIX,byteurl.cn
-   - DOMAIN-SUFFIX,zjurl.cn
-   - DOMAIN-SUFFIX,bdurl.net
-   - DOMAIN-SUFFIX,byte008.com
+#   - DOMAIN-SUFFIX,byteurl.cn
+#   - DOMAIN-SUFFIX,zjurl.cn
+#   - DOMAIN-SUFFIX,bdurl.net
+#   - DOMAIN-SUFFIX,byte008.com
 
    - DOMAIN-SUFFIX,onethingpcs.com
    - DOMAIN-SUFFIX,ecombdapi.com
@@ -74,14 +74,7 @@ payload:
 #   - DOMAIN-SUFFIX,pitaya.bytedance.com 
 #算法监控
 
-   - DOMAIN-SUFFIX,doh.zjurl.cn
-   - DOMAIN-SUFFIX,tnc.bdurl.net
-#   - DOMAIN-SUFFIX,tnc100-bjlgy.snssdk.com
-   - DOMAIN-SUFFIX,dig-ec.bdurl.net
-   - DOMAIN-SUFFIX,dig-edge.byte008.com
-   - DOMAIN-SUFFIX,dig.bdurl.net
-   - DOMAIN-SUFFIX,dig.zjurl.cn
-   - DOMAIN-SUFFIX,jomodns.com
+
 
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
