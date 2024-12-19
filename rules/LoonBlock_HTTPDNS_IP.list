@@ -285,7 +285,7 @@ payload:
 #青桔科技
 # - DOMAIN-SUFFIX,hd.xiaojukeji.com
 
-[Rewrite]
+## [Rewrite]
 #腾讯DNS
  - IP-CIDR,119.29.29.29/32,no-resolve
 
