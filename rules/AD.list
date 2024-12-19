@@ -29,6 +29,11 @@ payload:
    - DOMAIN-SUFFIX,smogfly.cloud
    - DOMAIN-SUFFIX,0kkkkkt.com
 
+#抖音直播 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
+   - DOMAIN-SUFFIX,smtcdns.net
+
+#未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
+   - DOMAIN-SUFFIX,ndcpp.com
 
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
    - DOMAIN-SUFFIX,bds.snssdk.com
@@ -58,12 +63,12 @@ payload:
    - DOMAIN-SUFFIX,dailygn.com
    - DOMAIN-SUFFIX,starrydyn.com
    - DOMAIN-SUFFIX,mktm.jd.com
-#   - DOMAIN-SUFFIX,ndcpp.com
+
 
 #   - DOMAIN-SUFFIX,yhgfb-cn-static.com
    - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
-#   - DOMAIN-SUFFIX,smtcdns.net
+
 
 #   - DOMAIN-SUFFIX,api.amemv.com
 #   - DOMAIN-SUFFIX,api-play-hl.amemv.com
