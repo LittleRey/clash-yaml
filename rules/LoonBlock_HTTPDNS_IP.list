@@ -44,10 +44,10 @@ payload:
 #字节cors服务
 
 # - DOMAIN-SUFFIX,rsproxy.cn
- - IP-CIDR,220.243.141.215/32,no-resolve
- - IP-CIDR,101.126.58.175/32,no-resolve
- - IP-CIDR,101.126.58.176/32,no-resolve
- - IP-CIDR,101.126.58.177/32,no-resolve
+# - IP-CIDR,220.243.141.215/32,no-resolve
+# - IP-CIDR,101.126.58.175/32,no-resolve
+# - IP-CIDR,101.126.58.176/32,no-resolve
+# - IP-CIDR,101.126.58.177/32,no-resolve
 
 
 #抖音
