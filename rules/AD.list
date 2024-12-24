@@ -10,6 +10,7 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?adsmogo\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?adsrvmedia\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?adsserving\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adservice\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?adsystem\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?adwords\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?applovin\.(.*\.)?[a-zA-Z]{2,}$
