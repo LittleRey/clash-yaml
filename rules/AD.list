@@ -3,30 +3,30 @@ payload:
 
 # 更新时间 2024/12/24 03:55:12 PM
 # 替换规则如下：
-   - DOMAIN-REGEX,^(.*\.)?admarvel\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?admaster\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsage\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsensor\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsmogo\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsrvmedia\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsserving\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adsystem\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?adwords\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?applovin\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?appsflyer\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?domob\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?duomeng\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?dwtrack\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?guanggao\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?omgmta\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?omniture\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?openx\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?partnerad\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?pingfore\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?socdm\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?supersonicads\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?wlmonitor\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?zjtoolbar\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?admarvel\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?admaster\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsage\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsensor\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsmogo\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsrvmedia\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsserving\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adsystem\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?adwords\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?applovin\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?appsflyer\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?domob\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?duomeng\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?dwtrack\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?guanggao\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?omgmta\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?omniture\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?openx\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?partnerad\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?pingfore\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?socdm\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?supersonicads\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?wlmonitor\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?zjtoolbar\.(.*\.)?[a-zA-Z]{2,}$
 
 
 
