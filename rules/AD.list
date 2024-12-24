@@ -263,6 +263,6 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
 
 
-   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
-   - IP-CIDR6,240e:958:2300:212:8000:0:b00:32/128,no-resolve
-   - IP-CIDR,112.80.147.14/32,no-resolve
+#   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
+#   - IP-CIDR6,240e:958:2300:212:8000:0:b00:32/128,no-resolve
+#   - IP-CIDR,112.80.147.14/32,no-resolve
