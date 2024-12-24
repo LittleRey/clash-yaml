@@ -60,11 +60,7 @@ payload:
 #   - DOMAIN-SUFFIX,smogfly.cloud
 #   - DOMAIN-SUFFIX,0kkkkkt.com
 
-#抖音直播 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
-   - DOMAIN-SUFFIX,smtcdns.net
 
-#未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
-   - DOMAIN-SUFFIX,ndcpp.com
 
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
 #   - DOMAIN-SUFFIX,bds.snssdk.com
@@ -217,11 +213,11 @@ payload:
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
-   - DOMAIN-REGEX,^(.*\.)?(?!(frontier|webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 #   - DOMAIN-REGEX,^(.*\.)?(?!api[^.]*-)[a-zA-Z0-9-]*(misc|search|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
-# 二级域名剔除|search  疑似搜索接口 增加剔除mssdk 疑似sdk接口,去除
-   - DOMAIN-REGEX,^(.*\.)?(?!(api|frontier|webcast|polaris|mssdk)[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+# 二级域名剔除|search  疑似搜索接口 增加剔除mssdk 疑似sdk接口,去除,webcast-normal疑似直播推荐
+   - DOMAIN-REGEX,^(.*\.)?(?!(api|frontier|polaris|mssdk)[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
@@ -258,3 +254,15 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*pcdn[a-zA-Z0-9-]*\.(.*\.)?tencent-cloud.[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.[a-zA-Z]{2,}$
 
+#抖音直播 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
+#   - DOMAIN-SUFFIX,smtcdns.net
+#   - DOMAIN-SUFFIX,smtcdns.com
+   - DOMAIN-REGEX,^(.*\.)?smtcdns\.(.*\.)?[a-zA-Z]{2,}$
+#未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
+#   - DOMAIN-SUFFIX,ndcpp.com
+   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
+
+
+   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
+   - IP-CIDR6,240e:958:2300:212:8000:0:b00:32/128,no-resolve
+   - IP-CIDR,112.80.147.14/32,no-resolve
