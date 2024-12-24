@@ -17,17 +17,17 @@ payload:
 #疑似广告推送
    - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
 #api5-hl.qishui.com
-   - DOMAIN-SUFFIX,qishui.com
-   - DOMAIN-SUFFIX,volcsirius.com
+#   - DOMAIN-SUFFIX,qishui.com
+#   - DOMAIN-SUFFIX,volcsirius.com
 
-   - DOMAIN-SUFFIX,id6.me
+#   - DOMAIN-SUFFIX,id6.me
 
-   - DOMAIN-SUFFIX,ulikecam.com
-   - DOMAIN-SUFFIX,qnqcdn.net
-   - DOMAIN-SUFFIX,zjcdn.com
+#   - DOMAIN-SUFFIX,ulikecam.com
+#   - DOMAIN-SUFFIX,qnqcdn.net
+#   - DOMAIN-SUFFIX,zjcdn.com
 
-   - DOMAIN-SUFFIX,smogfly.cloud
-   - DOMAIN-SUFFIX,0kkkkkt.com
+#   - DOMAIN-SUFFIX,smogfly.cloud
+#   - DOMAIN-SUFFIX,0kkkkkt.com
 
 #抖音直播 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
    - DOMAIN-SUFFIX,smtcdns.net
@@ -36,37 +36,37 @@ payload:
    - DOMAIN-SUFFIX,ndcpp.com
 
 #采集自ToBid使用指南/SDK集成说明/Unity/第三方广告网络配置说明/
-   - DOMAIN-SUFFIX,bds.snssdk.com
-   - DOMAIN-SUFFIX,extlog.snssdk.com
-   - DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
-   - DOMAIN-SUFFIX,pangolin.snssdk.com
-   - DOMAIN-SUFFIX,i.snssdk.com
-   - DOMAIN-SUFFIX,is.snssdk.com
+#   - DOMAIN-SUFFIX,bds.snssdk.com
+#   - DOMAIN-SUFFIX,extlog.snssdk.com
+#   - DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
+#   - DOMAIN-SUFFIX,pangolin.snssdk.com
+#   - DOMAIN-SUFFIX,i.snssdk.com
+#   - DOMAIN-SUFFIX,is.snssdk.com
 #   - DOMAIN-SUFFIX,byteurl.cn
 #   - DOMAIN-SUFFIX,zjurl.cn
 #   - DOMAIN-SUFFIX,bdurl.net
 #   - DOMAIN-SUFFIX,byte008.com
 
-   - DOMAIN-SUFFIX,onethingpcs.com
-   - DOMAIN-SUFFIX,ecombdapi.com
-   - DOMAIN-SUFFIX,ecombdimg.com
-   - DOMAIN-SUFFIX,ecombdstatic.com
-   - DOMAIN-SUFFIX,render.ecombdpage.com
-   - DOMAIN-SUFFIX,vegalb.com
-   - DOMAIN-SUFFIX,vegslb.com
-   - DOMAIN-SUFFIX,ietheivaicai.com
+#   - DOMAIN-SUFFIX,onethingpcs.com
+#   - DOMAIN-SUFFIX,ecombdapi.com
+#   - DOMAIN-SUFFIX,ecombdimg.com
+#   - DOMAIN-SUFFIX,ecombdstatic.com
+#   - DOMAIN-SUFFIX,render.ecombdpage.com
+#   - DOMAIN-SUFFIX,vegalb.com
+#   - DOMAIN-SUFFIX,vegslb.com
+#   - DOMAIN-SUFFIX,ietheivaicai.com
 
-   - DOMAIN-SUFFIX,supercachenet.com
-   - DOMAIN-SUFFIX,ultracachenode.com
-   - DOMAIN-SUFFIX,supercachenode.com
-   - DOMAIN-SUFFIX,dailyvpn.io
-   - DOMAIN-SUFFIX,dailygn.com
-   - DOMAIN-SUFFIX,starrydyn.com
-   - DOMAIN-SUFFIX,mktm.jd.com
+#   - DOMAIN-SUFFIX,supercachenet.com
+#   - DOMAIN-SUFFIX,ultracachenode.com
+#   - DOMAIN-SUFFIX,supercachenode.com
+#   - DOMAIN-SUFFIX,dailyvpn.io
+#   - DOMAIN-SUFFIX,dailygn.com
+#   - DOMAIN-SUFFIX,starrydyn.com
+#   - DOMAIN-SUFFIX,mktm.jd.com
 
 
 #   - DOMAIN-SUFFIX,yhgfb-cn-static.com
-   - DOMAIN-SUFFIX,ksyungslb.com
+#   - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 
 
@@ -128,8 +128,8 @@ payload:
 #||ttxyajs.data.kuiniuca.com^
 #||sd-gl.xycdn.com^
 
-   - DOMAIN-SUFFIX,xycdn.com
-   - DOMAIN-SUFFIX,kuiniuca.com
+#   - DOMAIN-SUFFIX,xycdn.com
+#   - DOMAIN-SUFFIX,kuiniuca.com
 
 #0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
 #iceudpstat.xdrtc.com
@@ -196,6 +196,9 @@ payload:
 
 #sf5-hl-cdn-tos.douyinstatic.com
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*cdn-tos[a-zA-Z0-9-]*\.(?!douyinstatic\.)[a-zA-Z0-9-]*(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+
+   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*tos[a-zA-Z0-9-]*\.(?!douyinstatic\.)[a-zA-Z0-9-]*(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
+
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.(com|cn|net|org|info)$
 
