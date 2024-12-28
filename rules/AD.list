@@ -254,13 +254,13 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*pcdn[a-zA-Z0-9-]*\.(.*\.)?tencent-cloud.[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.[a-zA-Z]{2,}$
 
-#抖音直播 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
+#抖音直播推流转换地址 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
 #   - DOMAIN-SUFFIX,smtcdns.net
 #   - DOMAIN-SUFFIX,smtcdns.com
-   - DOMAIN-REGEX,^(.*\.)?smtcdns\.(.*\.)?[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?smtcdns\.(.*\.)?[a-zA-Z]{2,}$
 #未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
 #   - DOMAIN-SUFFIX,ndcpp.com
-   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
 
 
 #   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
