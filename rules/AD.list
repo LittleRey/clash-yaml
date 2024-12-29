@@ -212,11 +212,13 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mcs|mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mcs|mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+#增加polaris
+   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|klink|game)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 # DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 # DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
-   - DOMAIN-REGEX,^polaris[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^polaris[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 
 #   - DOMAIN-REGEX,^(.*\.)?(?!api[^.]*-)[a-zA-Z0-9-]*(misc|search|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
