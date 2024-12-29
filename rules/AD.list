@@ -125,16 +125,16 @@ payload:
 
 
 #https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
-#https://lf-c-flwb.bytetos.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
+#https://lf-c-flwb..com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
    - DOMAIN-SUFFIX,yhgfb-cn-static.com
-   - DOMAIN-SUFFIX,lf-c-flwb.bytetos.com
+   - DOMAIN-SUFFIX,lf-c-flwb..com
 
    - DOMAIN-SUFFIX,lf-zt.douyin.com
 
-   - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com
+#   - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com
 
 # ||lf26-cj-cdn-tos.bytegecko.com^
-# ||lf26-common-release.bytetos.com^
+# ||lf26-common-release..com^
 # ||lf26-effectcdn-tos.byteeffecttos.com^
 # ||lf3-cdn-tos.bytegecko.com^
 # ||lf3-reading.fqnovelpic.com^
@@ -202,7 +202,7 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.douyinstatic\.com$
-#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytetos\.com$
+#   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.\.com$
 
 #lf-ad-ies.bytecdn.cn
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*-ad[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
