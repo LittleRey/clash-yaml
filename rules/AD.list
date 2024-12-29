@@ -131,6 +131,8 @@ payload:
 
    - DOMAIN-SUFFIX,lf-zt.douyin.com
 
+   - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com
+
 # ||lf26-cj-cdn-tos.bytegecko.com^
 # ||lf26-common-release.bytetos.com^
 # ||lf26-effectcdn-tos.byteeffecttos.com^
