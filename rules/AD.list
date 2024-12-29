@@ -190,7 +190,7 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.[a-zA-Z]{2,}$
 
 #抖音直播解析 https://36-99-64-171.bytefcdnrd.com/thirdgame/stream-691847943252345610_expsd.flv?302_type=cold_aggr&_session_id=037-202406262103412BBF51C1CABDD7416E10.1719407022558.17876&abr_pts=-800&align_delay=-25&cb_retry=0&domain=pull-hs-f5.flive.douyincdn.com&fp_user_url=https%3A%2F%2Fpull-hs-f5.flive.douyincdn.com%2Fthirdgame%2Fstream-691847943252345610_expsd.flv%3Fabr_pts%3D-800%26_session_id%3D037-202406262103412BBF51C1CABDD7416E10.1719407022558.17876&manage_ip=&node_id=&pro_type=http2&redirect_from=pod.cn-3qkb6i.fmme.nss&redirect_from_ip=114.80.12.188&vhost=push-rtmp-hs-f5.douyincdn.com
-   - DOMAIN-SUFFIX,bytefcdnrd.com
+#   - DOMAIN-SUFFIX,bytefcdnrd.com
 #直播信息 封面https://p9-webcast-sign.douyinpic.com/image-cut-tos-priv/3ebd1e1f8dc620a7362bbcd553576d6b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast\u0026from=webcast.room.pack\u0026l=202406262108052A1A1956E3610242ACE5\u0026lk3s=39e7556e\u0026s=enter_room\u0026sc=webcast_cover\u0026x-expires=1721999285\u0026x-signature=2D7m4CS%2FnPhNVXkW0iUUaCSFWpU%3D
 
 
