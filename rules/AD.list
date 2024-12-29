@@ -92,7 +92,7 @@ payload:
 #   - DOMAIN-SUFFIX,mktm.jd.com
 
 
-#   - DOMAIN-SUFFIX,yhgfb-cn-static.com
+
 #   - DOMAIN-SUFFIX,ksyungslb.com
 #   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 
@@ -123,6 +123,13 @@ payload:
 #   - DOMAIN-SUFFIX,os-mon.snssdk.com
 #   - DOMAIN-SUFFIX,api.toutiaoapi.com
 
+
+#https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
+#https://lf-c-flwb.bytetos.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
+   - DOMAIN-SUFFIX,yhgfb-cn-static.com
+   - DOMAIN-SUFFIX,lf-c-flwb.bytetos.com
+
+   - DOMAIN-SUFFIX,lf-zt.douyin.com
 
 # ||lf26-cj-cdn-tos.bytegecko.com^
 # ||lf26-common-release.bytetos.com^
@@ -214,7 +221,7 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 #   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mcs|mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 #增加polaris
-   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|klink|game)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|klink|game|safe|secure|security|adver)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 # DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
 # DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
