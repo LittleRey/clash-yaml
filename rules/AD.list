@@ -46,7 +46,7 @@ payload:
 #ChatGPT  EasyPrivacy blocks this
 #   - DOMAIN-SUFFIX,ab.chatgpt.com
 #疑似广告推送
-   - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
+#   - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
 #api5-hl.qishui.com
 #   - DOMAIN-SUFFIX,qishui.com
 #   - DOMAIN-SUFFIX,volcsirius.com
@@ -121,7 +121,7 @@ payload:
 #   - DOMAIN-SUFFIX,mon.snssdk.com
 #   - DOMAIN-SUFFIX,pc-mon.snssdk.com
 #   - DOMAIN-SUFFIX,os-mon.snssdk.com
-   - DOMAIN-SUFFIX,api.toutiaoapi.com
+#   - DOMAIN-SUFFIX,api.toutiaoapi.com
 
 
 # ||lf26-cj-cdn-tos.bytegecko.com^
@@ -143,10 +143,10 @@ payload:
 # ||mar.vip.com/
 # ||mcs.zijieapi.com/
 
-
-   - DOMAIN-SUFFIX,lianmengapi.snssdk.com
-   - DOMAIN-SUFFIX,localhost.bytedance.com
-   - DOMAIN-SUFFIX,log-sdk.ksapisrv.com
+#   - DOMAIN-SUFFIX,mcs.zijieapi.com
+#   - DOMAIN-SUFFIX,lianmengapi.snssdk.com
+#   - DOMAIN-SUFFIX,localhost.bytedance.com
+#   - DOMAIN-SUFFIX,log-sdk.ksapisrv.com
 
 
 # 星域云/网心
@@ -160,11 +160,11 @@ payload:
 
 #0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
 #iceudpstat.xdrtc.com
-   - DOMAIN-SUFFIX,sjxydc.com
-   - DOMAIN-SUFFIX,xdrtc.com
+#   - DOMAIN-SUFFIX,sjxydc.com
+#   - DOMAIN-SUFFIX,xdrtc.com
 
 #直播推荐相关
-   - DOMAIN-SUFFIX,ecomuser.snssdk.com
+#   - DOMAIN-SUFFIX,ecomuser.snssdk.com
 
 
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|yhgfb-cn-static)\.[a-zA-Z]{2,}$
@@ -182,7 +182,7 @@ payload:
 
 
 #xxx.free-lbv3.idouyinvod.com
-   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
@@ -233,7 +233,7 @@ payload:
 #   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p2-pc-weboff.byteimg.com
 #   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.[a-zA-Z]{2,}$
 
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.[a-zA-Z]{2,}$
@@ -251,8 +251,8 @@ payload:
 # 星域云/网心
 #||seeds*-darwin.xycdn.com^
 #apd-pcdniegwzlogin.teg.tencent-cloud.net
-   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*pcdn[a-zA-Z0-9-]*\.(.*\.)?tencent-cloud.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*pcdn[a-zA-Z0-9-]*\.(.*\.)?tencent-cloud.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?seeds*-darwin\.xycdn\.[a-zA-Z]{2,}$
 
 #抖音直播推流转换地址 高清：https://8503cf2605f64dc7237774123427a104.h2.smtcdns.net/pull-flv-l11.douyincdn.com/stage/stream-7282563233892797218_or4.flv?e
 #   - DOMAIN-SUFFIX,smtcdns.net
