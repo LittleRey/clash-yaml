@@ -46,7 +46,7 @@ payload:
 #ChatGPT  EasyPrivacy blocks this
 #   - DOMAIN-SUFFIX,ab.chatgpt.com
 #疑似广告推送
-#   - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
+   - DOMAIN-SUFFIX,lf3-pendah.bytetos.com
 #api5-hl.qishui.com
 #   - DOMAIN-SUFFIX,qishui.com
 #   - DOMAIN-SUFFIX,volcsirius.com
@@ -176,6 +176,26 @@ payload:
 #   - DOMAIN-SUFFIX,ecomuser.snssdk.com
 
 
+# p3-pc-weboff.byteimg.com网页端用户主页显示＆用户作品加载
+# 拦截后个人主页显示服务异常，他人主页提示用户不存在。
+# 也是PC登录接口，拦截后登录时提示「请使用抖音手机APP登录。」
+#   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
+
+
+#疑似抖音推送控制
+#   - DOMAIN-SUFFIX,p2-pc-weboff.byteimg.com
+#   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
+#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.[a-zA-Z]{2,}$
+
+#抖音直播解析 https://36-99-64-171.bytefcdnrd.com/thirdgame/stream-691847943252345610_expsd.flv?302_type=cold_aggr&_session_id=037-202406262103412BBF51C1CABDD7416E10.1719407022558.17876&abr_pts=-800&align_delay=-25&cb_retry=0&domain=pull-hs-f5.flive.douyincdn.com&fp_user_url=https%3A%2F%2Fpull-hs-f5.flive.douyincdn.com%2Fthirdgame%2Fstream-691847943252345610_expsd.flv%3Fabr_pts%3D-800%26_session_id%3D037-202406262103412BBF51C1CABDD7416E10.1719407022558.17876&manage_ip=&node_id=&pro_type=http2&redirect_from=pod.cn-3qkb6i.fmme.nss&redirect_from_ip=114.80.12.188&vhost=push-rtmp-hs-f5.douyincdn.com
+   - DOMAIN-SUFFIX,bytefcdnrd.com
+#直播信息 封面https://p9-webcast-sign.douyinpic.com/image-cut-tos-priv/3ebd1e1f8dc620a7362bbcd553576d6b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast\u0026from=webcast.room.pack\u0026l=202406262108052A1A1956E3610242ACE5\u0026lk3s=39e7556e\u0026s=enter_room\u0026sc=webcast_cover\u0026x-expires=1721999285\u0026x-signature=2D7m4CS%2FnPhNVXkW0iUUaCSFWpU%3D
+
+
+#连接抖音直播间websocket服务器，请求直播间数据wss://webcast3-ws-web-lq.douyin.com/webcast/im/push/v2/
+
+
+
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.(ibytedapm|pstatp|bytegecko|byteeffecttos|yhgfb-cn-static)\.[a-zA-Z]{2,}$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytegoofy\.com$
 #   - DOMAIN-REGEX,^(.*\.)?lf[a-zA-Z0-9-]*\.bytescm\.com$
@@ -244,11 +264,6 @@ payload:
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
-#疑似抖音推送控制
-   - DOMAIN-SUFFIX,p3-pc-weboff.byteimg.com
-#   - DOMAIN-SUFFIX,p2-pc-weboff.byteimg.com
-#   - DOMAIN-SUFFIX,p-pc-weboff.byteimg.com
-#   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*weboff\.byteimg\.[a-zA-Z]{2,}$
 
 
 #   - DOMAIN-REGEX,^cloudinject[a-zA-Z0-9-]{0,63}\-dev\.[a-zA-Z0-9-]{0,63}\.[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\-[a-zA-Z0-9-]{0,63}\.amazonaws\.[a-zA-Z]{2,}$
@@ -275,7 +290,7 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?smtcdns\.(.*\.)?[a-zA-Z]{2,}$
 #未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
 #   - DOMAIN-SUFFIX,ndcpp.com
-#   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
 
 
 #   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
