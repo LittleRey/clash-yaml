@@ -121,13 +121,13 @@ payload:
 #   - DOMAIN-SUFFIX,mon.snssdk.com
 #   - DOMAIN-SUFFIX,pc-mon.snssdk.com
 #   - DOMAIN-SUFFIX,os-mon.snssdk.com
-#   - DOMAIN-SUFFIX,api.toutiaoapi.com
+   - DOMAIN-SUFFIX,api.toutiaoapi.com
 
 
 #https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
 #https://lf-c-flwb..com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
    - DOMAIN-SUFFIX,yhgfb-cn-static.com
-   - DOMAIN-SUFFIX,lf-c-flwb..com
+   - DOMAIN-SUFFIX,lf-c-flwb.bytetos.com
 
    - DOMAIN-SUFFIX,lf-zt.douyin.com
 
