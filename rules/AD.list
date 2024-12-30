@@ -176,8 +176,8 @@ payload:
 #   - DOMAIN-SUFFIX,ecomuser.snssdk.com
 
 #https://is.snssdk.com/api/news/feed/v51/  新闻接口，此网址疑似多接口，疑似包含直播接口
-
-   - DOMAIN-SUFFIX,is.snssdk.com
+#新闻接口，也与登录有关
+#   - DOMAIN-SUFFIX,is.snssdk.com
 # p3-pc-weboff.byteimg.com网页端用户主页显示＆用户作品加载
 # 拦截后个人主页显示服务异常，他人主页提示用户不存在。
 # 也是PC登录接口，拦截后登录时提示「请使用抖音手机APP登录。」
