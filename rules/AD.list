@@ -51,7 +51,7 @@ payload:
 #   - DOMAIN-SUFFIX,qishui.com
 #   - DOMAIN-SUFFIX,volcsirius.com
 
-#   - DOMAIN-SUFFIX,id6.me
+   - DOMAIN-SUFFIX,id6.me
 
 #   - DOMAIN-SUFFIX,ulikecam.com
 #   - DOMAIN-SUFFIX,qnqcdn.net
@@ -79,9 +79,9 @@ payload:
 #   - DOMAIN-SUFFIX,ecombdimg.com
 #   - DOMAIN-SUFFIX,ecombdstatic.com
 #   - DOMAIN-SUFFIX,render.ecombdpage.com
-#   - DOMAIN-SUFFIX,vegalb.com
-#   - DOMAIN-SUFFIX,vegslb.com
-#   - DOMAIN-SUFFIX,ietheivaicai.com
+   - DOMAIN-SUFFIX,vegalb.com
+   - DOMAIN-SUFFIX,vegslb.com
+   - DOMAIN-SUFFIX,ietheivaicai.com
 
 #   - DOMAIN-SUFFIX,supercachenet.com
 #   - DOMAIN-SUFFIX,ultracachenode.com
@@ -110,7 +110,7 @@ payload:
 
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
-   - DOMAIN-SUFFIX,ib.snssdk.com
+#   - DOMAIN-SUFFIX,ib.snssdk.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,vcs-hj.zijieapi.com
 #   - DOMAIN-SUFFIX,frontier.snssdk.com
