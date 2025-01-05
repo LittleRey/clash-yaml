@@ -272,8 +272,8 @@ payload:
  - DOMAIN-SUFFIX,dns.weibo.cn
 # - IP-CIDR,39.97.130.51/32,no-resolve
 # - IP-CIDR,39.97.128.148/32,no-resolve
- - DOMAIN-SUFFIX,api.weibo.cn
- - DOMAIN-SUFFIX,api.weibo.cn
+# - DOMAIN-SUFFIX,api.weibo.cn
+# - DOMAIN-SUFFIX,api.weibo.cn
 
 #知乎
 # - IP-CIDR,103.41.167.237/32,no-resolve
