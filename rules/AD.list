@@ -176,6 +176,9 @@ payload:
 #直播推荐相关
 #   - DOMAIN-SUFFIX,ecomuser.snssdk.com
 
+#Websock获取弹幕地址 
+#webcast3-ws-web-lf.douyin.com
+
 #https://is.snssdk.com/api/news/feed/v51/  新闻接口，此网址疑似多接口，疑似包含直播接口
 #新闻接口，也与登录有关
 #   - DOMAIN-SUFFIX,is.snssdk.com
