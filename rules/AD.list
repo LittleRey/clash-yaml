@@ -129,7 +129,7 @@ payload:
    - DOMAIN-SUFFIX,yhgfb-cn-static.com
    - DOMAIN-SUFFIX,lf-c-flwb.bytetos.com
 
-   - DOMAIN-SUFFIX,lf-zt.douyin.com
+#   - DOMAIN-SUFFIX,lf-zt.douyin.com
 
 #   - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com
 #未知静态资源
