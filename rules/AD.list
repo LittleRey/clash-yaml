@@ -113,7 +113,7 @@ payload:
 #   - DOMAIN-SUFFIX,ib.snssdk.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,vcs-hj.zijieapi.com
-#   - DOMAIN-SUFFIX,frontier.snssdk.com
+   - DOMAIN-SUFFIX,frontier.snssdk.com
    - DOMAIN-SUFFIX,api.feelgood.cn
    - DOMAIN-SUFFIX,privacy.zijieapi.com
 #   - DOMAIN-SUFFIX,pc-mon.zijieapi.com
@@ -250,6 +250,9 @@ payload:
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.amemv\.com$
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-core-[a-zA-Z0-9.-]*\.snssdk\.com$
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
+
+#lf3-cdn-tos.bytegoofy.com
+   - DOMAIN-REGEX,^lf[0-9-]*cdn-tos[a-zA-Z0-9.-]*\.bytegoofy\.com$
 
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*analytics[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
