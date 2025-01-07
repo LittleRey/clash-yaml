@@ -94,7 +94,8 @@ payload:
 
 
 #   - DOMAIN-SUFFIX,ksyungslb.com
-#   - DOMAIN-SUFFIX,mobgslb.tbcache.com
+#v2groxxep0d8lq6ngtm9bm686gzj4tz6z.mobgslb.tbcache.com
+   - DOMAIN-SUFFIX,mobgslb.tbcache.com
 
 
 #   - DOMAIN-SUFFIX,api.amemv.com
@@ -213,7 +214,7 @@ payload:
 
 
 #xxx.free-lbv3.idouyinvod.com
-#   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
