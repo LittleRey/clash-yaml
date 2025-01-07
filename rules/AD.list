@@ -134,7 +134,7 @@ payload:
 #   - DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com
 #未知静态资源
    - DOMAIN-SUFFIX,lf-resource-platform.douyinstatic.com
-#lf-douyin-pc-web.douyinstatic.com
+   - DOMAIN-SUFFIX,lf-douyin-pc-web.douyinstatic.com
 
 # ||lf26-cj-cdn-tos.bytegecko.com^
 # ||lf26-common-release..com^
