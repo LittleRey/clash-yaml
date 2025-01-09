@@ -1,5 +1,10 @@
 payload:
 
+#仅限大陆IP访问
+ - DOMAIN-SUFFIX,kkgithub.com
+
+
+
 #webrtc服务
 # - DOMAIN-SUFFIX,webrtc.chatgpt.com
 # - DOMAIN-SUFFIX,turn.livekit.cloud
