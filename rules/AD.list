@@ -117,7 +117,9 @@ payload:
 #   - DOMAIN-SUFFIX,ib.snssdk.com
    - DOMAIN-SUFFIX,vcs.zijieapi.com
    - DOMAIN-SUFFIX,vcs-hj.zijieapi.com
-#   - DOMAIN-SUFFIX,frontier.snssdk.com
+   - DOMAIN-SUFFIX,frontier.snssdk.com
+   - DOMAIN-SUFFIX,frontier-im.douyin.com
+   - DOMAIN-SUFFIX,frontier-pc.douyin.com
    - DOMAIN-SUFFIX,api.feelgood.cn
    - DOMAIN-SUFFIX,privacy.zijieapi.com
 #   - DOMAIN-SUFFIX,pc-mon.zijieapi.com
