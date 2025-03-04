@@ -5,8 +5,8 @@ payload:
 
 
 #
- - DOMAIN-KEYWORD,wogg
- - DOMAIN-KEYWORD,czzy
+# - DOMAIN-KEYWORD,wogg
+# - DOMAIN-KEYWORD,czzy
 
 
 #webrtc服务
