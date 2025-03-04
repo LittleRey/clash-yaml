@@ -4,6 +4,10 @@ payload:
  - DOMAIN-SUFFIX,kkgithub.com
 
 
+#
+ - DOMAIN-KEYWORD,wogg
+ - DOMAIN-KEYWORD,czzy
+
 
 #webrtc服务
 # - DOMAIN-SUFFIX,webrtc.chatgpt.com
