@@ -9,7 +9,7 @@ r = requests.get(url).text
 output = f"# 更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n# 来源 {url}\npayload:\n"
 
 # 统一去除多余空格和多余逗号
-r = r.replace('[Rule]', '').replace(' ', '').replace(', ', ',').replace(',,', ',')
+r = r.replace('[Rule]', '').replace(' ', '').replace('，', '').replace(', ', ',').replace(',,', ',').replace(',DIRECT', '')
 # 关键字段前增加 "   - "，避免多次前缀问题
 for keyword in ['DOMAIN,','DOMAIN-SUFFIX,', 'DOMAIN-KEYWORD,', 'IP-CIDR,', 'IP-CIDR6,']:
     r = r.replace(keyword, f'   - {keyword}')
