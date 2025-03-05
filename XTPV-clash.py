@@ -11,5 +11,5 @@ output = f"# 更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n# �
 output += r.replace(', ', ',').replace(',,', ',')
 
 # 保存结果到文件
-with open('XPTV.list', 'w') as file:
+with open('rules/XPTV.list', 'w') as file:
     file.write(output)
