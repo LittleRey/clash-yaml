@@ -23,7 +23,8 @@ jobs:
       
       - name: Run codes
         run: |
-          python XTPV-clash.py
+          python XTPV-Clash.py
+          python XPTV-Plugin.py
           
       - name: commit files
         run: |
