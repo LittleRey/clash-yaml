@@ -175,6 +175,9 @@ payload:
 
 #   - DOMAIN-SUFFIX,xycdn.com
 #   - DOMAIN-SUFFIX,kuiniuca.com
+   - DOMAIN-SUFFIX,sd-gl.xinqiucc.com
+   - DOMAIN-SUFFIX,seeds-open.xinqiucc.com
+   - DOMAIN-SUFFIX,cf-gl.qiezibenpao.com
 
 #0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
 #iceudpstat.xdrtc.com
