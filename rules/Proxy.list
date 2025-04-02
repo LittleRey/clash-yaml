@@ -1,6 +1,6 @@
 payload:
 
- - DOMAIN-SUFFIX,cors.buildtest.site
+# - DOMAIN-SUFFIX,cors.buildtest.site
 #NeteaseUnBlock Third API pyncmd
 # - DOMAIN-SUFFIX,pyncmd.vercel.app
 # - IP-CIDR,76.76.21.21/32,no-resolve
@@ -20,32 +20,12 @@ payload:
 
 #Google 定位
 
-# - DOMAIN-SUFFIX,services.googleapis.cn
-# - DOMAIN-SUFFIX,services.googleapis.com
-# - DOMAIN-SUFFIX,connectivitycheck.gstatic.cn
-# - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+ - DOMAIN-SUFFIX,services.googleapis.cn
+ - DOMAIN-SUFFIX,services.googleapis.com
+ - DOMAIN-SUFFIX,connectivitycheck.gstatic.cn
+ - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 
 
 
 #Play Store
 # - PROCESS-NAME,com.android.vending
-
-#Binance
- - PROCESS-NAME,Binance.exe
- - PROCESS-NAME,elevate.exe
- - PROCESS-NAME,nircmd.exe
-
- - PROCESS-NAME,com.tradingview.tradingviewapp
- - PROCESS-NAME,io.hotbit.shouyi
- - PROCESS-NAME,com.gateio.gateio
- - PROCESS-NAME,com.binance.dev
- - PROCESS-NAME,com.okinc.okex.gp
- - PROCESS-NAME,com.wallet.crypto.trustapp
- - PROCESS-NAME,vip.mytokenpocket
- - PROCESS-NAME,com.blockfolio.blockfolio
- - PROCESS-NAME,im.token.app
- - PROCESS-NAME,com.ftxmobile.ftx
- - PROCESS-NAME,com.mexcpro.client
- - PROCESS-NAME,com.mgoogle.android.gms
- - PROCESS-NAME,com.yayd.exchangglobal
- - PROCESS-NAME,com.bybit.app
