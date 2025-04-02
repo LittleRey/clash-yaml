@@ -1,3 +1,4 @@
+payload:
 #Binance
  - PROCESS-NAME,Binance.exe
  - PROCESS-NAME,elevate.exe
@@ -8,6 +9,7 @@
  - PROCESS-NAME,com.gateio.gateio
  - PROCESS-NAME,com.binance.dev
  - PROCESS-NAME,com.okinc.okex.gp
+ - PROCESS-NAME,com.bitget.exchange
  - PROCESS-NAME,com.wallet.crypto.trustapp
  - PROCESS-NAME,vip.mytokenpocket
  - PROCESS-NAME,com.blockfolio.blockfolio
