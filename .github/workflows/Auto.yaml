@@ -25,7 +25,7 @@ jobs:
         run: |
           python XTPV-Clash.py
           python XPTV-Plugin.py
-          python Sibel-SpaceDragon24.py
+          python Sibel-SpaceDragon24-Backup.py
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
