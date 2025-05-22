@@ -4,6 +4,9 @@ payload:
  - DOMAIN-SUFFIX,kkgithub.com
 
 
+
+#米家
+ - DOMAIN-SUFFIX,io.mi.com
 #
  - DOMAIN-KEYWORD,wogg
  - DOMAIN-KEYWORD,czzy
