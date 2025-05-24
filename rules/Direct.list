@@ -23,7 +23,7 @@ payload:
 # - DOMAIN-REGEX,^(.*\.)?webrtc(\.[^.]+){2,}$
 
 # - DOMAIN-SUFFIX,cors.buildtest.site
-# - DOMAIN-SUFFIX,cn-cors.buildtest.site
+ - DOMAIN-SUFFIX,cn-cors.buildtest.site
 #向日葵
  - PROCESS-NAME,SunloginClient.exe
  - PROCESS-NAME,com.oray.sunlogin
