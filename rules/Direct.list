@@ -22,8 +22,8 @@ payload:
 # - DOMAIN-REGEX,^(.*\.)?turn(\.[^.]+){2,}$
 # - DOMAIN-REGEX,^(.*\.)?webrtc(\.[^.]+){2,}$
 
-# - DOMAIN-SUFFIX,cors.buildtest.site
-# - DOMAIN-SUFFIX,cn-cors.buildtest.site
+ - DOMAIN-SUFFIX,cors.buildtest.site
+ - DOMAIN-SUFFIX,cn-cors.buildtest.site
  - DOMAIN-SUFFIX,buildtest.site.cdn.cloudflare.net
 #向日葵
  - PROCESS-NAME,SunloginClient.exe
