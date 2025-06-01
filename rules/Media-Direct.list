@@ -1,24 +1,85 @@
-# 更新时间 2025/06/01 02:16:15 AM
-# 来源 https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/X/xptv.plugin
+# 更新时间 2025/06/01 02:16:16 AM
+# 来源 https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.list
 payload:
-#!url=https://raw.githubusercontent.com/fangkuia/XPTV/main/X/xptv.sgmodule
-#!name=XPTV规则
-#!desc=仅直连
+#影视播放规则(直连)
+#2025-05-1118:30
+#https://github.com/fangkuia/XPTV/blob/main/X/xptv.plugin
 
-#已标注了大部分可直连的地址,遇到无法直连的情况自行调整
-   - DOMAIN-SUFFIX,xptvhelper.link
+#---------------CMSPlayer---------------#
+#私密影院
+   - DOMAIN-SUFFIX,simiyy.com
+#奈飞工厂
+   - DOMAIN-SUFFIX,netflixgc.com
+#天空资源
+   - DOMAIN-SUFFIX,tiankongapi.com
+   - DOMAIN-SUFFIX,huishij.com
+#飞速资源
+   - DOMAIN-SUFFIX,feisuzyapi.com
+   - DOMAIN-SUFFIX,feisuimg.com
+#光速资源
+   - DOMAIN-SUFFIX,guangsuapi.com
+   - DOMAIN-SUFFIX,guangsuimage.com
+#百度云资源
+   - DOMAIN-SUFFIX,apibdzy.com
+   - DOMAIN-SUFFIX,bdzyimg.com
+#ck资源
+   - DOMAIN-SUFFIX,ckzy.me
+#火狐资源
+   - DOMAIN-SUFFIX,hhzyapi.com
+   - DOMAIN-SUFFIX,hhmage.com
+#四圈资源
+   - DOMAIN-SUFFIX,fenwe078.cf
+#快看资源
+   - DOMAIN-SUFFIX,kuaikan-api.com
+   - DOMAIN-SUFFIX,kuaikanzy.net
+#可可资源
+   - DOMAIN-SUFFIX,kekezyapi.com
+#39影视
+   - DOMAIN-SUFFIX,39kan.com
+   - DOMAIN-SUFFIX,394tv.com
+#步步高资源
+   - DOMAIN-SUFFIX,yparse.com
+#飘花影院
+   - DOMAIN-SUFFIX,ahjiuman.com
+   - DOMAIN-SUFFIX,youkuphoto.com
+#乐视资源
+   - DOMAIN-SUFFIX,leshizyapi.com
+#奇虎资源
+   - DOMAIN-SUFFIX,qhzyapi.com
+#享看资源
+   - DOMAIN-SUFFIX,xkanzy10.com
+#快云资源
+   - DOMAIN-SUFFIX,kuaiyunzy.com
+#二次萌影视
+   - DOMAIN-SUFFIX,ecmys.com
+   - DOMAIN-SUFFIX,ecmys.top
+   - DOMAIN-SUFFIX,ecmys.cc
+#影视猫
+   - DOMAIN,ysm.tkbot.fun
+   - DOMAIN-SUFFIX,tkbot.fun
+#TIMI蓝光
+   - DOMAIN-SUFFIX,zyz.ikum.cc
+#4K电影馆
+   - DOMAIN-SUFFIX,4kdyg.vip
+   - DOMAIN-SUFFIX,4kdyg.com
+   - DOMAIN-SUFFIX,4kdyg.top
+   - DOMAIN-SUFFIX,wangyoung.com
+
+#---------------XPTV---------------#
 #XPTV主站-部分地区可以直连自行尝试
-#   - DOMAIN,infuseku.xyz
+   - DOMAIN,infuseku.xyz
 #iCloud同步
    - DOMAIN,gateway.icloud.com
    - DOMAIN,metrics.icloud.com
-#XPTV封面来源
+
+#XPTV封面、弹幕
 #小海报
    - DOMAIN-SUFFIX,doubanio.com
 #大封面
-   - DOMAIN,image.tmdb.org
+#   - DOMAIN,image.tmdb.org
 #弹幕
    - DOMAIN,dandanplay.net
+
 #网盘规则
 #阿里
    - DOMAIN-SUFFIX,aliyundrive.com
@@ -30,31 +91,59 @@ payload:
    - DOMAIN-SUFFIX,ctyunxs.cn
 #115
    - DOMAIN-SUFFIX,115.com
-#uc
+#UC
    - DOMAIN-SUFFIX,uc.cn
 #小雅
    - DOMAIN-SUFFIX,xiaoya.pro
+
 #网盘源
-#小米
-   - DOMAIN,mihdr.top
-#木偶
-   - DOMAIN-SUFFIX,mogg.top
-#玩偶
-   - DOMAIN-SUFFIX,wogg.net
-#雷鲸
+#双子星Star2
+   - DOMAIN-SUFFIX,star2.cn
+#SeedHub
+   - DOMAIN-SUFFIX,seedhub.cc
+#奥秘影视
+   - DOMAIN,vip.omii.top
+#白嫖分享
+   - DOMAIN-SUFFIX,smdyo.top
+#多多影音
+   - DOMAIN-SUFFIX,yydsys.top
+#观影GYING
+   - DOMAIN-SUFFIX,gyg.la
+#蜡笔盘
+   - DOMAIN-SUFFIX,feimaoai.site
+#雷鲸小站
    - DOMAIN,www.leijing.xyz
-#校长
-   - DOMAIN,xzys.fun
-#蜡笔
-   - DOMAIN-SUFFIX,duopan.fun
-#南风
+#六趣网盘
+   - DOMAIN,wp.0v.fit
+#木偶
+   - DOMAIN-SUFFIX,666291.xyz
+#南风短剧
    - DOMAIN,www.nanf.cc
-#多多
-   - DOMAIN,yydsys.top
 #欧歌
    - DOMAIN,woog.nxog.eu.org
+#闪电UC
+   - DOMAIN-SUFFIX,dcyun.cc
+   - IP-CIDR,1.95.79.193/32,no-resolve
+#特下饭
+   - DOMAIN-SUFFIX,xn--ghqy10g1w0a.xyz
+#天逸搜
+   - DOMAIN-SUFFIX,tianyiso.com
+#玩偶哥哥
+   - DOMAIN-SUFFIX,wogg.one
+#小虎斑
+   - IP-CIDR,103.45.162.207/32,no-resolve
+#小米UC
+   - DOMAIN,www.mucpan.cc
+#校长影视
+   - DOMAIN-SUFFIX,xzys.fun
 #云盘吧
-   - DOMAIN,yunpan8.cc
+   - DOMAIN-SUFFIX,yunpan8.cc
+   - DOMAIN-SUFFIX,yunpan8.net
+#云盘资源网
+   - DOMAIN,res.yunpan.win
+#至臻视觉
+   - DOMAIN,mihdr.top
+
 #nmlive相关
    - DOMAIN-SUFFIX,bilivideo.com
    - DOMAIN,slink.ltd
@@ -65,25 +154,56 @@ payload:
    - DOMAIN-SUFFIX,huya.com
    - DOMAIN-SUFFIX,msstatic.com
    - DOMAIN,lemonlive.deno.dev
+
 #VOD源
-#低端主页与播放
+#爱壹帆
+   - DOMAIN-SUFFIX,iyf.tv
+#金牌影院
+   - DOMAIN-SUFFIX,cfkj86.com
+#绝对影视
+   - DOMAIN-SUFFIX,jdys.art
+#老地方
+   - DOMAIN-SUFFIX,laodifang.tv
+#零度影视
+   - DOMAIN,zero.mitotv.com
+#小红影视
+   - DOMAIN-SUFFIX,xiaohys.com
+#素白白影院
+   - DOMAIN,dc.xhscdn.com
+   - DOMAIN-SUFFIX,subaibai.vip
+   - DOMAIN-SUFFIX,subaibai.com
+   - DOMAIN-SUFFIX,subaibaiys.com
+#速讯影院
+   - DOMAIN-SUFFIX,suxun.site
+   - DOMAIN-SUFFIX,esuxun.com
+#文才资源
+   - DOMAIN,api.zeqaht.com
+#timi芒果TV
+   - DOMAIN-SUFFIX,mgtv.com
+   - DOMAIN-SUFFIX,timizy.com
+#短剧天堂
+   - DOMAIN-SUFFIX,duanjutt.tv
+#dsakf23665
+   - DOMAIN-SUFFIX,dsakf23665.com
+#BILFUN
+   - DOMAIN-SUFFIX,bilfun.cc
+#低端
    - DOMAIN-SUFFIX,ddys.pro
-#AGE主页
+#AGE
    - DOMAIN-SUFFIX,agedm.org
-#ギリギリ主页
+#Catflix
+   - DOMAIN-SUFFIX,catflix.su
+#ギリギリ
    - DOMAIN,anime.girigirilove.com
-#播放
    - DOMAIN,love.girigirilove.com
    - DOMAIN,m3u8.girigirilove.com
-#瓜子主页
+#瓜子
    - DOMAIN,api.9cec79d.com
-#播放
    - DOMAIN,wjm.kemfsj.com
-#4k-av播放
+#4k-av
    - DOMAIN,www.4k-av.com
-#囧动漫主页
+#囧动漫
    - IP-CIDR,43.142.232.217/32,no-resolve
-#播放
    - DOMAIN-SUFFIX,fanchenstatic.com
    - DOMAIN,i0.hdslb.com
    - DOMAIN-SUFFIX,bsgslb.cn
@@ -95,28 +215,24 @@ payload:
    - DOMAIN-SUFFIX,xhscdn.com
    - DOMAIN-SUFFIX,bdxiguastatic.com
    - DOMAIN-SUFFIX,zshtys888.com
-#libvio主页
+#libvio
    - DOMAIN,www.libvio.cc
-#播放
    - DOMAIN-SUFFIX,mcloud.139.com
    - DOMAIN-SUFFIX,libvio.cloud
-#anfuns相关
+#anfuns
    - DOMAIN-SUFFIX,anfuns.org
    - DOMAIN-SUFFIX,bytegiftia.top
    - DOMAIN-SUFFIX,lenovo.com.cn
    - DOMAIN,image.zhihuishu.com
    - DOMAIN,presale.111.com.cn
-#hdmoli主页
+#hdmoli
    - DOMAIN,hdmoli.pro
-#播放
    - DOMAIN,v.damoli.pro
-#哔嘀影视主页
-   - DOMAIN,www.xlys01.com
-#播放
+#哔嘀影视
+   - DOMAIN,v.xlys.ltd.ua
    - DOMAIN-SUFFIX,bytetos.com
-#烧火影视主页
+#烧火影视
    - DOMAIN,saohuo.tv
-#播放
    - DOMAIN,hhjx.hhplayer.comundefined
    - DOMAIN-SUFFIX,video.iqiyi.com
    - DOMAIN-SUFFIX,qitu-zuida.com
@@ -126,28 +242,27 @@ payload:
    - DOMAIN-SUFFIX,smtcdns.com
    - DOMAIN,cme-video.vod-qcloud.com
    - DOMAIN,hhjx.hhplayer.com
-#NO視頻主页
+#NO視頻
    - DOMAIN,www.novipnoad.net
-#播放
    - DOMAIN-SUFFIX,novipnoad.net
-#韩剧看看主页
+#韩剧看看
    - DOMAIN,www.hanjukankan.com
    - DOMAIN,glzx.thekutv.com
-#播放
    - DOMAIN-SUFFIX,thehanju.com
    - DOMAIN-SUFFIX,vvddoo.com
-#星芽主页
+#影视天堂
+   - DOMAIN-SUFFIX,ysttv.com
+#星芽
    - DOMAIN,qiniu.rongjuwh.cn
    - DOMAIN,app.whjzjx.cn
    - DOMAIN,u.shytkjgs.com
-#播放
    - IP-CIDR,218.22.23.189/32,no-resolve
    - IP-CIDR,117.68.35.135/32,no-resolve
    - IP-CIDR,218.22.23.229/32,no-resolve
    - DOMAIN-SUFFIX,qnqcdn.net
    - DOMAIN-SUFFIX,xingya.com.cn
    - IP-CIDR,117.68.35.139/32,no-resolve
-#小苹果播放
+#小苹果
    - IP-CIDR,163.123.192.184/32,no-resolve
    - IP-CIDR,148.59.74.50/32,no-resolve
    - IP-CIDR,205.178.182.17/32,no-resolve
@@ -160,9 +275,9 @@ payload:
    - IP-CIDR,205.178.182.52/32,no-resolve
    - IP-CIDR,163.123.192.17/32,no-resolve
    - DOMAIN,c.xpgtv.net
-#厂长主页
+   - DOMAIN,item.xpgcom.com
+#厂长
    - DOMAIN,www.czzyvideo.com
-#播放
    - DOMAIN,qimgs.qunarzz.com
    - DOMAIN,lf16-fe.resso.me
    - DOMAIN-SUFFIX,akamaized.net
@@ -171,25 +286,24 @@ payload:
    - DOMAIN-SUFFIX,larksuitecdn.com
    - DOMAIN,dc.xhscdn.com
    - DOMAIN,mdn.alipayobjects.com
-#天天主页
-   - DOMAIN,op.ysdqjs.cn
-#在线之家主页--播放地址是ctyunxs.cn,在天翼里有
+#在线之家
    - DOMAIN-SUFFIX,zxzja.com
-#素白白主页--播放地址是dc.xhscdn.com,在厂长里有
-   - DOMAIN,www.subaibaiys.com
+   - DOMAIN-SUFFIX,ctyunxs.cn
+#皮皮虾影视
+   - DOMAIN-SUFFIX,ppxys.vip
+
 #CMS源
-#360主页
+#360
    - DOMAIN,360zy.com
-#播放
    - DOMAIN,vod.lyhuicheng.com
-#非凡主页和播放
-   - DOMAIN-KEYWORD,ffzy
-#墨斗主页
+#非凡
+   - DOMAIN-SUFFIX,ffzyapi.com
+   - DOMAIN-SUFFIX,image8899.net
+#墨斗
    - DOMAIN,www.mdzyapi.com
-#黑木耳主页
+#黑木耳
    - DOMAIN-SUFFIX,heimuer.tv
    - DOMAIN-SUFFIX,heimuer.xyz
-#播放
    - DOMAIN,2bzfvku2xwu7.com
    - DOMAIN,n9ihkvv1ytjr.com
    - DOMAIN,0cicgw0mte7y.com
@@ -222,112 +336,102 @@ payload:
    - DOMAIN,438pnr4dyywt.com
    - DOMAIN,mdghhsgc4iiy.com
    - DOMAIN,m3u8.hmrvideo.com
-#华为吧主页
+#华为吧
    - DOMAIN,hw8.live
-#播放
    - DOMAIN,selfcdn.simaguo.com
    - DOMAIN,m3u.nikanba.live
-#腐剧主页
+   - DOMAIN-SUFFIX,huawei8.live
+#腐剧
    - DOMAIN,www.fuju2024.cc
-#播放
    - DOMAIN-SUFFIX,yishihui.com
-#金鹰主页
+#金鹰
    - DOMAIN,image.jinyingimage.com
    - DOMAIN,jinyingzy.com
-#播放
    - DOMAIN,c.baisiweiting.com
    - DOMAIN,hd.ijycnd.com
-#OK主页
+#OK
    - DOMAIN,pic.okzy.xyz
    - DOMAIN,wakdj.com
-#播放
    - DOMAIN-SUFFIX,noop44.com
    - DOMAIN-SUFFIX,bxgbnet.com
    - DOMAIN-SUFFIX,xxya88.com
-#宝片主页
+#宝片
    - DOMAIN,zpsps.com
-#播放
    - DOMAIN-KEYWORD,bbffvip.com
    - DOMAIN-KEYWORD,rrcdnbf
-#小黄人主页
+#小黄人
    - DOMAIN,iqyi.xiaohuangrentv.com
-#播放
    - DOMAIN-KEYWORD,.jisu.com
-#牛牛主页
+#牛牛
    - DOMAIN,pic.niuniuzy.info
-#播放
    - DOMAIN-SUFFIX,qrstt.com
    - DOMAIN-SUFFIX,stuuvwy.com
    - DOMAIN-SUFFIX,xingchongwang.com
-#丫丫主页
+#丫丫
    - DOMAIN-SUFFIX,uvvv77.com
-#播放
    - DOMAIN-SUFFIX,jklnopq.com
    - DOMAIN,cj.yayazy.net
    - DOMAIN-SUFFIX,qdhdcate.com
-#影图主页
+#影图
    - DOMAIN,cj.vodimg.top
-#播放
    - DOMAIN-SUFFIX,ghij11.com
    - DOMAIN-SUFFIX,tlkqc.com
    - DOMAIN,pic.picturecdn.com
    - DOMAIN,tlkqc.com
    - DOMAIN-SUFFIX,xaab57.com
-#U酷主页
+#U酷
    - DOMAIN,api.ukuapi.com
-#播放
    - DOMAIN-KEYWORD,ukzy.ukubf
-#豪华主页
+#豪华
    - DOMAIN,hhzyapi.com
-#播放
    - DOMAIN,play.hhuus.com
    - DOMAIN,p.hhwenjian.com
-#极速主页
+#极速
    - DOMAIN,jszyapi.com
-#索尼主页
+   - DOMAIN-SUFFIX,jisuzyimg.com
+   - DOMAIN,vv.jisuzyv.com
+#索尼
    - DOMAIN,snzypic.vip
-#播放
-   - DOMAIN-KEYWORD,.hiij
    - DOMAIN-SUFFIX,nopqq.vip
    - DOMAIN-SUFFIX,uvwwx.vip
    - DOMAIN-SUFFIX,pqqrs.vip
    - DOMAIN-SUFFIX,qrssv.com
-#ikun主页
+   - DOMAIN-SUFFIX,suoniapi.com
+   - DOMAIN-SUFFIX,sxzyhuij.com
+   - DOMAIN-SUFFIX,suonizy-youku.com
+#ikun
    - DOMAIN,www.imgikzy.com
-#播放
    - DOMAIN,kkzycdn.com
    - DOMAIN,bfikuncdn.com
-#量子主页
-   - DOMAIN,cj.lziapi.com
+   - DOMAIN-SUFFIX,ikunzyapi.com
+#量子
+   - DOMAIN-SUFFIX,lziapi.com
    - DOMAIN,img.lzzyimg.com
-#播放
    - DOMAIN-KEYWORD,v.cdnlz
-#暴风主页
+#暴风
    - DOMAIN-SUFFIX,bfzypic.com
    - DOMAIN,bfzyapi.com
-#播放
    - DOMAIN-SUFFIX,bfllvip.com
-#红牛主页
+#红牛
    - DOMAIN,www.hongniuzy2.com
-#播放
    - DOMAIN,hn.bfvvs.com
    - DOMAIN,hnts.ymuuy.com
-#快车主页
+#快车
+   - DOMAIN-SUFFIX,kczyapi.com
+   - DOMAIN-SUFFIX,kuaichezy.com
    - DOMAIN,caijl.kczyapi.com
-#播放
    - DOMAIN-SUFFIX,fghjklm.com
    - DOMAIN-SUFFIX,ijkklmn.com
    - DOMAIN-SUFFIX,longshengtea.com
    - DOMAIN-SUFFIX,stuuv.vip
-#闪电主页
-   - DOMAIN,sdzyapi.com
-#播放
+#闪电
+   - DOMAIN-SUFFIX,sdzyapi.com
    - DOMAIN-SUFFIX,qrrs56.com
    - DOMAIN-SUFFIX,wwxy0.com
    - DOMAIN-SUFFIX,fentvoss.com
-#樱花主页
+#樱花
+   - DOMAIN-SUFFIX,apiyhzy.com
    - DOMAIN,m3u8.apiyhzy.com
-#播放
    - DOMAIN-SUFFIX,ijkkl.vip
    - DOMAIN-SUFFIX,abcce.vip
    - DOMAIN-SUFFIX,mmnn34.com
@@ -341,56 +445,62 @@ payload:
    - DOMAIN-SUFFIX,yhzybf.com
    - DOMAIN-SUFFIX,wgslsw.com
    - DOMAIN,pic.jegms.com
-#卧龙主页
+#卧龙
+   - DOMAIN-SUFFIX,wolongzy.cc
+   - DOMAIN-SUFFIX,wolongzyw.com
    - DOMAIN,collect.wolongzyw.com
    - DOMAIN,pic.wlongimg.com
-#播放
    - DOMAIN-KEYWORD,cdn.wls
    - DOMAIN-KEYWORD,cdn.wlcdn
-#虎牙主页与播放
-   - DOMAIN-KEYWORD,.huya
-#飘零主页
-   - DOMAIN,p2100.net
-#无尽主页
+#虎牙
+   - DOMAIN-SUFFIX,huyaapi.com
+   - DOMAIN-SUFFIX,huyajs.com
+#飘零
+   - DOMAIN-SUFFIX,p2100.net
+#无尽
+   - DOMAIN-SUFFIX,wujinapi.com
+   - DOMAIN-SUFFIX,wujinpp.com
    - DOMAIN,api.wujinapi.com
-#播放
    - DOMAIN-SUFFIX,stuv67.com
    - DOMAIN-SUFFIX,hjjk22.com
    - DOMAIN-SUFFIX,jkkl23.com
    - DOMAIN,v5.xyaa88.com
-#速博主页
-   - DOMAIN-KEYWORD,subo
-#播放
+#速博
+   - DOMAIN-SUFFIX,subocaiji.com
+   - DOMAIN-SUFFIX,suboimage.com
    - DOMAIN,play.subokk.com
    - DOMAIN-SUFFIX,xlzyd.com
-#魔都主页
+#魔都
+   - DOMAIN-SUFFIX,moduapi.cc
    - DOMAIN,caiji.moduapi.cc
    - DOMAIN,www.mdzypic.com
-#播放
    - DOMAIN-KEYWORD,play.modujx
-#最大主页
+#最大
+   - DOMAIN-SUFFIX,zuidapi.com
+   - DOMAIN-SUFFIX,zuidapic.com
    - DOMAIN,ok.zuidapic.com
    - DOMAIN,zuidazy.me
-#播放
    - DOMAIN-SUFFIX,daayee.com
-#新浪主页
+#新浪
+   - DOMAIN-SUFFIX,xinlangapi.com
+   - DOMAIN-SUFFIX,xinlangtupian.com
    - DOMAIN,xinlangtupian.com
-#播放
    - DOMAIN,play.xluuss.com
-#八戒播放
+#八戒
    - DOMAIN-SUFFIX,monidai.com
    - DOMAIN-SUFFIX,hdslb.pro
-#XPAV源
-#Hanime1播放
+
+#VODAV源
+#Hanime1
    - DOMAIN,vdownload.hembed.com
-#MISSAV播放
+#MISSAV
    - DOMAIN,surrit.com
-#SupJav-ST播放
+#SupJav-ST
    - DOMAIN,streamtape.com
    - DOMAIN-SUFFIX,tapecontent.net
-#秋名山见主页
+#秋名山见
    - DOMAIN,api.maiyoux.com
-#播放
+   - DOMAIN,api.hclyz.com
    - DOMAIN-SUFFIX,xinzhisoft.xyz
    - DOMAIN-SUFFIX,zhenyidaoxinxi.top
    - DOMAIN-SUFFIX,xinzhitushu.xyz
@@ -399,87 +509,76 @@ payload:
    - DOMAIN-SUFFIX,dapengjiaoyu.top
    - DOMAIN-SUFFIX,aliyuncs.com
    - DOMAIN-SUFFIX,kdfwz.top
-#91AV播放
+#91AV
    - DOMAIN-SUFFIX,knzaol.cn
    - DOMAIN-SUFFIX,bndmpsjx.com
-#CMS源
-#森林主页
+
+#CMSAV源
+#森林
    - DOMAIN,slapibf.com
-#播放
    - DOMAIN,fmtu.sltututu.com
    - DOMAIN-SUFFIX,bbffsl.com
-#探探主页
+#探探
    - DOMAIN,apittzy.com
-#播放
    - DOMAIN,vod1.ttbfp2.com
-#奥斯卡主页
+#奥斯卡
    - DOMAIN,aosikazy.com
-#播放
    - DOMAIN,bfaskcdn.com
    - DOMAIN,uqetyzxa.com
-#老鸭主页
+#老鸭
    - DOMAIN,api.apilyzy.com
    - DOMAIN,img.lytuchuang91.com
-#播放
    - DOMAIN-SUFFIX,laoyacdn.com
-#91麻豆主页
+#91麻豆
    - DOMAIN,666529.xyz
    - DOMAIN,91md.me
-#播放
    - DOMAIN-SUFFIX,97img.com
    - DOMAIN,cctv123456.com
    - DOMAIN-SUFFIX,cdn2020.com
-#易看主页
+#易看
    - DOMAIN,img.yikanimg.top
    - DOMAIN,api.yikanapi.com
-#播放
    - DOMAIN,v.ykv3.com
-#番号主页
+#番号
    - DOMAIN,fm.fhpicpic.com
    - DOMAIN,fhapi9.com
-#播放
    - DOMAIN,v2024.fhbbff.com
-#鲨鱼主页
+#鲨鱼
    - DOMAIN,sycdn.ddljsytt.com
-#播放
    - DOMAIN,v2024.sysybf.com
-#Alvin主页
+#Alvin
    - DOMAIN,fm.lbpicpic.com
    - DOMAIN,lbapiby.com
-#播放
    - DOMAIN,vip3.lbbf9.com
-#黄瓜播放
+#黄瓜
    - DOMAIN,player.hgplayer00.com
    - DOMAIN,img.hgimg00.com
-#玉兔主页
+#玉兔
    - DOMAIN,sbzytpimg2.com
    - DOMAIN,apiyutu.com
-#播放
    - DOMAIN,yutubf.lsbbf3.com
-#辣椒播放
+#辣椒
    - DOMAIN-SUFFIX,newljlj.com
    - DOMAIN,ljcdn.ddljsytt.com
-#奶香香主页
+#奶香香
    - DOMAIN,guzwiayz.com
    - DOMAIN,naixxzy.com
-#播放
    - DOMAIN,nxxplayurl.com
-#精品主页
+#精品
    - DOMAIN,jinpinxm.com
    - DOMAIN-KEYWORD,jingpinx.com
-#播放
    - DOMAIN,05hao.top
-#草榴主页
+#草榴
    - DOMAIN,www.caoliuzyw.com
    - DOMAIN-SUFFIX,comodoca.com
    - DOMAIN-SUFFIX,usertrust.com
    - DOMAIN-SUFFIX,sectigo.com
    - DOMAIN-SUFFIX,caoliuzywimg.com
-#播放
    - DOMAIN,player.cl9987.com
-#老色逼主页
+#老色逼
    - DOMAIN,apilsbzy1.com
-#杂七杂八的网站封面
+
+#杂七杂八的封面
    - DOMAIN,img.kuaichezy.net
    - DOMAIN,puui.qpic.cn
    - DOMAIN-SUFFIX,jisuimage.com
@@ -528,3 +627,4 @@ payload:
    - DOMAIN,pic.wujinpp.com
    - DOMAIN,suboimage.com
    - DOMAIN,img.ffzy888.com
+   - DOMAIN,git.886.be
