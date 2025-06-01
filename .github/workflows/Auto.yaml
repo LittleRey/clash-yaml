@@ -25,6 +25,8 @@ jobs:
         run: |
           python XTPV-Clash.py
           python XPTV-Plugin.py
+          python Media-Proxy.py
+          python Media-Direct.py
           python Sibel-SpaceDragon24-Backup.py
           python mihakralj-pine-toolkit-Backup.py
       - name: commit files
