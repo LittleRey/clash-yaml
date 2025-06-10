@@ -3,6 +3,9 @@ payload:
 #仅限大陆IP访问
  - DOMAIN-SUFFIX,kkgithub.com
 
+#163邮箱
+ - DOMAIN-SUFFIX,imap.163.com
+ - DOMAIN-SUFFIX,smtp.163.com
 
 
 #米家
