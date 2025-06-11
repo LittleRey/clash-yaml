@@ -29,3 +29,6 @@ payload:
 
 #Play Store
 # - PROCESS-NAME,com.android.vending
+
+#Dupay#需境外IP访问
+ - PROCESS-NAME,com.ukde.bacpay
