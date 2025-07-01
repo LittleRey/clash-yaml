@@ -27,7 +27,7 @@ payload:
 
  - DOMAIN-SUFFIX,cors.buildtest.site
  - DOMAIN-SUFFIX,cn-cors.buildtest.site
- - DOMAIN-SUFFIX,buildtest.site.cdn.cloudflare.net
+ - DOMAIN-SUFFIX,cdn.cloudflare.net
 #向日葵
  - PROCESS-NAME,SunloginClient.exe
  - PROCESS-NAME,com.oray.sunlogin
