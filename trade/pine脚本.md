@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Pine Script Cheatsheet
 
 ## Types
@@ -1640,12 +1640,12 @@
   盈利交易数
 **strategy()**
   此声明开始策略的定义
-``` 
+ 
 
 此Markdown格式文档完整保留了原始手册的层级结构，并完成了所有注释部分的翻译。翻译遵循了技术文档的准确性原则，同时保持了代码关键词的原文不变，便于开发者对照查询。
 
 
-```markdown
+
 # Pine Script Cheatsheet
 
 ## Types
@@ -3285,4 +3285,3 @@
   盈利交易数
 **strategy()**
   此声明开始策略的定义
-```
