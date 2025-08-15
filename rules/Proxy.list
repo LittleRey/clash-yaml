@@ -20,9 +20,10 @@ payload:
 
 #Google 定位
 
- - DOMAIN-SUFFIX,services.googleapis.cn
+ - DOMAIN-SUFFIX,google.cn
+ - DOMAIN-SUFFIX,googleapis.cn
  - DOMAIN-SUFFIX,services.googleapis.com
- - DOMAIN-SUFFIX,connectivitycheck.gstatic.cn
+ - DOMAIN-SUFFIX,gstatic.cn
  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 
 
@@ -31,4 +32,4 @@ payload:
 # - PROCESS-NAME,com.android.vending
 
 #Dupay#需境外IP访问
- - PROCESS-NAME,com.ukde.bacpay
+ - PROCESS-NAME,c
