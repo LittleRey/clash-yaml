@@ -29,6 +29,7 @@ jobs:
           python Media-Direct.py
           python Sibel-SpaceDragon24-Backup.py
           python mihakralj-pine-toolkit-Backup.py
+          python peiqian.py
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
