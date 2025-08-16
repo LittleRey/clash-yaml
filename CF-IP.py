@@ -23,15 +23,19 @@ resp = requests.get(SUB_URL, timeout=10)
 resp.raise_for_status()
 text = resp.text
 
+# ===== 调试打印 =====
 print("=== 原始内容前 10 行 ===")
 for i, line in enumerate(text.splitlines()[:10], 1):
     print(f"{i:02d}| {line}")
-print("=== 筛选结果 ===")
-print("\n".join(filtered_nodes) or "(空)")
+print("=== 原始内容结束 ===")
 
 # 2. 筛选 Vless / Vmess 节点
 lines = text.splitlines()
 filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+
+# 3. 打印筛选结果
+print("=== 筛选结果 ===")
+print("\n".join(filtered_nodes) or "(空)")
 
 # 3. 生成不同 CF 域名版本
 final_nodes = []
