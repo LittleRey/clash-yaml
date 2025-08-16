@@ -4,7 +4,7 @@
 import os
 import sys
 import requests
-import yaml
+
 
 URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 
@@ -33,9 +33,9 @@ def fetch_text(url: str, timeout: int = 10) -> str:
         print(f"[Error] 抓取失败：{e}", file=sys.stderr)
         sys.exit(1)
 
-def save_yaml(data: dict, file_path: str):
+def save_(data: dict, file_path: str):
     with open(file_path, "w", encoding="utf-8") as f:
-        yaml.dump(
+        .dump(
             data,
             f,
             allow_unicode=True,
