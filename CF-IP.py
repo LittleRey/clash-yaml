@@ -1,7 +1,8 @@
 import requests
+from datetime import datetime
 import re
 import os
-from datetime import datetime
+
 # === 配置 ===
 SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 OUTPUT_FILENAME = "cf-ip.yaml"  # Gist 中的目标文件名
@@ -34,7 +35,8 @@ for domain, tag in CF_DOMAINS:
         # 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
         # 修改名称标识（保留原协议标识）
-        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"{tag}", node_new)
+        node_new = re.sub(r'name:\s*"([^"]*?)"', r'name: "\1|CF1"', node_new)
+
         final_nodes.append(node_new)
 
 
