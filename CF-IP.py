@@ -4,7 +4,7 @@ import os
 
 # === 配置 ===
 SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
-OUTPUT_FILE = "output.yaml"
+OUTPUT_FILENAME = "cf-ip.yaml"  # Gist 中的目标文件名
 GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
 GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
@@ -34,21 +34,18 @@ for domain, tag in CF_DOMAINS:
         # 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
         # 修改名称标识（保留原协议标识）
-        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"\1 {tag} ", node_new)
+        node_new = re.sub(r"^(\[Vless\]|\[Vmess\])\s*(.+)", rf"\1 {tag}", node_new)
         final_nodes.append(node_new)
 
-# 4. 输出到本地文件
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write("proxies:\n")
-    for n in final_nodes:
-        f.write(f"  - {n}\n")
+# 4. 生成最终 YAML 内容
+output_content = "proxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
 
-# 5. 推送到 Gist
+# 5. 推送到 Gist（只更新指定文件）
 gist_api_url = f"https://api.github.com/gists/{GIST_ID}"
 payload = {
     "files": {
-        OUTPUT_FILE: {
-            "content": open(OUTPUT_FILE, "r", encoding="utf-8").read()
+        OUTPUT_FILENAME: {
+            "content": output_content
         }
     }
 }
@@ -61,4 +58,4 @@ r = requests.patch(
     json=payload
 )
 r.raise_for_status()
-print("✅ Gist 更新成功")
+print(f"✅ Gist 文件 {OUTPUT_FILENAME} 更新成功")
