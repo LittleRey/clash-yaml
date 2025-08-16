@@ -31,19 +31,10 @@ filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in li
 final_nodes = []
 for domain, tag in CF_DOMAINS:
     for node in filtered_nodes:
-        # 1. 替换 server IP 为新域名
+        # 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
-        
-        # 2. 修改 name 字段：
-        #   - 去掉 [Vless] 或 [Vmess]
-        #   - 在名称末尾加上 |CFx
-        #   - 去掉多余空格
-        node_new = re.sub(
-            r'name:\s*"(\[Vless\]|\[Vmess\])?\s*(.*?)"',
-            lambda m: f'name: "{m.group(2).strip()}|{tag}"',
-            node_new
-        )
-
+        # 修改名称标识（保留原协议标识）
+        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"{tag}", node_new)
         final_nodes.append(node_new)
 
 
