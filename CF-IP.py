@@ -31,11 +31,21 @@ filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in li
 final_nodes = []
 for domain, tag in CF_DOMAINS:
     for node in filtered_nodes:
-        # 替换 server IP 为新域名
+        # 1. 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
-        # 修改名称标识（保留原协议标识）
-        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"\1 {tag} ", node_new)
+        
+        # 2. 修改 name 字段：
+        #   - 去掉 [Vless] 或 [Vmess]
+        #   - 在名称末尾加上 |CFx
+        #   - 去掉多余空格
+        node_new = re.sub(
+            r'name:\s*"(\[Vless\]|\[Vmess\])?\s*(.*?)"',
+            lambda m: f'name: "{m.group(2).strip()}|{tag}"',
+            node_new
+        )
+
         final_nodes.append(node_new)
+
 
 # 4. 生成最终 YAML 内容
 output_content = "#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来源 {SUB_URL}\nproxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
