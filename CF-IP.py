@@ -23,6 +23,12 @@ resp = requests.get(SUB_URL, timeout=10)
 resp.raise_for_status()
 text = resp.text
 
+print("=== 原始内容前 10 行 ===")
+for i, line in enumerate(text.splitlines()[:10], 1):
+    print(f"{i:02d}| {line}")
+print("=== 筛选结果 ===")
+print("\n".join(filtered_nodes) or "(空)")
+
 # 2. 筛选 Vless / Vmess 节点
 lines = text.splitlines()
 filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
