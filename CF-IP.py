@@ -15,8 +15,11 @@ CF_DOMAINS = [
     ("bestcf.top", "CF3")
 ]
 
-# Cloudflare IP匹配（需要替换的）
+# 匹配 IPv4 的正则（用于替换）
 CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}"
+
+# 匹配国旗 Emoji（区域标志符号）
+FLAG_PATTERN = r"([\U0001F1E6-\U0001F1FF]{2})"
 
 # 1. 抓取订阅
 resp = requests.get(SUB_URL, timeout=10)
@@ -33,8 +36,13 @@ for domain, tag in CF_DOMAINS:
     for node in filtered_nodes:
         # 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
-        # 修改名称标识（保留原协议标识）
-        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"\1 {tag} ", node_new)
+
+        # 去掉 [Vless] / [Vmess] 标签
+        node_new = re.sub(r"\[Vless\]|\[Vmess\]", "", node_new).strip()
+
+        # 在国旗后插入 CF 标签
+        node_new = re.sub(FLAG_PATTERN + r"\s*", rf"\1 {tag}|", node_new)
+
         final_nodes.append(node_new)
 
 # 4. 生成最终 YAML 内容
