@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-url = "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42%7Chttps://starsea.vip/api/v1/client/subscribe?token=36cc943a57d515c9f378974fed626b42&insert=false&emoji=true&list=true&tfo=false&scv=false&emoji=true&fdn=false&sort=false"
+url = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 r = requests.get(url).text
 lines = r.splitlines()
 output = f"#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来源 {url}\n"
