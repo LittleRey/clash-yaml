@@ -1,69 +1,97 @@
-import requests
-import re
 import os
+import re
+import requests
+import yaml
+from copy import deepcopy
 
 # === 配置 ===
 SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
-OUTPUT_FILENAME = "cf-ip.yaml"  # Gist 中的目标文件名
-GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
-GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
-# 优选IP域名列表 + 对应的标识
+OUTPUT_FILENAME = os.getenv("OUTPUT_FILENAME", "cf-ip.yaml")
+GIST_ID = os.getenv("GIST_ID")
+GIST_TOKEN = os.getenv("GIST_TOKEN")
+
+# 生成的三组域名 + 名称标识
 CF_DOMAINS = [
     ("bestcf.030101.xyz", "CF1"),
     ("cdn.2020111.xyz", "CF2"),
-    ("bestcf.top", "CF3")
+    ("bestcf.top", "CF3"),
 ]
 
-# 匹配 IPv4 的正则（用于替换）
-CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}"
+# 国旗 Emoji（区域指示符）的正则：两位区域码
+FLAG_RE = re.compile(r"^\s*([\U0001F1E6-\U0001F1FF]{2})\s*(.*)$")
+# 去掉 [Vless]/[Vmess]
+BRACKET_PROTO_RE = re.compile(r"\s*\[(?i:vless|vmess)\]\s*")
 
-# 匹配国旗 Emoji（区域标志符号）
-FLAG_PATTERN = r"([\U0001F1E6-\U0001F1FF]{2})"
+def transform_name(name: str, tag: str) -> str:
+    """去掉 [Vless]/[Vmess]，在国旗后插入 CFx|，没有国旗就直接前置 CFx|。"""
+    base = BRACKET_PROTO_RE.sub("", name).strip()
+    m = FLAG_RE.match(base)
+    if m:
+        flag, rest = m.groups()
+        rest = rest.lstrip("|").strip()  # 清理多余竖线/空格
+        return f"{flag} {tag}|{rest}" if rest else f"{flag} {tag}"
+    else:
+        return f"{tag}|{base}" if base else tag
 
-# 1. 抓取订阅
-resp = requests.get(SUB_URL, timeout=10)
-resp.raise_for_status()
-text = resp.text
+def load_proxies_from_yaml(text: str):
+    """优先按 YAML 解析，取 data['proxies']。解析失败则返回空列表。"""
+    try:
+        data = yaml.safe_load(text)
+        if isinstance(data, dict) and "proxies" in data and isinstance(data["proxies"], list):
+            return data["proxies"]
+        # 有些订阅直接就是列表
+        if isinstance(data, list):
+            return data
+    except Exception:
+        pass
+    return []
 
-# 2. 筛选 Vless / Vmess 节点
-lines = text.splitlines()
-filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+def main():
+    # 1) 拉取订阅
+    r = requests.get(SUB_URL, timeout=20)
+    r.raise_for_status()
+    raw_text = r.text
 
-# 3. 生成不同 CF 域名版本
-final_nodes = []
-for domain, tag in CF_DOMAINS:
-    for node in filtered_nodes:
-        # 替换 server IP 为新域名
-        node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
+    # 2) 解析 proxies
+    proxies = load_proxies_from_yaml(raw_text)
 
-        # 去掉 [Vless] / [Vmess] 标签
-        node_new = re.sub(r"\[Vless\]|\[Vmess\]", "", node_new).strip()
+    # 3) 过滤 vless/vmess（更稳：看 type 字段；兜底：看 name 中是否带标签）
+    def is_v_proto(p):
+        t = str(p.get("type", "")).lower()
+        if t in ("vless", "vmess"):
+            return True
+        nm = str(p.get("name", ""))
+        return ("[Vless]" in nm) or ("[Vmess]" in nm)
 
-        # 在国旗后插入 CF 标签
-        node_new = re.sub(FLAG_PATTERN + r"\s*", rf"\1 {tag}|", node_new)
+    filtered = [p for p in proxies if isinstance(p, dict) and is_v_proto(p)]
 
-        final_nodes.append(node_new)
+    # 4) 复制三份 + 改 server + 改 name
+    out = []
+    for p in filtered:
+        orig_name = str(p.get("name", ""))
+        for domain, tag in CF_DOMAINS:
+            q = deepcopy(p)
+            q["server"] = domain
+            q["name"] = transform_name(orig_name, tag)
+            out.append(q)
 
-# 4. 生成最终 YAML 内容
-output_content = "proxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
+    # 5) 组装 YAML
+    output_yaml = yaml.safe_dump({"proxies": out}, allow_unicode=True, sort_keys=False)
 
-# 5. 推送到 Gist（只更新指定文件）
-gist_api_url = f"https://api.github.com/gists/{GIST_ID}"
-payload = {
-    "files": {
-        OUTPUT_FILENAME: {
-            "content": output_content
-        }
-    }
-}
-r = requests.patch(
-    gist_api_url,
-    headers={
-        "Authorization": f"token {GIST_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
-    },
-    json=payload
-)
-r.raise_for_status()
-print(f"✅ Gist 文件 {OUTPUT_FILENAME} 更新成功")
+    # 6) 只更新指定 Gist 文件
+    gist_api = f"https://api.github.com/gists/{GIST_ID}"
+    resp = requests.patch(
+        gist_api,
+        headers={
+            "Authorization": f"token {GIST_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+        },
+        json={"files": {OUTPUT_FILENAME: {"content": output_yaml}}},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    print(f"✅ Gist 已更新：{OUTPUT_FILENAME}（共 {len(out)} 个节点）")
+
+if __name__ == "__main__":
+    main()
