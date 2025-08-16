@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+
 import re
 import os
 
@@ -41,7 +41,7 @@ for domain, tag in CF_DOMAINS:
 
 
 # 4. 生成最终 YAML 内容
-output_content = "#更新时间 {datetime.now().strftime('%Y/%m/%d %I:%M:%S %p')}\n#来源 {SUB_URL}\nproxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
+output_content = "proxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
 
 # 5. 推送到 Gist（只更新指定文件）
 gist_api_url = f"https://api.github.com/gists/{GIST_ID}"
