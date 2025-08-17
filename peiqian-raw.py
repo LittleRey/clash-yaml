@@ -4,10 +4,15 @@ import requests
 # ============ 配置 ============
 RAW_FILENAME = "test.yaml"   # Gist 中保存的文件名
 
-GIST_ID = os.getenv("GIST_ID")        # Gist ID
-GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token
-SUB_URL = os.getenv("SUB_URL")        # 订阅 URL
-CUSTOM_UA = os.getenv("CUSTOM_UA", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36")  # UA，默认值
+# 👉 直接写订阅链接
+SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fyfjc.xyz%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dfbf4186e53e1ae4555272a38cfbf5ee6%7Chttps%3A%2F%2Fpqjc.site%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D530a210abeb730d20b23ce4aa10062da%26flag%3Dmeta&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
+
+# 👉 Gist 配置（可以直接写死，也可以用环境变量）
+GIST_ID = os.getenv("GIST_ID", "你的gist id")
+GIST_TOKEN = os.getenv("GIST_TOKEN", "你的gist token")
+
+# 👉 自定义 UA（可改）
+CUSTOM_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 
 # ============ 抓取原始内容 ============
 headers = {"User-Agent": CUSTOM_UA}
