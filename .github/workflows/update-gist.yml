@@ -24,4 +24,8 @@ jobs:
         env:
           GIST_ID: ${{ secrets.GIST_ID }}
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-        run: python peiqian-raw.py
+
+        run: |
+          python peiqian-raw.py
+          python CF-IP.py
+
