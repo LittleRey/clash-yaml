@@ -48,7 +48,7 @@ for domain, tag in CF_DOMAINS:
         final_nodes.append(node_new)
 
 # 4. 生成最终 YAML 内容
-output_content = "proxies:\n" + "\n".join(f"  - {n}" for n in final_nodes)
+output_content = "proxies:\n" + "\n".join(f" {n}" for n in final_nodes)
 
 # 5. 推送到 Gist（只更新指定文件）
 gist_api_url = f"https://api.github.com/gists/{GIST_ID}"
