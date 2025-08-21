@@ -1,5 +1,7 @@
 payload:
 
+
+
 # - DOMAIN-SUFFIX,cors.buildtest.site
 #NeteaseUnBlock Third API pyncmd
 # - DOMAIN-SUFFIX,pyncmd.vercel.app
@@ -15,7 +17,7 @@ payload:
 
 # - DOMAIN-SUFFIX,prod-live-front.playbattlegrounds.com
 
-
+ - DOMAIN,discord.com
 
 
 #Google 定位
