@@ -12,9 +12,9 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 CF_DOMAINS = [
     ("bestcf.030101.xyz", "CF1"),
     ("cdn.2020111.xyz", "CF2"),
-    ("bestcf.top", "CF3")
-    ("bestcf.cloudflare.182682.xyz", "CF4")
-    ("xhj.dbm.ddns-ip.net", "CF5")
+    ("bestcf.top", "CF3"),
+    ("bestcf.cloudflare.182682.xyz", "CF4"),
+    ("xhj.dbm.ddns-ip.net", "CF5"),
     ("fangqi.cloudflare.182682.xyz", "CF6")
 ]
 
