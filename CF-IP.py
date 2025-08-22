@@ -13,6 +13,9 @@ CF_DOMAINS = [
     ("bestcf.030101.xyz", "CF1"),
     ("cdn.2020111.xyz", "CF2"),
     ("bestcf.top", "CF3")
+    ("bestcf.cloudflare.182682.xyz", "CF4")
+    ("xhj.dbm.ddns-ip.net", "CF5")
+    ("fangqi.cloudflare.182682.xyz", "CF6")
 ]
 
 # Cloudflare IP匹配（需要替换的）
