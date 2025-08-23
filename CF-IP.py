@@ -10,11 +10,11 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
 # 优选IP域名列表 + 对应的标识
 CF_DOMAINS = [
-    ("bestcf.030101.xyz", "CF1"),
+    ("time.is", "CF1"),
     ("cdn.2020111.xyz", "CF2"),
     ("bestcf.top", "CF3"),
     ("bestcf.cloudflare.182682.xyz", "CF4"),
-    ("time.is", "CF5"),
+    ("bestcf.030101.xyz", "CF5"),
     ("www.epicgames.com", "CF6")
 ]
 
