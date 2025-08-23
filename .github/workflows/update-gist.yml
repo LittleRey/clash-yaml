@@ -2,7 +2,7 @@ name: Update Gist Daily
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天 0 点执行（UTC 时间）
+    - cron: "0 */2 * * *"  # 每两小时 点执行（UTC 时间）
   workflow_dispatch:
 
 jobs:
