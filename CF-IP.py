@@ -11,11 +11,8 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 # 优选IP域名列表 + 对应的标识
 CF_DOMAINS = [
     ("time.is", "CF1"),
-    ("cdn.2020111.xyz", "CF2"),
-    ("bestcf.top", "CF3"),
-    ("bestcf.cloudflare.182682.xyz", "CF4"),
-    ("bestcf.030101.xyz", "CF5"),
-    ("www.epicgames.com", "CF6")
+    ("testingcf.jsdelivr.net", "CF2"),
+
 ]
 
 # Cloudflare IP匹配（需要替换的）
