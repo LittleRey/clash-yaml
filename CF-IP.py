@@ -10,8 +10,8 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
 # 优选IP域名列表 + 对应的标识
 CF_DOMAINS = [
-    ("time.is", "CF1"),
-    ("testingcf.jsdelivr.net", "CF2"),
+    ("cdn.2020111.xyz", "CF1"),
+    ("bestcf.cloudflare.182682.xyz", "CF2"),
 
 ]
 
