@@ -8,7 +8,7 @@ OUTPUT_FILENAME = "cf-ip.yaml"  # Gist 中的目标文件名
 GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
 GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
-# 优选IP域名列表 + 对应的标识
+# 优选IP域名列表 + 对应的标识 https://github.com/dbmh2023/addressesapi/blob/main/ipv6.txt
 CF_DOMAINS = [
     ("cdn.7zz.cn", "CF1"),
     ("cfcn.9sep.org", "CF2"),
