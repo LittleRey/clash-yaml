@@ -10,12 +10,10 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
 # 优选IP域名列表 + 对应的标识 https://github.com/dbmh2023/addressesapi/blob/main/ipv6.txt
 CF_DOMAINS = [
-    ("cdn.7zz.cn", "CF1"),
     ("cfcn.9sep.org", "CF2"),
     ("bestcf.030101.xyz", "CF3"),
     ("cf.877774.xyz", "CF4"),
     ("cloudflare.182682.xyz", "CF5"),
-    ("cf.9sep.org", "CF6"),
 ]
 
 # Cloudflare IP匹配（需要替换的）
