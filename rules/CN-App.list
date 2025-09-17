@@ -8,3 +8,6 @@ payload:
  - PROCESS-NAME,me.ele
  - PROCESS-NAME,com.eg.android.AlipayGphone
  - PROCESS-NAME,com.smile.gifmaker
+ - PROCESS-NAME,com.android.bankabc
+ - PROCESS-NAME,com.hsbank.mobilebank
+ - PROCESS-NAME,com.chinamworld.bocmbci
