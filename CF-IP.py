@@ -9,12 +9,12 @@ GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
 GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
 # 优选IP域名列表 + 对应的标识 https://github.com/dbmh2023/addressesapi/blob/main/ipv6.txt
+#bestcf.030101.xyz
+cfcn.9sep.org
 CF_DOMAINS = [
-    ("cfcn.9sep.org", "CF1"),
-    ("bestcf.030101.xyz", "CF2"),
-    ("cloudflare.182682.xyz", "CF3"),
-    ("cdn.taoismhome.com", "CF4"),
-    ("freeyx.cloudflare88.eu.org", "CF5"),
+    ("cdn.taoismhome.com", "CF1"),
+    ("cloudflare.182682.xyz", "CF2"),
+    ("freeyx.cloudflare88.eu.org", "CF3"),
     
 ]
 
