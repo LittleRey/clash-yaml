@@ -1,3 +1,5 @@
 payload:
   - DOMAIN,discord.com
   - DOMAIN,bat.bing.com
+  - DOMAIN-SUFFIX,metatrader5.com
+  - DOMAIN-SUFFIX,metatrader.app
