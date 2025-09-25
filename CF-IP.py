@@ -13,6 +13,7 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #cfcn.9sep.org
 #cdn.taoismhome.com
 #dynamic-aub-ooo.antilgbt.org.
+#dash-lain-sh.antilgbt.org
 CF_DOMAINS = [
     ("china.bilibiliapp.cn", "CF1"),
     ("cloudflare.182682.xyz", "CF2"),
