@@ -11,12 +11,13 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 # 优选IP域名列表 + 对应的标识 https://github.com/dbmh2023/addressesapi/blob/main/ipv6.txt
 #bestcf.030101.xyz
 #cfcn.9sep.org
-#dn.taoismhome.com
+#cdn.taoismhome.com
+#dynamic-aub-ooo.antilgbt.org.
 CF_DOMAINS = [
     ("china.bilibiliapp.cn", "CF1"),
     ("cloudflare.182682.xyz", "CF2"),
     ("freeyx.cloudflare88.eu.org", "CF3"),
-    ("www.antilgbt.org", "CF4"),
+    ("b.aub.ooo", "CF4"),
     
 ]
 
