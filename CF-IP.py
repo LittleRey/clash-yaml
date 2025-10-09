@@ -20,9 +20,10 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #china.tencentapp.cn
 #download.yunzhongzhuan.com
 CF_DOMAINS = [
-    ("china.bilibiliapp.cn", "CF1"),
-    ("download.yunzhongzhuan.com", "CF2"),
-    
+    ("download.yunzhongzhuan.com", "CF1"),
+    ("china.bilibiliapp.cn", "CF2"),
+    ("china.tencentapp.cn", "CF3"),
+
 ]
 
 # Cloudflare IP匹配（需要替换的）
