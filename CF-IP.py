@@ -16,9 +16,12 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #dash-lain-sh.antilgbt.org
 #b.aub.ooo
 #    ("cloudflare.182682.xyz", "CF2"),
+#cdn.cdnjson.com
+#china.tencentapp.cn
+#download.yunzhongzhuan.com
 CF_DOMAINS = [
     ("china.bilibiliapp.cn", "CF1"),
-    ("china.tencentapp.cn", "CF2"),
+    ("download.yunzhongzhuan.com", "CF2"),
     
 ]
 
