@@ -30,6 +30,7 @@ jobs:
           python Sibel-SpaceDragon24-Backup.py
           python mihakralj-pine-toolkit-Backup.py
           python adamelliotfields-pine-scripts.py
+          python TamTH-Dev-Backup.py
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
