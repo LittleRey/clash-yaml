@@ -10,7 +10,7 @@ def extract_mau_urls(file_path):
         匹配到的所有字段列表
     """
     # 定义正则表达式模式
-    pattern = r'"mau": "https://.*?/"'
+    pattern = r'"mau": "https://.*?/'
     
     try:
         # 读取文件内容
