@@ -21,22 +21,61 @@ payload:
  - PROCESS-NAME,com.bybit.app
 
 
-# Forex
-#myfxbook
- - DOMAIN-SUFFIX,myfxbook.com
-# 外汇经纪商管网
+
+# 外汇经纪商官网
+ - DOMAIN-SUFFIX,accentforex.com
+ - DOMAIN-SUFFIX,activtrades.com
+ - DOMAIN-SUFFIX,afterprime.com
+ - DOMAIN-SUFFIX,acy.com.au
  - DOMAIN-SUFFIX,avatrade.com
- - DOMAIN-SUFFIX,exness.com
- - DOMAIN-SUFFIX,forex.com
- - DOMAIN-SUFFIX,pepperstone.com
- - DOMAIN-SUFFIX,xm.com
- - DOMAIN-SUFFIX,icmarkets.com
- - DOMAIN-SUFFIX,forextime.com
- - DOMAIN-SUFFIX,fxpro.com
- - DOMAIN-SUFFIX,tmgm.com
+ - DOMAIN-SUFFIX,blueberrymarkets.com
+ - DOMAIN-SUFFIX,deriv.com
+ - DOMAIN-SUFFIX,dnamarkets.com
+ - DOMAIN-SUFFIX,dooprime.com
  - DOMAIN-SUFFIX,easymarkets.com
+ - DOMAIN-SUFFIX,ebccrm.com
  - DOMAIN-SUFFIX,eightcap.com
+ - DOMAIN-SUFFIX,exness.com
+ - DOMAIN-SUFFIX,exnesstrack.org
+ - DOMAIN-SUFFIX,exclusivemarkets.com
+ - DOMAIN-SUFFIX,forextime.com
+ - DOMAIN-SUFFIX,forex.com
+ - DOMAIN-SUFFIX,fusionmarkets.com
  - DOMAIN-SUFFIX,fpmarkets.com
  - DOMAIN-SUFFIX,fxpro.com
- - DOMAIN-SUFFIX,atfx.com
- - DOMAIN-SUFFIX,dooprime.com
+ - DOMAIN-SUFFIX,fxpro.group
+ - DOMAIN-SUFFIX,gomarkets.com
+ - DOMAIN-SUFFIX,icmarkets.com
+ - DOMAIN-SUFFIX,jfpromo.online
+ - DOMAIN-SUFFIX,just2trade.online
+ - DOMAIN-SUFFIX,liteforex.eu
+ - DOMAIN-SUFFIX,monetamarkets.com
+ - DOMAIN-SUFFIX,myfxbook.com
+ - DOMAIN-SUFFIX,onelink.me
+ - DOMAIN-SUFFIX,oqtima.com
+ - DOMAIN-SUFFIX,pepperstone.com
+ - DOMAIN-SUFFIX,roboforex.com
+ - DOMAIN-SUFFIX,startrader.com
+ - DOMAIN-SUFFIX,tickmill.com
+ - DOMAIN-SUFFIX,tmgm.com
+ - DOMAIN-SUFFIX,vantagemarkets.com
+ - DOMAIN-SUFFIX,vtmarkets.net
+ - DOMAIN-SUFFIX,xm.com
+ - DOMAIN-SUFFIX,zeromarkets.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
