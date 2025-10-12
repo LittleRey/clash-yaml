@@ -19,3 +19,24 @@ payload:
  - PROCESS-NAME,com.mgoogle.android.gms
  - PROCESS-NAME,com.yayd.exchangglobal
  - PROCESS-NAME,com.bybit.app
+
+
+# Forex
+#myfxbook
+ - DOMAIN-SUFFIX,myfxbook.com
+# 外汇经纪商管网
+ - DOMAIN-SUFFIX,avatrade.com
+ - DOMAIN-SUFFIX,exness.com
+ - DOMAIN-SUFFIX,forex.com
+ - DOMAIN-SUFFIX,pepperstone.com
+ - DOMAIN-SUFFIX,xm.com
+ - DOMAIN-SUFFIX,icmarkets.com
+ - DOMAIN-SUFFIX,forextime.com
+ - DOMAIN-SUFFIX,fxpro.com
+ - DOMAIN-SUFFIX,tmgm.com
+ - DOMAIN-SUFFIX,easymarkets.com
+ - DOMAIN-SUFFIX,eightcap.com
+ - DOMAIN-SUFFIX,fpmarkets.com
+ - DOMAIN-SUFFIX,fxpro.com
+ - DOMAIN-SUFFIX,atfx.com
+ - DOMAIN-SUFFIX,dooprime.com
