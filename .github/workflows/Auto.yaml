@@ -25,13 +25,11 @@ jobs:
         run: |
           python XTPV-Clash.py
           python XPTV-Plugin.py
-          python Media-Proxy.py
-          python Media-Direct.py
           python Sibel-SpaceDragon24-Backup.py
           python mihakralj-pine-toolkit-Backup.py
           python adamelliotfields-pine-scripts.py
           python TamTH-Dev-Backup.py
-          python forex.py
+
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
