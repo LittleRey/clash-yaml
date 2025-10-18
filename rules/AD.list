@@ -31,6 +31,16 @@ payload:
 
 
 
+#pcdn
+   - DOMAIN-SUFFIX,smtcdns.com
+   - DOMAIN-SUFFIX,smtcdns.net
+   - DOMAIN-SUFFIX,erer.homeborn.cn
+   - DOMAIN-SUFFIX,ahdohpiechei.com
+   - DOMAIN-SUFFIX,tt.x.bsgslb.cn
+   - DOMAIN-SUFFIX,siomxity.net
+   - DOMAIN-SUFFIX,siomxity.com
+   - DOMAIN-SUFFIX,sealaly.net
+
 #   - IP-CIDR,101.36.166.16/32
 #   - IP-CIDR,101.36.166.17/32
 #   - IP-CIDR,101.36.166.18/32
