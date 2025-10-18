@@ -34,6 +34,7 @@ payload:
  - IP-CIDR,101.36.166.17/32,no-resolve
  - IP-CIDR,101.36.166.18/32,no-resolve
  - IP-CIDR,101.36.166.19/32,no-resolve
+ - IP-CIDR6,240e:959:3002:0:8000:0:b00:136/128,no-resolve
 #境外 生效
  - IP-CIDR,34.102.215.99/32,no-resolve
 #疑似 未生效
