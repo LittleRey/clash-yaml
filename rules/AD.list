@@ -32,14 +32,14 @@ payload:
 
 
 #pcdn
-   - DOMAIN-SUFFIX,smtcdns.com
-   - DOMAIN-SUFFIX,smtcdns.net
-   - DOMAIN-SUFFIX,erer.homeborn.cn
-   - DOMAIN-SUFFIX,ahdohpiechei.com
-   - DOMAIN-SUFFIX,tt.x.bsgslb.cn
-   - DOMAIN-SUFFIX,siomxity.net
-   - DOMAIN-SUFFIX,siomxity.com
-   - DOMAIN-SUFFIX,sealaly.net
+#   - DOMAIN-SUFFIX,smtcdns.com
+#   - DOMAIN-SUFFIX,smtcdns.net
+#   - DOMAIN-SUFFIX,erer.homeborn.cn
+#   - DOMAIN-SUFFIX,ahdohpiechei.com
+#   - DOMAIN-SUFFIX,tt.x.bsgslb.cn
+#   - DOMAIN-SUFFIX,siomxity.net
+#   - DOMAIN-SUFFIX,siomxity.com
+#   - DOMAIN-SUFFIX,sealaly.net
 
 #   - IP-CIDR,101.36.166.16/32
 #   - IP-CIDR,101.36.166.17/32
@@ -65,7 +65,7 @@ payload:
 #   - DOMAIN-SUFFIX,qishui.com
 #   - DOMAIN-SUFFIX,volcsirius.com
 
-   - DOMAIN-SUFFIX,id6.me
+#   - DOMAIN-SUFFIX,id6.me
 
 #   - DOMAIN-SUFFIX,ulikecam.com
 #   - DOMAIN-SUFFIX,qnqcdn.net
@@ -93,9 +93,9 @@ payload:
 #   - DOMAIN-SUFFIX,ecombdimg.com
 #   - DOMAIN-SUFFIX,ecombdstatic.com
 #   - DOMAIN-SUFFIX,render.ecombdpage.com
-   - DOMAIN-SUFFIX,vegalb.com
-   - DOMAIN-SUFFIX,vegslb.com
-   - DOMAIN-SUFFIX,ietheivaicai.com
+#   - DOMAIN-SUFFIX,vegalb.com
+#   - DOMAIN-SUFFIX,vegslb.com
+#   - DOMAIN-SUFFIX,ietheivaicai.com
 
 #   - DOMAIN-SUFFIX,supercachenet.com
 #   - DOMAIN-SUFFIX,ultracachenode.com
@@ -125,19 +125,19 @@ payload:
 
 #   - DOMAIN-SUFFIX,aweme.snssdk.com
 #   - DOMAIN-SUFFIX,ib.snssdk.com
-   - DOMAIN-SUFFIX,vcs.zijieapi.com
-   - DOMAIN-SUFFIX,vcs-hj.zijieapi.com
-   - DOMAIN-SUFFIX,frontier.snssdk.com
-   - DOMAIN-SUFFIX,frontier-im.douyin.com
-   - DOMAIN-SUFFIX,frontier-pc.douyin.com
-   - DOMAIN-SUFFIX,api.feelgood.cn
-   - DOMAIN-SUFFIX,privacy.zijieapi.com
+#   - DOMAIN-SUFFIX,vcs.zijieapi.com
+#   - DOMAIN-SUFFIX,vcs-hj.zijieapi.com
+#   - DOMAIN-SUFFIX,frontier.snssdk.com
+#   - DOMAIN-SUFFIX,frontier-im.douyin.com
+#   - DOMAIN-SUFFIX,frontier-pc.douyin.com
+#   - DOMAIN-SUFFIX,api.feelgood.cn
+#   - DOMAIN-SUFFIX,privacy.zijieapi.com
 #   - DOMAIN-SUFFIX,pc-mon.zijieapi.com
 #   - DOMAIN-SUFFIX,os-mon.zijieapi.com
 #   - DOMAIN-SUFFIX,mon.snssdk.com
 #   - DOMAIN-SUFFIX,pc-mon.snssdk.com
 #   - DOMAIN-SUFFIX,os-mon.snssdk.com
-   - DOMAIN-SUFFIX,api.toutiaoapi.com
+#   - DOMAIN-SUFFIX,api.toutiaoapi.com
 
 
 #https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js
@@ -185,9 +185,9 @@ payload:
 
 #   - DOMAIN-SUFFIX,xycdn.com
 #   - DOMAIN-SUFFIX,kuiniuca.com
-   - DOMAIN-SUFFIX,sd-gl.xinqiucc.com
-   - DOMAIN-SUFFIX,seeds-open.xinqiucc.com
-   - DOMAIN-SUFFIX,cf-gl.qiezibenpao.com
+#   - DOMAIN-SUFFIX,sd-gl.xinqiucc.com
+#   - DOMAIN-SUFFIX,seeds-open.xinqiucc.com
+#   - DOMAIN-SUFFIX,cf-gl.qiezibenpao.com
 
 #0jksh5t9fdng3pqvnrqveebc5b7nho2tj7ekdpmgi6pkkegeg0rfv5dj.sjxydc.com
 #iceudpstat.xdrtc.com
@@ -237,7 +237,7 @@ payload:
 
 
 #xxx.free-lbv3.idouyinvod.com
-   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?free[a-zA-Z0-9-]*\.idouyinvod\.[a-zA-Z]{2,}$
 # tnc3-aliec2.zijieapi.com
 # tnc0-alisc1.zijieapi.com
 # tnc0-bjlgy.bytedance.com
@@ -265,7 +265,7 @@ payload:
 #   - DOMAIN-REGEX,^[a-zA-Z0-9.-]*-search-[a-zA-Z0-9.-]*\.snssdk\.com$
 
 #lf3-cdn-tos.bytegoofy.com
-   - DOMAIN-REGEX,^lf[0-9-]*cdn-tos[a-zA-Z0-9.-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte(?!scm)[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^lf[0-9-]*cdn-tos[a-zA-Z0-9.-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte(?!scm)[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 #lf-ad-ies.bytecdn.cn  
    - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(analysis|analytics|ads|-ad|ad-)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
@@ -322,7 +322,7 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?smtcdns\.(.*\.)?[a-zA-Z]{2,}$
 #未知，总是在直播推流地址前出现vc-gate-edge.ndcpp.com
 #   - DOMAIN-SUFFIX,ndcpp.com
-   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
+#   - DOMAIN-REGEX,^(.*\.)?ndcpp\.(.*\.)?[a-zA-Z]{2,}$
 
 
 #   - IP-CIDR6,240e:959:3002:0:8000:0:b00:76/128,no-resolve
