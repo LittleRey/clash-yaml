@@ -272,9 +272,9 @@ payload:
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 #   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|polaris)[^.]*\.)[a-zA-Z0-9-]*(mcs|mon|tnc|gecko|applog|log|aweme|klink)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 #增加polaris
-#去除p3-aweme-im-img.byteimg.com
+#去除p3-aweme-im-img.byteimg.com,暂时去除|klink
 #   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|klink|game|safe|secure|security|adver)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
-   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|klink|game|safe|secure|security|adver)(?!img)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?(?!(webcast|api)[^.]*\.)[a-zA-Z0-9-]*(polaris|mcs|mon|tnc|gecko|applog|log|aweme|game|safe|secure|security|adver)(?!img)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 
 # DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
@@ -284,7 +284,7 @@ payload:
 
 #   - DOMAIN-REGEX,^(.*\.)?(?!api[^.]*-)[a-zA-Z0-9-]*(misc|search|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 # 二级域名剔除|search  疑似搜索接口 增加剔除mssdk 疑似sdk接口,去除,webcast-normal疑似直播推荐，去除|frontier
-   - DOMAIN-REGEX,^(.*\.)?(?!(api|polaris|mssdk|webcast)[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+   - DOMAIN-REGEX,^(.*\.)?(?!(api|polaris|mssdk|webcast|life|frontier)[^.]*\.)[a-zA-Z0-9-]*(misc|normal|core|open)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
 #   - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*webcast[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
 
