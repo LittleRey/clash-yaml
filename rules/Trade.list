@@ -63,7 +63,8 @@ payload:
  - DOMAIN-SUFFIX,xm.com
  - DOMAIN-SUFFIX,zeromarkets.com
 
-
+ - DOMAIN-SUFFIX,fxopen.net
+ - DOMAIN-SUFFIX,fxopen.com
 
 
 
