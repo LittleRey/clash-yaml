@@ -19,7 +19,8 @@ payload:
  - PROCESS-NAME,com.mgoogle.android.gms
  - PROCESS-NAME,com.yayd.exchangglobal
  - PROCESS-NAME,com.bybit.app
-
+ - PROCESS-NAME,net.metaquotes.metatrader5
+ - PROCESS-NAME,net.metaquotes.metatrader4
 
 
 # 外汇经纪商官网
