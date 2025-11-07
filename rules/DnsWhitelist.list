@@ -3,3 +3,6 @@ payload:
   - DOMAIN,bat.bing.com
   - DOMAIN-SUFFIX,metatrader5.com
   - DOMAIN-SUFFIX,metatrader.app
+  - DOMAIN,ulogs.umeng.com
+  - DOMAIN,ulogs.umengcloud.com
+  - DOMAIN-SUFFIX,app-measurement.com
