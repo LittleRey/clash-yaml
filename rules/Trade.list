@@ -23,6 +23,16 @@ payload:
 # - PROCESS-NAME,net.metaquotes.metatrader4
 
 
+
+ - PROCESS-NAME,com.tickmill
+ - PROCESS-NAME,cn.com.vtmarkets
+ - PROCESS-NAME,com.xm.webapp
+ - PROCESS-NAME,com.simplefx.app
+ - PROCESS-NAME,com.hotforex.www.hotforex
+ - PROCESS-NAME,cn.com.ummarkets
+ - PROCESS-NAME,com.cmcmarkets.android.cfd
+
+
 # 外汇经纪商官网
  - DOMAIN-SUFFIX,accentforex.com
  - DOMAIN-SUFFIX,activtrades.com
