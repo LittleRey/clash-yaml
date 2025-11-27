@@ -21,6 +21,7 @@ payload:
  - PROCESS-NAME,com.bybit.app
 # - PROCESS-NAME,net.metaquotes.metatrader5
 # - PROCESS-NAME,net.metaquotes.metatrader4
+ - PROCESS-NAME,com.foreigncurrency.internationalfxeye
 
 
 
