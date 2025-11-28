@@ -22,7 +22,7 @@ payload:
 # - PROCESS-NAME,net.metaquotes.metatrader5
 # - PROCESS-NAME,net.metaquotes.metatrader4
  - PROCESS-NAME,com.foreigncurrency.internationalfxeye
-
+ - PROCESS-NAME,com.fm.fm
 
 
  - PROCESS-NAME,com.tickmill
