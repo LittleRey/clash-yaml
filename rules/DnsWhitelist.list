@@ -7,4 +7,4 @@ payload:
 #  - DOMAIN,ulogs.umeng.com
 #  - DOMAIN,ulogs.umengcloud.com
 #  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(search|img|music)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
+  - DOMAIN-REGEX,^(.*\.)?[a-zA-Z0-9-]*(search|img|music|channel)[a-zA-Z0-9-]*\.(snssdk[a-zA-Z0-9-]*|zijie[a-zA-Z0-9-]*|toutiao[a-zA-Z0-9-]*|amemv[a-zA-Z0-9-]*|fqnovel[a-zA-Z0-9-]*|novelfm[a-zA-Z0-9-]*|ixigua[a-zA-Z0-9-]*|byte[a-zA-Z0-9-]*|douyin[a-zA-Z0-9-]*|ecombd[a-zA-Z0-9-]*)\.[a-zA-Z]{2,}$
