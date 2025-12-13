@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # 下载目标文件
-url = "https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.list"
+url = "https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.lsr"
 r = requests.get(url).text
 
 # 生成头部信息
