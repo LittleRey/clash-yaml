@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # 下载目标文件
-url = "hhttps://github.com/sooyaaabo/Loon/raw/refs/heads/main/Rule/Media-Proxy.lsr"
+url = "https://github.com/sooyaaabo/Loon/raw/refs/heads/main/Rule/Media-Proxy.lsr"
 r = requests.get(url).text
 
 # 生成头部信息
