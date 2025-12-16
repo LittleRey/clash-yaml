@@ -1,5 +1,9 @@
 payload:
 
+
+
+ - DOMAIN-SUFFIX,zhangqun1818.serv00.net
+
 #仅限大陆IP访问
  - DOMAIN-SUFFIX,kkgithub.com
 
