@@ -30,7 +30,8 @@ CF_DOMAINS = [
 
 # Cloudflare IP匹配（需要替换的）
 # CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}"
-CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}|server:\s*[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
+CF_IP_PATTERN = r"(,\s*server:\s*)(?:\d{1,3}(?:\.\d{1,3}){3}|[a-zA-Z0-9.-]+)"
+
 
 # 1. 抓取订阅
 resp = requests.get(SUB_URL, timeout=10)
@@ -45,7 +46,11 @@ print("=== 原始内容结束 ===")
 
 # 2. 筛选 Vless / Vmess 节点
 lines = text.splitlines()
-filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+#filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+filtered_nodes = [
+    line for line in lines
+    if "[vmess]" in line.lower() or "[vless]" in line.lower()
+]
 
 # 3. 打印筛选结果
 print("=== 筛选结果 ===")
@@ -56,7 +61,7 @@ final_nodes = []
 for domain, tag in CF_DOMAINS:
     for node in filtered_nodes:
         # 替换 server IP 为新域名
-        node_new = re.sub(CF_IP_PATTERN, f"server: {domain}", node)
+        node_new = re.sub(CF_IP_PATTERN, f", server: {domain}", node)
         # 修改名称标识（保留原协议标识）
         node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"{tag} ", node_new)
         final_nodes.append(node_new)
