@@ -28,7 +28,7 @@ CF_DOMAINS = [
 
 # Cloudflare IP匹配（需要替换的）
 # CF_IP_PATTERN = r",\s*server:\s*(?:\d{1,3}\.){3}\d{1,3}"
-CF_IP_PATTERN = r",\s*server:\s*(?:\d{1,3}\.){3}\d{1,3}|server:\s*[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
+CF_IP_PATTERN = r",\s*server:\s*(?:\d{1,3}\.){3}\d{1,3}|,\s*server:\s*[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 
 # 1. 抓取订阅
 resp = requests.get(SUB_URL, timeout=10)
