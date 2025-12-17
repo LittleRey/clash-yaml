@@ -5,7 +5,7 @@ import requests
 RAW_FILENAME = "freecloud.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2F978545775.art.alipaycctv.cn%2Fktff%2Fm3u8%2Fapi%2Fvideo%3Ftoken%3D08c50ded969c01bc0ccdf1f3a027da8e&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true&append_info=true"
+SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2F978545775.art.alipaycctv.cn%2Fktff%2Fm3u8%2Fapi%2Fvideo%3Ftoken%3D08c50ded969c01bc0ccdf1f3a027da8e&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
