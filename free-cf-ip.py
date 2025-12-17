@@ -44,7 +44,12 @@ print("=== 原始内容结束 ===")
 
 # 2. 筛选 Vless / Vmess 节点
 lines = text.splitlines()
-filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+#filtered_nodes = [line for line in lines if "[Vless]" in line or "[Vmess]" in line]
+filtered_nodes = [
+    line for line in lines
+    if "[vmess]" in line.lower() or "[vless]" in line.lower()
+]
+
 
 # 3. 打印筛选结果
 print("=== 筛选结果 ===")
