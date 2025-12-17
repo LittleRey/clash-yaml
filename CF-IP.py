@@ -63,7 +63,7 @@ for domain, tag in CF_DOMAINS:
         # 替换 server IP 为新域名
         node_new = re.sub(CF_IP_PATTERN, f", server: {domain}", node)
         # 修改名称标识（保留原协议标识）
-        node_new = re.sub(r"(\[Vless\]|\[Vmess\])\s*", rf"{tag} ", node_new)
+        node_new = re.sub(r"(\[Vless\]|\[VMess\])\s*", rf"{tag} ", node_new)
         final_nodes.append(node_new)
 
 # 4. 生成最终 YAML 内容
