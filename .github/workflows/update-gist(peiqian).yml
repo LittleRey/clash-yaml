@@ -27,7 +27,5 @@ jobs:
 
         run: |
           python peiqian-raw.py
-          python freecloud.py
           python CF-IP.py
-          python free-cf-ip.py
 
