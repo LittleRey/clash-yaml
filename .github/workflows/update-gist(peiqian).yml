@@ -1,4 +1,4 @@
-name: Update Gist Daily
+name: update-gist(peiqian) Daily
 
 on:
   schedule:
