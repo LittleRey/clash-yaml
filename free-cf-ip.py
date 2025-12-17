@@ -4,7 +4,7 @@ import os
 
 # === 配置 ===
 SUB_URL = "https://gist.githubusercontent.com/LittleRey/bd1bde16aa68e9504f1fb81e777a0187/raw/freecloud.yaml"
-OUTPUT_FILENAME = "cf-ip.yaml"  # Gist 中的目标文件名
+OUTPUT_FILENAME = "free-cf-ip.yaml"  # Gist 中的目标文件名
 GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
 GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 
@@ -27,8 +27,8 @@ CF_DOMAINS = [
 ]
 
 # Cloudflare IP匹配（需要替换的）
-# CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}"
-CF_IP_PATTERN = r"server:\s*(?:\d{1,3}\.){3}\d{1,3}|server:\s*[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
+# CF_IP_PATTERN = r",\s*server:\s*(?:\d{1,3}\.){3}\d{1,3}"
+CF_IP_PATTERN = r",\s*server:\s*(?:\d{1,3}\.){3}\d{1,3}|server:\s*[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 
 # 1. 抓取订阅
 resp = requests.get(SUB_URL, timeout=10)
