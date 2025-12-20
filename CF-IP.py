@@ -24,7 +24,7 @@ CF_DOMAINS = [
     ("testingcf.jsdelivr.net", "CF1"),
     ("time.is", "CF2"),
     ("cdn.taoismhome.com", "CF3"),
-    ("yunzhongzhuan.com", "CF4"),
+    ("bestcf.030101.xyz", "CF4"),
 
 ]
 
