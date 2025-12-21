@@ -31,6 +31,7 @@ jobs:
           python mihakralj-pine-toolkit-Backup.py
           python adamelliotfields-pine-scripts.py
           python TamTH-Dev-Backup.py
+          python Turnupdigital-Riskmanager-Backup.py
 
       - name: commit files
         run: |
