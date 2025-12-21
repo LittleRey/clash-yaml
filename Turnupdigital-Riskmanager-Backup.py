@@ -11,7 +11,7 @@ if not os.path.exists(download_dir):
 
 # 获取当前时间并格式化，作为文件名的一部分
 current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
-file_name = f"{current_time}_SpaceDragon.zip"
+file_name = f"{current_time}_RiskManager.zip"
 file_path = os.path.join(download_dir, file_name)
 
 # 下载文件
