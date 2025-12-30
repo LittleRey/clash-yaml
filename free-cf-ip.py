@@ -21,7 +21,7 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #china.bilibiliapp.cn
 #download.yunzhongzhuan.com
 CF_DOMAINS = [
-    ("bestcf.030101.xyz", "CF1"),
+    ("cdn.pddpdd.cn", "CF1"),
     ("testingcf.jsdelivr.net", "CF2"),
 
 ]
