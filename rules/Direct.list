@@ -4,6 +4,10 @@ payload:
 
  - DOMAIN-SUFFIX,zhangqun1818.serv00.net
 
+
+#okemby 似乎仅限大陆访问
+ - DOMAIN-SUFFIX,okemby.org
+
 #仅限大陆IP访问
  - DOMAIN-SUFFIX,kkgithub.com
 
