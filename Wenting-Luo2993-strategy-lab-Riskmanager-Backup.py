@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # 设置变量
-url = "https://github.com/turnupdigital/riskmanager/archive/refs/heads/main.zip"
+url = "https://github.com/Wenting-Luo2993/strategy-lab/archive/refs/heads/main.zip"
 download_dir = "tradebackup"
 
 # 如果保存目录不存在，则创建
@@ -11,7 +11,7 @@ if not os.path.exists(download_dir):
 
 # 获取当前时间并格式化，作为文件名的一部分
 current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
-file_name = f"{current_time}_RiskManager.zip"
+file_name = f"{current_time}_strategy-lab(RiskManager).zip"
 file_path = os.path.join(download_dir, file_name)
 
 # 下载文件
