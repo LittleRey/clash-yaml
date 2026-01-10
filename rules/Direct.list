@@ -8,6 +8,9 @@ payload:
 #okemby 似乎仅限大陆访问
  - DOMAIN-SUFFIX,okemby.org
 
+#emby映射的相关域名
+ - DOMAIN-SUFFIX,download.yunzhongzhuan.com
+ - DOMAIN-SUFFIX,cloudflare.182682.xyz
 #仅限大陆IP访问
  - DOMAIN-SUFFIX,kkgithub.com
 
