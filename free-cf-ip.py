@@ -33,6 +33,7 @@ CF_DOMAINS = [
     ("1357900.xyz", "CF2"),
     ("ips.333600.xyz", "CF3"),
     ("cf.699688.xyz", "CF4"),
+    ("cloudflare.182682.xyz", "CF5"),
 
 ]
 
