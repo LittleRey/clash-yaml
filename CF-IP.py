@@ -28,9 +28,11 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #cloudflare-dl.byoip.top
 #www.shopify.com
 #cdn.yiso.fun
+#cf.cloudflare-gateway.com
+#1357900.xyz
 CF_DOMAINS = [
-    ("cf.cloudflare-gateway.com", "CF1"),
-    ("1357900.xyz", "CF2"),
+    ("testingcf.jsdelivr.net", "CF1"),
+    ("download.yunzhongzhuan.com", "CF2"),
     ("ips.333600.xyz", "CF3"),
     ("cf.699688.xyz", "CF4"),
     ("cloudflare.182682.xyz", "CF5"),
