@@ -14,6 +14,8 @@
 #!源地址 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Block_HTTPDNS.plugin
 payload:
 
+#网易云
+ - DOMAIN-SUFFIX,nstool.netease.com
 #YY语音
  - DOMAIN-SUFFIX,yyapp-httpdns.gslb.yy.com
  - DOMAIN-SUFFIX,union-httpdns.gslb.yy.com
@@ -76,10 +78,13 @@ payload:
 #dot.volcdns.pub非解析IP
 # - IP-CIDR,8.134.241.67/32,no-resolve
 
-#微信
+#腾讯系
  - DOMAIN-SUFFIX,dns.weixin.qq.com
  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
  - DOMAIN-SUFFIX,aedns.weixin.qq.com
+ - DOMAIN-SUFFIX,dnstest.weixin.qq.com
+ - DOMAIN-SUFFIX,dns.qq.com
+
 # - IP-CIDR,39.156.140.30/32,no-resolve
 # - IP-CIDR,39.156.140.47/32,no-resolve
 # - IP-CIDR,39.156.140.245/32,no-resolve
@@ -308,6 +313,23 @@ payload:
 
 #虎牙
  - DOMAIN-SUFFIX,cdn.wup.huya.com
+
+#探探
+ - DOMAIN-SUFFIX,httpdns.tantanapp.com
+#其他
+ - DOMAIN-SUFFIX,httpdns.bz.mgtv.com
+ - DOMAIN-SUFFIX,httpdns.ng.imgo.tv
+ - DOMAIN-SUFFIX,image.9xsecndns.cn
+ - DOMAIN-SUFFIX,vali-dns.cp31.ott.cibntv.net
+ - DOMAIN-SUFFIX,dl.txcdns.com
+ - DOMAIN-SUFFIX,umeng.com.gds.alibabadns.com
+ - DOMAIN-SUFFIX,ichannel.snssdk.com.bytedns.net
+ - DOMAIN-SUFFIX,isub.snssdk.com.bytedns.net
+ - DOMAIN-SUFFIX,open.snssdk.com.bytedns.net
+ - DOMAIN-SUFFIX,dns.m.sm.cn
+ - DOMAIN-SUFFIX,httpdns.pro
+ - DOMAIN-SUFFIX,httpdns.gslb.yy.com
+ - DOMAIN-SUFFIX,httpdns.immomo.com
 
 #健康160
  - DOMAIN-SUFFIX,msglb.91160.com
