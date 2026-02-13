@@ -2,6 +2,8 @@ payload:
   - DOMAIN,discord.com
   - DOMAIN,bat.bing.com
   - DOMAIN,mcs.zijieapi.com
+  - DOMAIN,mon.zijieapi.com
+  - DOMAIN,mssdk.bytedance.com
   - DOMAIN-SUFFIX,metatrader5.com
   - DOMAIN-SUFFIX,metatrader.app
 #  - DOMAIN,ulogs.umeng.com
