@@ -5,8 +5,8 @@ import requests
 RAW_FILENAME = "freecloud.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-#SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2F358939798.retail.alipaycctv.cn%2Fktff%2Fm3u8%2Fapi%2Fvideo%3Ftoken%3D08c50ded969c01bc0ccdf1f3a027da8e&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
-SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2Fgist.githubusercontent.com%2FLittleRey%2Fbd1bde16aa68e9504f1fb81e777a0187%2Fraw%2FshoudongFreeCloud.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
+SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2Fwww.djjc.cfd%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Da78bf1d8e049c81b1b3abd34e258c75f&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
+#SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2Fgist.githubusercontent.com%2FLittleRey%2Fbd1bde16aa68e9504f1fb81e777a0187%2Fraw%2FshoudongFreeCloud.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
