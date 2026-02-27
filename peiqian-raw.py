@@ -5,7 +5,7 @@ import requests
 RAW_FILENAME = "test.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fdash.xn--cp3a08l.com%2Fapi%2Fv1%2Fpq%2Fc2715fc962f33e8d6b7e332eb981e6f4&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
+SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fdash.xn--cp3a08l.com%2Fapi%2Fv1%2Fpq%2F55f9374b521d9c31ee7b6b35ca36fa95&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
