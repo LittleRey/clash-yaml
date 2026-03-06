@@ -29,7 +29,8 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #www.shopify.com
 #cdn.yiso.fun
 CF_DOMAINS = [
-    ("cdn2.bpcdn.cc", "CF1"),
+    ("cdn2.bpcdn.cc", "CF2"),
+    ("youxuan.cf.090227.xyz", "CF3"),
 ]
 
 
