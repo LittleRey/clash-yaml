@@ -1,7 +1,7 @@
 payload:
 
 
-# 更新时间 2024/12/24 03:55:12 PM
+# 更新时间 2026/04/11 03:55:12 PM
 # 替换规则如下：
    - DOMAIN-REGEX,^(.*\.)?admarvel\.(.*\.)?[a-zA-Z]{2,}$
    - DOMAIN-REGEX,^(.*\.)?admaster\.(.*\.)?[a-zA-Z]{2,}$
