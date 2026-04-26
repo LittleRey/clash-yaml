@@ -2,7 +2,7 @@ name: update-gist(peiqian) Daily
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # 每两小时 点执行（UTC 时间）
+    - cron: "0 */6 * * *"  # 每6小时 点执行（UTC 时间）
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,6 @@ jobs:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
 
         run: |
-          python peiqian-raw.py
-          python CF-IP.py
+          python sub/sub-Peiqian-AIR.py
+          python sub/CFIP-Peiqian-AIR.py
 
