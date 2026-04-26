@@ -2,6 +2,7 @@ import requests
 import re
 import os
 
+
 # === 配置 ===
 SUB_URL = "https://gist.githubusercontent.com/LittleRey/bd1bde16aa68e9504f1fb81e777a0187/raw/sub-Dingji-AIR.yaml"
 OUTPUT_FILENAME = "free-cf-ip.yaml"  # Gist 中的目标文件名
