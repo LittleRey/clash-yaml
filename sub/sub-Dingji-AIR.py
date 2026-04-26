@@ -2,7 +2,7 @@ import os
 import requests
 
 # ============ 配置 ============
-RAW_FILENAME = "sub-Dingji-AIR-RAW.yaml"   # Gist 中保存的文件名
+RAW_FILENAME = "sub-Dingji-AIR.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
 SUB_URL = "https://api.v1.mk/sub?target=auto&url=https%3a%2f%2flogin.djjc.cfd%2fapi%2fv1%2fclient%2fsubscribe%3ftoken%3d6cafdc7e63c01d7ba85523ef2cee4276&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true&append_info=true"
