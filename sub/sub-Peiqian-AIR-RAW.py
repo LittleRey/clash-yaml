@@ -2,7 +2,7 @@ import os
 import requests
 
 # ============ 配置 ============
-RAW_FILENAME = "test.yaml"   # Gist 中保存的文件名
+RAW_FILENAME = "sub-Peiqian-AIR-RAW.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
 SUB_URL = "https://dash.pqjc.site/api/v1/pq/ee04d97589701ed0718111f556f48b7c"
@@ -12,7 +12,7 @@ GIST_ID = os.getenv("GIST_ID", "你的gist id")
 GIST_TOKEN = os.getenv("GIST_TOKEN", "你的gist token")
 
 # 👉 自定义 UA（可改）
-CUSTOM_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+CUSTOM_UA = "clash-verge"
 
 # ============ 抓取原始内容 ============
 headers = {"User-Agent": CUSTOM_UA}
