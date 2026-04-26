@@ -1,4 +1,4 @@
-name: update-gist(freecloud) Daily
+name: update-gist(Dingji-AIR) Daily
 
 on:
   schedule:
