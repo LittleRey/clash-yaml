@@ -26,6 +26,7 @@ jobs:
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
 
         run: |
+          python sub/sub-Peiqian-AIR-RAW.py
           python sub/sub-Peiqian-AIR.py
           python sub/CFIP-Peiqian-AIR.py
 
