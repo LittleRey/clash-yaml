@@ -3,7 +3,7 @@ import re
 import os
 
 # === 配置 ===
-SUB_URL = "https://gist.githubusercontent.com/LittleRey/bd1bde16aa68e9504f1fb81e777a0187/raw/freecloud.yaml"
+SUB_URL = "https://gist.githubusercontent.com/LittleRey/bd1bde16aa68e9504f1fb81e777a0187/raw/sub-Dingji-AIR.yaml"
 OUTPUT_FILENAME = "free-cf-ip.yaml"  # Gist 中的目标文件名
 GIST_ID = os.getenv("GIST_ID")  # Gist ID 从环境变量读取
 GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
