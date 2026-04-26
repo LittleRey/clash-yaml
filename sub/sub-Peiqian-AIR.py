@@ -2,10 +2,10 @@ import os
 import requests
 
 # ============ 配置 ============
-RAW_FILENAME = "test.yaml"   # Gist 中保存的文件名
+RAW_FILENAME = "sub-Peiqian-AIR.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fdash.pqjc.site%2Fapi%2Fv1%2Fpq%2F1361109b12ddefe11ce84d4135aea30f&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
+SUB_URL = "https://url.v1.mk/sub?target=clash&url=https%3a%2f%2fgist.githubusercontent.com%2fLittleRey%2fbd1bde16aa68e9504f1fb81e777a0187%2fraw%2fsub-Peiqian-AIR-RAW.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
 
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
