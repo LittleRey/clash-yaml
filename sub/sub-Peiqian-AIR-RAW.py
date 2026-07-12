@@ -5,7 +5,7 @@ import requests
 RAW_FILENAME = "sub-Peiqian-AIR-RAW.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-SUB_URL = "https://dash.xn--cp3a08l.com/api/v1/pq/6bd55c3235e4722e52ac802c53837052"
+SUB_URL = "https://dash.pqjc.site/api/v1/pq/282b6ac7237113bd10b2fe873ae72ca7"
 
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
