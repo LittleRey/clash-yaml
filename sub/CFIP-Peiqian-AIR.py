@@ -33,7 +33,7 @@ GIST_TOKEN = os.getenv("GIST_TOKEN")  # Gist Token 从环境变量读取
 #ips.333600.xyz
 #cf.699688.xyz
 CF_DOMAINS = [
-    ("cdn1.bpcdn.cc", "CF1"),
+    ("china.bilibiliapp.cn", "CF1"),
 ]
 
 # Cloudflare IP匹配（需要替换的）
