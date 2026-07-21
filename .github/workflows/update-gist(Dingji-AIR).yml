@@ -2,7 +2,7 @@ name: update-gist(Dingji-AIR) Daily
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # 每6小时 点执行（UTC 时间）
+    - cron: "0 12 * * *"  # UTC 中午12点
   workflow_dispatch:
 
 jobs:
