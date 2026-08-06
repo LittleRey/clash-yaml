@@ -5,9 +5,7 @@ import requests
 RAW_FILENAME = "sub-Dingji-AIR.yaml"   # Gist 中保存的文件名
 
 # 👉 直接写订阅链接
-SUB_URL = "https://api.v1.mk/sub?target=auto&url=https%3A%2F%2Fdjjc.cfd%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Db6b55f80198b85251c0c75a3d630e130&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=true&sort=true&append_info=true"
-#SUB_URL = "https://api.vavv.cn/sub?target=clash&url=https%3A%2F%2Fgist.githubusercontent.com%2FLittleRey%2Fbd1bde16aa68e9504f1fb81e777a0187%2Fraw%2FshoudongFreeCloud.yaml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FLittleRey%2Fclash-yaml%2Fmain%2Fnewname.ini&append_type=true&emoji=true&list=true&udp=true&expand=true&new_name=true&append_type=false&sort=true"
-
+SUB_URL = ""
 # 👉 Gist 配置（可以直接写死，也可以用环境变量）
 GIST_ID = os.getenv("GIST_ID", "你的gist id")
 GIST_TOKEN = os.getenv("GIST_TOKEN", "你的gist token")
