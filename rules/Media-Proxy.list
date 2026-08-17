@@ -1,4 +1,4 @@
-# 更新时间 2026/08/16 02:13:09 AM
+# 更新时间 2026/08/17 02:11:13 AM
 # 来源 https://github.com/sooyaaabo/Loon/raw/refs/heads/main/Rule/Media-Proxy.lsr
 payload:
 
@@ -105,13 +105,13 @@ tab-size:var(--tab-size-preference);
 <metaname="route-pattern"content="/:user_id/:repository/raw/*name(/*path)"data-turbo-transient>
 <metaname="route-controller"content="blob"data-turbo-transient>
 <metaname="route-action"content="raw"data-turbo-transient>
-<metaname="fetch-nonce"content="v2:82ce827c-0a88-3d4f-d72a-f8d59d520294">
+<metaname="fetch-nonce"content="v2:8532bec3-d80b-f20f-f790-09a2b63ba063">
 
 
 <metaname="current-catalog-service-hash"content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-<metaname="request-id"content="8C20:381D:266A5C:308640:6A811CB5"data-turbo-transient="true"/><metaname="html-safe-nonce"content="f3d88f42eeb8a55c7d3864156bc814f0f446edaeba0650c3f8b19f118a5a726e"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IjhDMjA6MzgxRDoyNjZBNUM6MzA4NjQwOjZBODExQ0I1IiwidmlzaXRvcl9pZCI6IjM4OTIwMjYyNDc4OTg3OTkyODUiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJjZW50cmFsdXMifQ=="data-turbo-transient="true"/><metaname="visitor-hmac"content="c4803498be17e8b745fb4572017e3d0d208906ca996e261cac0e0c381e6acd32"data-turbo-transient="true"/>
+<metaname="request-id"content="EC03:193DEE:8A8815:B3684D:6A826DC1"data-turbo-transient="true"/><metaname="html-safe-nonce"content="aa378838620b932cb925f381d8bdd8c61e6d92db6e05aa309b836ac5278c0b26"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkVDMDM6MTkzREVFOjhBODgxNTpCMzY4NEQ6NkE4MjZEQzEiLCJ2aXNpdG9yX2lkIjoiMTUxNTcyMDc4NjkxMTA2MzQ4OSIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImNlbnRyYWx1cyJ9"data-turbo-transient="true"/><metaname="visitor-hmac"content="e78a2b361c61f87a143c78865f7f80e044f1b0dee7a1663c59f68f8ae4d7ecd9"data-turbo-transient="true"/>
 
 
 
@@ -219,7 +219,7 @@ tab-size:var(--tab-size-preference);
 <metaname="browser-errors-url"content="https://api.github.com/_private/browser/errors">
 
 <metaname="release"content="6101296fc65b48a389dee47d60bf6d91f63e3f18"data-turbo-track="reload">
-<metaname="ui-target"content="full">
+<metaname="ui-target"content="canary-1">
 
 <linkrel="mask-icon"href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg"color="#000000">
 <linkrel="alternateicon"class="js-site-favicon"type="image/png"href="https://github.githubassets.com/favicons/favicon.png">
@@ -303,10 +303,10 @@ data-react-profiling="false"
 <spanclass="js-stale-session-flash-signed-out"hidden>Yousignedoutinanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 <spanclass="js-stale-session-flash-switched"hidden>Youswitchedaccountsonanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 
-<buttonid="icon-button-a5023579-522d-49c9-99ef-2391c8c4548c"aria-labelledby="tooltip-26da43e1-c938-4821-a20c-3052348674e1"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
+<buttonid="icon-button-e11817fc-d1c2-4068-954e-7e53d51ae5e5"aria-labelledby="tooltip-644c2725-d284-4260-a4f1-cc2f76336226"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
 <pathd="M3.723.72a.75.750011.060L86.94l3.22-3.22a.749.7490011.275.326.749.749001-.215.734L9.068l3.223.22a.749.749001-.3261.275.749.749001-.734-.215L89.06l-3.223.22a.751.751001-1.042-.018.751.751001-.018-1.042L6.9483.724.78a.75.750010-1.06Z"></path>
 </svg>
-</button><tool-tipid="tooltip-26da43e1-c938-4821-a20c-3052348674e1"for="icon-button-a5023579-522d-49c9-99ef-2391c8c4548c"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
+</button><tool-tipid="tooltip-644c2725-d284-4260-a4f1-cc2f76336226"for="icon-button-e11817fc-d1c2-4068-954e-7e53d51ae5e5"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
 
 
 
