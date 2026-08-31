@@ -1,4 +1,4 @@
-# 更新时间 2026/08/30 06:00:05 AM
+# 更新时间 2026/08/31 06:20:07 AM
 # 来源 https://github.com/sooyaaabo/Loon/raw/refs/heads/main/Rule/Media-Proxy.lsr
 payload:
 
@@ -64,7 +64,7 @@ tab-size:var(--tab-size-preference);
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/app-runtime-8365b7f9078f5299.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/fetch-utilities-8fe90c8c85b950d2.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/78205-6cf07db9c71bd767.js"/>
-<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/environment-82a65927e8bfb639.js"defer="defer"></script>
+<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/environment-6259f8985e5a2173.js"defer="defer"></script>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/app-runtime.4edc00cd7dcee842.module.css"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/catalyst-38077bb411140672.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/selector-observer-2649f99b2f1a6405.js"/>
@@ -76,8 +76,8 @@ tab-size:var(--tab-size-preference);
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/31721-0ef53b2f96a19876.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/46740-90376e604f852814.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/98944-57d83b43eefe5ac0.js"/>
-<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/github-elements-496630711b1f34b3.js"defer="defer"></script>
-<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/element-registry-e2d8a17c5a4d94c2.js"defer="defer"></script>
+<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/github-elements-7d17ea7d74622f2f.js"defer="defer"></script>
+<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/element-registry-0be90727b4f77e3e.js"defer="defer"></script>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/runtime-helpers-fc37f5662f7833a3.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/aria-live-7d7a9fdad5f85d01.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/hotkey-1cb8fabe6be5aae6.js"/>
@@ -93,7 +93,7 @@ tab-size:var(--tab-size-preference);
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/54130-e4c7ec7528d1f04f.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/1741-19fd38c1c119f0b9.js"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/64923-fd55cab179c0991d.js"/>
-<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/behaviors-bed88b5675d50f9e.js"defer="defer"></script>
+<scriptcrossorigin="anonymous"type="module"src="https://github.githubassets.com/assets/behaviors-2f489671a51a75ac.js"defer="defer"></script>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/react-core.0027ad4d227604b8.module.css"/>
 
 
@@ -104,13 +104,13 @@ tab-size:var(--tab-size-preference);
 <metaname="route-pattern"content="/:user_id/:repository/raw/*name(/*path)"data-turbo-transient>
 <metaname="route-controller"content="blob"data-turbo-transient>
 <metaname="route-action"content="raw"data-turbo-transient>
-<metaname="fetch-nonce"content="v2:1b9ec8d7-08e7-fea2-210a-3a2fa72f519a">
+<metaname="fetch-nonce"content="v2:4c7beb21-e881-7749-5b4e-57fbc4339cdb">
 
 
 <metaname="current-catalog-service-hash"content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-<metaname="request-id"content="C410:C8042:2A386BE:39ABD6E:6A93C6E5"data-turbo-transient="true"/><metaname="html-safe-nonce"content="33379bdbff0f18676b1a5dd8704238753d3b12237b3d154c7aea3ce32c80a91d"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkM0MTA6QzgwNDI6MkEzODZCRTozOUFCRDZFOjZBOTNDNkU1IiwidmlzaXRvcl9pZCI6IjE0ODg0Nzc4OTUyNTMwMTgzNDEiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJjZW50cmFsdXMifQ=="data-turbo-transient="true"/><metaname="visitor-hmac"content="e080a264976dddea50cf92a97f5839677613bcc670fd39cc9931d7fdf3d6d064"data-turbo-transient="true"/>
+<metaname="request-id"content="4C10:38462C:1C4E1C3:23C0372:6A951D16"data-turbo-transient="true"/><metaname="html-safe-nonce"content="85a27ff6f00365286b6e37d497d546cbe7140b704168201f10e1dae5913efe4e"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IjRDMTA6Mzg0NjJDOjFDNEUxQzM6MjNDMDM3Mjo2QTk1MUQxNiIsInZpc2l0b3JfaWQiOiI3NjM0MzM1NjY3ODU0ODQzMTU4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiY2VudHJhbHVzIn0="data-turbo-transient="true"/><metaname="visitor-hmac"content="62ec0978255e72355aa3f953a259dd5e7e066dbdb4a172628550b78d062522e0"data-turbo-transient="true"/>
 
 
 
@@ -190,10 +190,10 @@ tab-size:var(--tab-size-preference);
 <metaname="expected-hostname"content="github.com">
 
 
-<metahttp-equiv="x-pjax-version"content="bdba357d4fb69e6f016736a6459dad7781587122d89b61e1fd5cd6858638ffac"data-turbo-track="reload">
+<metahttp-equiv="x-pjax-version"content="07fc7da8d34ece0adf853f8c9dfc2a07e346547ee90ea9013b64c3bb4ea49bdf"data-turbo-track="reload">
 <metahttp-equiv="x-pjax-csp-version"content="2af6a6627810d190be616096b617c8f37a1419b9435f76190f0e0d7638222ac1"data-turbo-track="reload">
 <metahttp-equiv="x-pjax-css-version"content="b7a4653359baeee3d827ca91d7c149e4962234557341efae58fad4aa5ce82a0a"data-turbo-track="reload">
-<metahttp-equiv="x-pjax-js-version"content="e47c13f1691ebc5ee343c9b468ca5b4d950ce0cb4291a58a96546443eb866f87"data-turbo-track="reload">
+<metahttp-equiv="x-pjax-js-version"content="a74d83fe5624dbd234047462b8b7fcdb9af4878bc706cfc3ab9edf62237fb1ac"data-turbo-track="reload">
 
 <metaname="turbo-cache-control"content="no-preview"data-turbo-transient="">
 
@@ -217,7 +217,7 @@ tab-size:var(--tab-size-preference);
 
 <metaname="browser-errors-url"content="https://api.github.com/_private/browser/errors">
 
-<metaname="release"content="3df9f909f49e8e094f95f8d72640c051f35b9f46"data-turbo-track="reload">
+<metaname="release"content="1df56582032ff764517fab30f610cf2ba8c62d78"data-turbo-track="reload">
 <metaname="ui-target"content="full">
 
 <linkrel="mask-icon"href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg"color="#000000">
@@ -247,9 +247,9 @@ tab-size:var(--tab-size-preference);
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/30201-57c73cd53e57ec6a.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/12300-b13e9eea6cc191a1.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/24254-e76bb3d4c66c3f3d.js"fetchpriority="low"/>
-<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-314d08cf3fa29e6d.js"fetchpriority="low"/>
+<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog-b622aa6ee98556b1.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/primer-react-css.2489a3d4426b28d3.module.css"/>
-<linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.7812867bbde218af.module.css"/>
+<linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/keyboard-shortcuts-dialog.edf9f628efa00134.module.css"/>
 
 <react-partial
 partial-name="keyboard-shortcuts-dialog"
@@ -275,7 +275,7 @@ data-react-profiling="false"
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/48129-83d8fafa2f4a17fa.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/6795-d3cd52656f429bdd.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header-db677722ad303a3e.js"fetchpriority="low"/>
-<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/marketing-header-fc6376a0b5b19a8a.js"fetchpriority="low"/>
+<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/marketing-header-525f5b8901dad870.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/primer-react-css.2489a3d4426b28d3.module.css"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/primer-react-brand-css.d7bf4cd1af1bdba4.module.css"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/lazy-react-partial-marketing-header.e05ad33105faf997.module.css"/>
@@ -302,10 +302,10 @@ data-react-profiling="false"
 <spanclass="js-stale-session-flash-signed-out"hidden>Yousignedoutinanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 <spanclass="js-stale-session-flash-switched"hidden>Youswitchedaccountsonanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 
-<buttonid="icon-button-8588eb4b-66d7-4625-b211-e6357352c553"aria-labelledby="tooltip-a14a7a9c-21b9-4aec-9512-e1ae59393a1a"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
+<buttonid="icon-button-8d3fd506-475f-49b4-834e-c1520d2b6337"aria-labelledby="tooltip-9177553d-8e85-4440-8b44-e6c1e408402a"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
 <pathd="M3.723.72a.75.750011.060L86.94l3.22-3.22a.749.7490011.275.326.749.749001-.215.734L9.068l3.223.22a.749.749001-.3261.275.749.749001-.734-.215L89.06l-3.223.22a.751.751001-1.042-.018.751.751001-.018-1.042L6.9483.724.78a.75.750010-1.06Z"></path>
 </svg>
-</button><tool-tipid="tooltip-a14a7a9c-21b9-4aec-9512-e1ae59393a1a"for="icon-button-8588eb4b-66d7-4625-b211-e6357352c553"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
+</button><tool-tipid="tooltip-9177553d-8e85-4440-8b44-e6c1e408402a"for="icon-button-8d3fd506-475f-49b4-834e-c1520d2b6337"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
 
 
 
@@ -421,10 +421,10 @@ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAyCAMAAAC6RQ9kAAAAA3NCS
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/315-41a95191752f4a55.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/44650-9e3583f09b45b865.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/79371-58737b18e68a85f5.js"fetchpriority="low"/>
-<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/marketing-footer-3336f6526f7ef456.js"fetchpriority="low"/>
+<linkcrossorigin="anonymous"rel="modulepreload"href="https://github.githubassets.com/assets/marketing-footer-6e337b5f497eedac.js"fetchpriority="low"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/primer-react-css.2489a3d4426b28d3.module.css"/>
 <linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/primer-react-brand-css.d7bf4cd1af1bdba4.module.css"/>
-<linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/marketing-footer.06031d207e972dc2.module.css"/>
+<linkcrossorigin="anonymous"media="all"rel="stylesheet"href="https://github.githubassets.com/assets/marketing-footer.a6579db0568ab538.module.css"/>
 
 <react-partial
 partial-name="marketing-footer"
