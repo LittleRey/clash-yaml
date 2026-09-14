@@ -1,4 +1,4 @@
-# 更新时间 2026/09/13 05:27:41 AM
+# 更新时间 2026/09/14 05:31:41 AM
 # 来源 https://github.com/sooyaaabo/Loon/raw/refs/heads/main/Rule/Media-Proxy.lsr
 payload:
 
@@ -113,13 +113,13 @@ tab-size:var(--tab-size-preference);
 <metaname="route-pattern"content="/:user_id/:repository/raw/*name(/*path)"data-turbo-transient>
 <metaname="route-controller"content="blob"data-turbo-transient>
 <metaname="route-action"content="raw"data-turbo-transient>
-<metaname="fetch-nonce"content="v2:bf3358f2-3ebc-8541-7e1f-414e4bfba2d7">
+<metaname="fetch-nonce"content="v2:0f1e4478-584f-d97d-d3d9-30bf11278608">
 
 
 <metaname="current-catalog-service-hash"content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-<metaname="request-id"content="E800:8554F:707ABF:CE16F1:6AA6344D"data-turbo-transient="true"/><metaname="html-safe-nonce"content="f8e39533d02f114e799b38c3e1e7e63341781090cce7dd6c8ff8beea0d2e13da"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkU4MDA6ODU1NEY6NzA3QUJGOkNFMTZGMTo2QUE2MzQ0RCIsInZpc2l0b3JfaWQiOiI1MTExMzc2OTQ2NTIzNDE5NzI1IiwicmVnaW9uX2VkZ2UiOiJ3ZXN0dXMyIiwicmVnaW9uX3JlbmRlciI6ImNlbnRyYWx1cyJ9"data-turbo-transient="true"/><metaname="visitor-hmac"content="c30bc636090f1988b618b9924a6c6c0734a9bbaa4bebdabdca145c3091f79df5"data-turbo-transient="true"/>
+<metaname="request-id"content="0480:239F5D:1283FC2:188650F:6AA786BD"data-turbo-transient="true"/><metaname="html-safe-nonce"content="c36a7bad798bd3f96c17e49d991919e33ad28adce3fb895e779056661a4bf663"data-turbo-transient="true"/><metaname="visitor-payload"content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IjA0ODA6MjM5RjVEOjEyODNGQzI6MTg4NjUwRjo2QUE3ODZCRCIsInZpc2l0b3JfaWQiOiI4ODY1OTM0NzM3MDMzMTAzMDM3IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiY2VudHJhbHVzIn0="data-turbo-transient="true"/><metaname="visitor-hmac"content="bf8f47197ae57c1d15b030d9a6580d66e7c42c41632c2cbf2b7cfaba05643afd"data-turbo-transient="true"/>
 
 
 
@@ -311,10 +311,10 @@ data-react-profiling="false"
 <spanclass="js-stale-session-flash-signed-out"hidden>Yousignedoutinanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 <spanclass="js-stale-session-flash-switched"hidden>Youswitchedaccountsonanothertaborwindow.<aclass="Link--inTextBlock"href="">Reload</a>torefreshyoursession.</span>
 
-<buttonid="icon-button-d31449b9-fec4-44cb-84c7-e6329e2e49a3"aria-labelledby="tooltip-774cb453-dbf9-44d1-9ba8-651ec8f96a32"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
+<buttonid="icon-button-5d135582-b64d-4b6e-ad4f-ab3cc58d84dd"aria-labelledby="tooltip-ab63a632-1469-43b7-bafa-0e13f0363244"type="button"data-view-component="true"class="ButtonButton--iconOnlyButton--invisibleButton--mediumflash-closejs-flash-close"><svgaria-hidden="true"data-component="Octicon"height="16"viewBox="001616"version="1.1"width="16"data-view-component="true"class="octiconocticon-xButton-visual">
 <pathd="M3.723.72a.75.750011.060L86.94l3.22-3.22a.749.7490011.275.326.749.749001-.215.734L9.068l3.223.22a.749.749001-.3261.275.749.749001-.734-.215L89.06l-3.223.22a.751.751001-1.042-.018.751.751001-.018-1.042L6.9483.724.78a.75.750010-1.06Z"></path>
 </svg>
-</button><tool-tipid="tooltip-774cb453-dbf9-44d1-9ba8-651ec8f96a32"for="icon-button-d31449b9-fec4-44cb-84c7-e6329e2e49a3"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
+</button><tool-tipid="tooltip-ab63a632-1469-43b7-bafa-0e13f0363244"for="icon-button-5d135582-b64d-4b6e-ad4f-ab3cc58d84dd"popover="manual"data-direction="s"data-type="label"data-view-component="true"class="sr-onlyposition-absolute">Dismissalert</tool-tip>
 
 
 
