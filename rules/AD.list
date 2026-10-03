@@ -31,6 +31,18 @@ payload:
    - DOMAIN-REGEX,^(.*\.)?zjtoolbar\.(.*\.)?[a-zA-Z]{2,}$
 
 
+  # Core Ad Services
+   - DOMAIN-SUFFIX,pagead2.googlesyndication.com
+   - DOMAIN-SUFFIX,gads.pubmatic.com
+   - DOMAIN-SUFFIX,securepubads.g.doubleclick.net
+
+  # Spotify Specific Ad Services
+   - DOMAIN-SUFFIX,spotify-heads-ak.akamaized.net
+   - DOMAIN-SUFFIX,heads-fab.spotify.com
+   - DOMAIN-SUFFIX,heads4-ak.spotify.com
+   - DOMAIN-SUFFIX,heads4-fa.spotify.com
+   - DOMAIN-SUFFIX,heads-cf.spotify.com
+
 
 #pcdn
 #   - DOMAIN-SUFFIX,smtcdns.com
