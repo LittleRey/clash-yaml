@@ -81,6 +81,9 @@ payload:
  - DOMAIN-SUFFIX,fastbull.com
 
 
+ - PROCESS-NAME,com.flutify.music.flutify_app
+
+
 
 
 
